@@ -56,20 +56,21 @@ def main():
     os.makedirs(data_dir, exist_ok=True)
     
     # Lista de scripts a ejecutar
+    # Nota: Scripts FootyStats comentados porque fallan con 403 desde GitHub Actions
     scripts = [
-        'footyAsis.py',
+        # 'footyAsis.py',           # 403 - Cloudflare bloquea
         'fixtureCalendario.py',
         'footballDataClasificacion.py',
         'footballDataEventos.py',
-        'footyConcedidos.py',
+        # 'footyConcedidos.py',     # 403 - Cloudflare bloquea
         'footyGoleadores.py',
-        'footyGolesEquipo.py',
-        'footyPenaltis.py',
-        'footyPorterias0.py',
+        # 'footyGolesEquipo.py',    # 403 - Cloudflare bloquea
+        # 'footyPenaltis.py',       # 403 - Cloudflare bloquea
+        # 'footyPorterias0.py',     # 403 - Cloudflare bloquea
         'JornadaPerfectaLesionados.py',
-        'footyGoalsPer90.py',
-        'footyAssistsPer90.py',
-        'actualizar_pronosticos.py',
+        # 'footyGoalsPer90.py',     # 403 - Cloudflare bloquea
+        # 'footyAssistsPer90.py',   # 403 - Cloudflare bloquea
+        # 'actualizar_pronosticos.py',  # Falla - archivo vacío
         'hipervinculos.py',
         'extract_ultimos5.py'
     ]
