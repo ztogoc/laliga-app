@@ -94,6 +94,14 @@
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/gavi"
       },
       {
+        "nombre": "De Jong",
+        "url": "https://www.jornadaperfecta.com/jugador/de-jong",
+        "motivo_lesion": "Rotura del bíceps femoral",
+        "vuelta_estimada": "Finales de marzo",
+        "posicion": "MC",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/de-jong"
+      },
+      {
         "nombre": "Christensen",
         "url": "https://www.jornadaperfecta.com/jugador/christensen",
         "motivo_lesion": "Rotura parcial del ligamento cruzado anterior de la rodilla izquierda",
