@@ -2,7 +2,7 @@ name: Actualizar Datos LaLiga
 
 on:
   schedule:
-    # Todos los jueves a las 14:10 UTC (16:10 España invierno, 15:10 verano)
+    # Todos los jueves a las 14:15 UTC (16:15 España invierno, 15:15 verano)
     - cron: '15 14 * * 4'
   workflow_dispatch:  # Permite ejecutar manualmente
 
