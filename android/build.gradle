@@ -1,0 +1,50 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        // Versiones de las dependencias
+        kotlin_version = '1.9.0'
+        
+        // Versiones de AndroidX compatibles con compileSdk 34
+        androidx_appcompat_version = '1.6.1'
+        androidx_core_ktx_version = '1.10.1'
+        material_version = '1.9.0'
+        junit_version = '4.13.2'
+        test_ext_junit_version = '1.1.5'
+        espresso_core_version = '3.5.1'
+    }
+    
+    repositories {
+        google()
+        mavenCentral()
+    }
+    
+    dependencies {
+        // Android Gradle Plugin version compatible with compileSdk 34
+        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Configuración de versiones para todos los módulos
+ext {
+    // Versión del SDK
+    compileSdkVersion = 34
+    minSdkVersion = 22
+    targetSdkVersion = 34
+    
+    // Versión de la aplicación
+    versionCode = 1
+    versionName = "1.0"
+}

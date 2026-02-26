@@ -1,0 +1,53 @@
+{
+  "liga": "LaLiga 2025/26",
+  "asistencias_por_90": [
+    {
+      "jugador": "Álex Sánchez",
+      "asistencias_por_90": 18.0
+    },
+    {
+      "jugador": "Isco",
+      "asistencias_por_90": 3.0
+    },
+    {
+      "jugador": "Thiago Cruz Fernández",
+      "asistencias_por_90": 1.53
+    },
+    {
+      "jugador": "Gavi",
+      "asistencias_por_90": 1.38
+    },
+    {
+      "jugador": "Cyril Ngonge",
+      "asistencias_por_90": 1.03
+    },
+    {
+      "jugador": "Brahim Diaz",
+      "asistencias_por_90": 0.83
+    },
+    {
+      "jugador": "Ismael Bekhoucha Lemlal",
+      "asistencias_por_90": 0.76
+    },
+    {
+      "jugador": "Selton Sued Sánchez Camilo",
+      "asistencias_por_90": 0.63
+    },
+    {
+      "jugador": "Manor Solomon",
+      "asistencias_por_90": 0.62
+    },
+    {
+      "jugador": "Yeremy Pino",
+      "asistencias_por_90": 0.56
+    },
+    {
+      "jugador": "Hector Fort",
+      "asistencias_por_90": 0.55
+    },
+    {
+      "jugador": "Raul Moro",
+      "asistencias_por_90": 0.52
+    }
+  ]
+}

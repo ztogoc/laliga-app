@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot de LaLiga 2025/26</title>
+    <style>
+        :root {
+            --primary-color: #e6001f;
+            --secondary-color: #ffffff;
+            --background-color: #f5f5f5;
+            --message-bg-user: #e3f2fd;
+            --message-bg-bot: #f1f1f1;
+            --text-color: #333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 15px 20px;
+            border-radius: 8px 8px 0 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        
+        .chat-container {
+            flex: 1;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .message {
+            max-width: 80%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            line-height: 1.4;
+            position: relative;
+            word-wrap: break-word;
+        }
+        
+        .user-message {
+            align-self: flex-end;
+            background-color: var(--message-bg-user);
+            border-bottom-right-radius: 4px;
+            color: #0d47a1;
+        }
+        
+        .bot-message {
+            align-self: flex-start;
+            background-color: var(--message-bg-bot);
+            border-bottom-left-radius: 4px;
+        }
+        
+        .chat-input {
+            display: flex;
+            padding: 15px;
+            background-color: #fff;
+            border-top: 1px solid #eee;
+        }
+        
+        #user-input {
+            flex: 1;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 24px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        #user-input:focus {
+            border-color: var(--primary-color);
+        }
+        
+        #send-button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            margin-left: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s;
+        }
+        
+        #send-button:hover {
+            background-color: #c5001a;
+        }
+        
+        .typing-indicator {
+            display: none;
+            align-self: flex-start;
+            padding: 12px 16px;
+            background-color: var(--message-bg-bot);
+            border-radius: 18px;
+            margin-bottom: 15px;
+            border-bottom-left-radius: 4px;
+        }
+        
+        .typing-indicator span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #666;
+            border-radius: 50%;
+            margin: 0 2px;
+            animation: bounce 1.5s infinite ease-in-out;
+        }
+        
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .typing-indicator span:last-child {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes bounce {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-5px); }
+        }
+        
+        .suggestions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 10px 15px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #eee;
+        }
+        
+        .suggestion {
+            background-color: #e3f2fd;
+            color: #0d47a1;
+            border: 1px solid #bbdefb;
+            border-radius: 15px;
+            padding: 5px 12px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .suggestion:hover {
+            background-color: #bbdefb;
+        }
+        
+        .timestamp {
+            font-size: 0.7rem;
+            color: #757575;
+            margin-top: 4px;
+            text-align: right;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 0;
+                height: 100vh;
+            }
+            
+            .chat-container {
+                border-radius: 0;
+                border: none;
+            }
+            
+            .message {
+                max-width: 90%;
+            }
+            
+            .suggestions {
+                padding: 8px 10px;
+            }
+            
+            .suggestion {
+                font-size: 0.8rem;
+                padding: 4px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 Asistente de LaLiga 2025/26</h1>
+        </header>
+        
+        <div class="chat-container">
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    ¡Hola! Soy tu asistente de LaLiga 2025/26. ¿En qué puedo ayudarte hoy?<br>
+                    <span class="timestamp">Ahora</span>
+                </div>
+            </div>
+            
+            <div class="suggestions">
+                <div class="suggestion" onclick="sendSuggestion('¿Quién es el máximo goleador?')">Máximo goleador</div>
+                <div class="suggestion" onclick="sendSuggestion('Clasificación actual')">Clasificación</div>
+                <div class="suggestion" onclick="sendSuggestion('Próximos partidos')">Próximos partidos</div>
+                <div class="suggestion" onclick="sendSuggestion('Jugadores lesionados')">Lesionados</div>
+            </div>
+            
+            <div class="typing-indicator" id="typing-indicator">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Escribe tu pregunta sobre LaLiga..." onkeypress="handleKeyPress(event)">
+                <button id="send-button" onclick="sendMessage()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chat-messages');
+        const userInput = document.getElementById('user-input');
+        const typingIndicator = document.getElementById('typing-indicator');
+        
+        // Desplazar al final del chat
+        function scrollToBottom() {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Formatear la fecha
+        function formatDate(date) {
+            const hours = date.getHours().toString().padStart(2, '0');
+            const minutes = date.getMinutes().toString().padStart(2, '0');
+            return `Hoy a las ${hours}:${minutes}`;
+        }
+        
+        // Mostrar mensaje del usuario
+        function addUserMessage(message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message user-message';
+            const timestamp = formatDate(new Date());
+            messageDiv.innerHTML = `${message}<br><span class="timestamp">${timestamp}</span>`;
+            chatMessages.appendChild(messageDiv);
+            scrollToBottom();
+        }
+        
+        // Mostrar mensaje del bot
+        function addBotMessage(message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message bot-message';
+            const timestamp = formatDate(new Date());
+            messageDiv.innerHTML = `${message}<br><span class="timestamp">${timestamp}</span>`;
+            chatMessages.appendChild(messageDiv);
+            scrollToBottom();
+        }
+        
+        // Enviar mensaje
+        async function sendMessage() {
+            const message = userInput.value.trim();
+            if (message === '') return;
+            
+            // Mostrar mensaje del usuario
+            addUserMessage(message);
+            userInput.value = '';
+            
+            // Mostrar indicador de escritura
+            typingIndicator.style.display = 'flex';
+            scrollToBottom();
+            
+            try {
+                // Enviar mensaje al servidor
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Error en la respuesta del servidor');
+                }
+                
+                const data = await response.json();
+                
+                // Ocultar indicador de escritura y mostrar respuesta
+                typingIndicator.style.display = 'none';
+                addBotMessage(data.response);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                typingIndicator.style.display = 'none';
+                addBotMessage('Lo siento, ha ocurrido un error al procesar tu solicitud.');
+            }
+        }
+        
+        // Manejar clic en sugerencia
+        function sendSuggestion(suggestion) {
+            userInput.value = suggestion;
+            sendMessage();
+        }
+        
+        // Manejar tecla Enter
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+        
+        // Enfoque en el campo de entrada al cargar la página
+        window.onload = function() {
+            userInput.focus();
+            scrollToBottom();
+        };
+    </script>
+</body>
+</html>

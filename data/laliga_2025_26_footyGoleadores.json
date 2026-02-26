@@ -1,0 +1,358 @@
+{
+  "liga": "LaLiga 2025/26",
+  "fecha_actualizacion": "2025-12-22 19:55:05",
+  "top_scorers": [
+    {
+      "rank": 1,
+      "name": "Kylian Mbappé",
+      "url": "https://footystats.org/players/france/kylian-mbappe",
+      "goals": "18",
+      "nationality": "fr-12"
+    },
+    {
+      "rank": 2,
+      "name": "Ferrán Torres",
+      "url": "https://footystats.org/players/spain/ferran-torres",
+      "goals": "11",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 3,
+      "name": "Vedat Muriqi",
+      "url": "https://footystats.org/players/kosovo/vedat-muriqi",
+      "goals": "9",
+      "nationality": "xk-12"
+    },
+    {
+      "rank": 4,
+      "name": "Robert Lewandowski",
+      "url": "https://footystats.org/players/poland/robert-lewandowski",
+      "goals": "8",
+      "nationality": "pl-12"
+    },
+    {
+      "rank": 5,
+      "name": "Cucho Hernández",
+      "url": "https://footystats.org/players/colombia/cucho-hernandez",
+      "goals": "7",
+      "nationality": "co-12"
+    },
+    {
+      "rank": 6,
+      "name": "Julián Álvarez",
+      "url": "https://footystats.org/players/argentina/julian-alvarez",
+      "goals": "7",
+      "nationality": "ar-12"
+    },
+    {
+      "rank": 7,
+      "name": "Lamine Yamal",
+      "url": "https://footystats.org/players/spain/lamine-yamal",
+      "goals": "7",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 8,
+      "name": "Raphinha",
+      "url": "https://footystats.org/players/brazil/raphinha",
+      "goals": "7",
+      "nationality": "br-12"
+    },
+    {
+      "rank": 9,
+      "name": "Rafa Mir",
+      "url": "https://footystats.org/players/spain/rafa-mir",
+      "goals": "6",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 10,
+      "name": "Alberto Moleiro",
+      "url": "https://footystats.org/players/spain/alberto-moleiro",
+      "goals": "6",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 11,
+      "name": "Antoine Griezmann",
+      "url": "https://footystats.org/players/france/antoine-griezmann",
+      "goals": "6",
+      "nationality": "fr-12"
+    },
+    {
+      "rank": 12,
+      "name": "Ante Budimir",
+      "url": "https://footystats.org/players/croatia/ante-budimir",
+      "goals": "6",
+      "nationality": "hr-12"
+    },
+    {
+      "rank": 13,
+      "name": "Karl Edouard Blaise Etta Eyong",
+      "url": "https://footystats.org/clubs/villarreal-cf-76",
+      "goals": "6",
+      "nationality": "cm-12"
+    },
+    {
+      "rank": 14,
+      "name": "Hugo Duro",
+      "url": "https://footystats.org/players/spain/hugo-duro",
+      "goals": "6",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 15,
+      "name": "Mikel Oyarzabal",
+      "url": "https://footystats.org/players/spain/mikel-oyarzabal",
+      "goals": "5",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 16,
+      "name": "Borja Iglesias",
+      "url": "https://footystats.org/players/spain/borja-iglesias",
+      "goals": "5",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 17,
+      "name": "Tajon Buchanan",
+      "url": "https://footystats.org/players/canada/tajon-buchanan",
+      "goals": "5",
+      "nationality": "ca-12"
+    },
+    {
+      "rank": 18,
+      "name": "Vinicius Junior",
+      "url": "https://footystats.org/players/brazil/vinicius-junior",
+      "goals": "5",
+      "nationality": "br-12"
+    },
+    {
+      "rank": 19,
+      "name": "Antony Matheus",
+      "url": "https://footystats.org/players/brazil/antony-matheus",
+      "goals": "5",
+      "nationality": "br-12"
+    },
+    {
+      "rank": 20,
+      "name": "Pere Milla",
+      "url": "https://footystats.org/players/spain/pere-milla",
+      "goals": "5",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 21,
+      "name": "Pablo Fornals",
+      "url": "https://footystats.org/players/spain/pablo-fornals",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 22,
+      "name": "André Silva",
+      "url": "https://footystats.org/players/portugal/andre-silva",
+      "goals": "4",
+      "nationality": "pt-12"
+    },
+    {
+      "rank": 23,
+      "name": "Alexander Sørloth",
+      "url": "https://footystats.org/players/norway/alexander-sorloth",
+      "goals": "4",
+      "nationality": "no-12"
+    },
+    {
+      "rank": 24,
+      "name": "Borja Mayoral",
+      "url": "https://footystats.org/players/spain/borja-mayoral",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 25,
+      "name": "Jude Bellingham",
+      "url": "https://footystats.org/players/england/jude-bellingham",
+      "goals": "4",
+      "nationality": "gb-eng-12"
+    },
+    {
+      "rank": 26,
+      "name": "Jorge De Frutos",
+      "url": "https://footystats.org/players/spain/jorge-de-frutos",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 27,
+      "name": "Carlos Vicente Robles",
+      "url": "https://footystats.org/players/spain/carlos-vicente-robles",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 28,
+      "name": "Gerard Moreno",
+      "url": "https://footystats.org/players/spain/gerard-moreno",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 29,
+      "name": "Fermín López",
+      "url": "https://footystats.org/players/spain/fermin-lopez",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 30,
+      "name": "Dani Olmo",
+      "url": "https://footystats.org/players/spain/dani-olmo",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 31,
+      "name": "Iván Romero",
+      "url": "https://footystats.org/players/spain/ivan-romero",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 32,
+      "name": "Roberto Fernández Jaén",
+      "url": "https://footystats.org/players/spain/roberto-fernandez-jaen",
+      "goals": "4",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 33,
+      "name": "Lucas Boyé",
+      "url": "https://footystats.org/players/argentina/lucas-boye",
+      "goals": "3",
+      "nationality": "ar-12"
+    },
+    {
+      "rank": 34,
+      "name": "Adrian Liso Lahoz",
+      "url": "https://footystats.org/clubs/getafe-club-de-futbol-293",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 35,
+      "name": "Nico Williams",
+      "url": "https://footystats.org/players/spain/nico-williams",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 36,
+      "name": "Robert Navarro",
+      "url": "https://footystats.org/players/spain/robert-navarro",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 37,
+      "name": "Raúl García de Haro",
+      "url": "https://footystats.org/players/spain/raul-garcia-de-haro",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 38,
+      "name": "Williot Swedberg",
+      "url": "https://footystats.org/clubs/real-club-celta-de-vigo-281",
+      "goals": "3",
+      "nationality": "se-12"
+    },
+    {
+      "rank": 39,
+      "name": "Akor Adams",
+      "url": "https://footystats.org/players/nigeria/akor-adams",
+      "goals": "3",
+      "nationality": "ng-12"
+    },
+    {
+      "rank": 40,
+      "name": "Ruben Vargas",
+      "url": "https://footystats.org/players/switzerland/ruben-vargas",
+      "goals": "3",
+      "nationality": "ch-12"
+    },
+    {
+      "rank": 41,
+      "name": "Isaac Romero Bernal",
+      "url": "https://footystats.org/players/spain/isaac-romero-bernal",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 42,
+      "name": "Aitor Ruibal",
+      "url": "https://footystats.org/players/spain/aitor-ruibal",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 43,
+      "name": "Diego López",
+      "url": "https://footystats.org/players/spain/diego-lopez",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 44,
+      "name": "Gonçalo Guedes",
+      "url": "https://footystats.org/players/portugal/goncalo-guedes",
+      "goals": "3",
+      "nationality": "pt-12"
+    },
+    {
+      "rank": 45,
+      "name": "Ander Barrenetxea",
+      "url": "https://footystats.org/players/spain/ander-barrenetxea",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 46,
+      "name": "Vladyslav Vanat",
+      "url": "https://footystats.org/players/ukraine/vladyslav-vanat",
+      "goals": "3",
+      "nationality": "ua-12"
+    },
+    {
+      "rank": 47,
+      "name": "Brais Méndez",
+      "url": "https://footystats.org/players/spain/brais-mendez",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 48,
+      "name": "Germán Valera Karabinaite",
+      "url": "https://footystats.org/players/spain/german-valera-karabinaite",
+      "goals": "3",
+      "nationality": "es-12"
+    },
+    {
+      "rank": 49,
+      "name": "Álvaro Rodríguez",
+      "url": "https://footystats.org/players/uruguay/alvaro-rodriguez",
+      "goals": "3",
+      "nationality": "uy-12"
+    },
+    {
+      "rank": 50,
+      "name": "Azzedine Ounahi",
+      "url": "https://footystats.org/players/morocco/azzedine-ounahi",
+      "goals": "3",
+      "nationality": "ma-12"
+    }
+  ],
+  "assists": [],
+  "penalty_goals": []
+}

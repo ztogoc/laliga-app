@@ -1,0 +1,57 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
+      },
+      {
+        "src": "api/actualizar-datos.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "data/**/*.json",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      { "handle": "filesystem" },
+      {
+        "src": "/api/actualizar-datos",
+        "dest": "/api/actualizar-datos",
+        "headers": {
+          "Cache-Control": "no-store, max-age=0"
+        }
+      },
+      {
+        "src": "/_next/static/(.*)",
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "src": "/static/(.*)",
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable"
+        }
+      },
+      {
+        "src": "/(.*)",
+        "headers": {
+          "Cache-Control": "public, max-age=0, must-revalidate"
+        }
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "crons": [
+      {
+        "path": "/api/actualizar-datos",
+        "schedule": "0 0 */10 * *"
+      }
+    ]
+  }

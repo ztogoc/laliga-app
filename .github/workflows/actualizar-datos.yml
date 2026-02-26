@@ -1,0 +1,52 @@
+name: Actualizar Datos LaLiga
+
+on:
+  schedule:
+    # Todos los jueves a las 8:00 UTC
+    - cron: '0 8 * * 4'
+  workflow_dispatch:  # Permite ejecutar manualmente
+
+jobs:
+  actualizar-datos:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+        
+    - name: Ejecutar refrescar.py
+      working-directory: ./scripts
+      run: python refrescar.py
+      
+    - name: Verificar cambios
+      id: verify-changed-files
+      run: |
+        git add -A
+        git diff --cached --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+        
+    - name: Commit y Push cambios
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git commit -m "📊 Actualización automática de datos - $(date +'%Y-%m-%d %H:%M')"
+        git push
+        
+    - name: Deploy a Vercel
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      uses: amondnet/vercel-action@v25
+      with:
+        vercel-token: ${{ secrets.VERCEL_TOKEN }}
+        vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+        vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+        vercel-args: '--prod'

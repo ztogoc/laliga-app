@@ -1,0 +1,53 @@
+{
+  "liga": "LaLiga 2025/26",
+  "goles_por_90": [
+    {
+      "jugador": "Cristhian Stuani",
+      "goles_por_90": 1.29
+    },
+    {
+      "jugador": "Orri Steinn Óskarsson",
+      "goles_por_90": 1.07
+    },
+    {
+      "jugador": "Kylian Mbappé",
+      "goles_por_90": 1.07
+    },
+    {
+      "jugador": "Robert Lewandowski",
+      "goles_por_90": 0.96
+    },
+    {
+      "jugador": "Adam Boayar Benaisa",
+      "goles_por_90": 0.93
+    },
+    {
+      "jugador": "Gerard Moreno",
+      "goles_por_90": 0.86
+    },
+    {
+      "jugador": "Ferrán Torres",
+      "goles_por_90": 0.79
+    },
+    {
+      "jugador": "Raphinha",
+      "goles_por_90": 0.77
+    },
+    {
+      "jugador": "Vedat Muriqi",
+      "goles_por_90": 0.76
+    },
+    {
+      "jugador": "Antoine Griezmann",
+      "goles_por_90": 0.72
+    },
+    {
+      "jugador": "Gonzalo García Torres",
+      "goles_por_90": 0.7
+    },
+    {
+      "jugador": "Borja Iglesias",
+      "goles_por_90": 0.68
+    }
+  ]
+}

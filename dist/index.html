@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Liga 2025-26 | Clasificación y Estadísticas</title>
+
+    <style>
+        :root {
+            --primary: #e6001f;
+            --primary-dark: #c5001a;
+            --secondary: #003366;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+            --white: #ffffff;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: #f5f5f5;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .section {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        .section-header h1 {
+            font-size: 2.5rem;
+            color: var(--secondary);
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .section-header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 2px;
+        }
+
+        .subtitle {
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: var(--white);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            background-color: black;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .logo:hover {
+            color: var(--primary-dark);
+            transform: scale(1.02);
+        }
+
+        .logo i {
+            margin-right: 0.5rem;
+            font-size: 1.8rem;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary);
+        }
+
+        .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: var(--primary);
+            border-radius: 2px;
+        }
+
+        /* Dashboard Grid */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .dashboard-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            border: 1px solid var(--light-gray);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .dashboard-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .dashboard-card:hover .card-icon {
+            transform: scale(1.1);
+            color: var(--secondary);
+        }
+
+        .dashboard-card h3 {
+            margin: 0.5rem 0 1rem;
+            color: var(--secondary);
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .dashboard-card p {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+            line-height: 1.6;
+        }
+
+        .card-preview {
+            background: var(--light);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            border: 1px solid var(--light-gray);
+        }
+
+        .card-stats {
+            display: flex;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .stat {
+            text-align: center;
+            flex: 1;
+            padding: 1rem;
+            background: var(--light);
+            border-radius: 8px;
+            transition: var(--transition);
+        }
+
+        .stat:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .stat:hover span,
+        .stat:hover small {
+            color: var(--white);
+        }
+
+        .stat span {
+            display: block;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat small {
+            color: var(--gray);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            margin-top: auto;
+            width: 100%;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 0.9rem;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(230, 0, 31, 0.3);
+        }
+
+        .btn i {
+            margin-left: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .btn:hover i {
+            transform: translateX(3px);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--secondary);
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .dashboard-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-container {
+                flex-direction: column;
+                padding: 1rem;
+            }
+
+            .nav-links {
+                margin-top: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .section-header h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-stats {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        /* Badges */
+        .team-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: #f0f0f0;
+            border-radius: 12px;
+            padding: 4px 10px;
+            font-size: 0.8em;
+            margin-left: 8px;
+            color: #333;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .top-scorer .team-badge {
+            background-color: #e3f2fd;
+            color: #1976d2;
+        }
+        
+        .player-stats {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Estilos del Chatbot */
+        .chatbot-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            width: 350px;
+            max-width: 90%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        /* Back to top button */
+        #back-to-top {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none; /* Cambiado a none y lo controlaremos con JS */
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            opacity: 1; /* Aseguramos que tenga opacidad 1 cuando se muestre */
+            visibility: visible; /* Aseguramos que sea visible cuando se muestre */
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            z-index: 999; /* Aseguramos que esté por encima de otros elementos */
+            z-index: 999;
+        }
+
+        #back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        #back-to-top:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-3px);
+        }
+
+        .chatbot-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background-color: #e6001f;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            z-index: 1001;
+            border: none;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .chatbot-button:hover {
+            transform: scale(1.1);
+            background-color: #c5001a;
+        }
+
+        .chatbot-button i {
+            color: white;
+            font-size: 24px;
+        }
+
+        .chatbot-window {
+            position: absolute;
+            bottom: 70px;
+            right: 0;
+            width: 100%;
+            max-height: 500px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            display: none;
+            flex-direction: column;
+            transform: translateY(20px);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .chatbot-window.active {
+            display: flex;
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .chatbot-header {
+            background-color: #e6001f;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chatbot-header h3 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .chatbot-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .chatbot-messages {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            max-height: 350px;
+        }
+
+        .message {
+            margin-bottom: 12px;
+            max-width: 80%;
+            padding: 10px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .bot-message {
+            background-color: #f0f0f0;
+            border-bottom-left-radius: 5px;
+            margin-right: auto;
+        }
+
+        .user-message {
+            background-color: #e6001f;
+            color: white;
+            border-bottom-right-radius: 5px;
+            margin-left: auto;
+        }
+
+        .chatbot-input {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+
+        .chatbot-input input {
+            flex: 1;
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .chatbot-input button {
+            background-color: #e6001f;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chatbot-input button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .typing-indicator {
+            display: flex;
+            padding: 10px 0;
+            margin-left: 5px;
+        }
+
+        .typing-indicator span {
+            width: 8px;
+            height: 8px;
+            background-color: #999;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0 2px;
+            animation: bounce 1.4s infinite ease-in-out;
+        }
+
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes bounce {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-5px); }
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .chatbot-container {
+                width: 90%;
+                right: 5%;
+                bottom: 10px;
+            }
+
+            .chatbot-window {
+                max-height: 70vh;
+            }
+
+            .chatbot-button {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/main.95Al9GVQ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main.BgrrlKZA.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="navbar-glow"></div>
+        <div class="navbar-container">
+            <a href="#" class="logo" aria-label="LaLiga 2025/26 - Inicio">
+                <i class="fas fa-futbol" aria-hidden="true"></i>
+                <span>LaLiga 25/26</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú de navegación" aria-expanded="false" aria-controls="main-navigation">
+                <span class="menu-icon">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </span>
+                <span class="sr-only">Menú</span>
+            </button>
+
+            <div class="nav-links-wrapper">
+                <div class="nav-gradient-track"></div>
+                <div class="nav-drawer">
+                    <div class="nav-rows-container">
+                        <!-- Primera fila: Estadísticas principales -->
+                        <div class="nav-row">
+                            <span class="nav-row-title">Secciones principales</span>
+                            <ul class="nav-links" id="main-stats">
+                                <li><a href="#clasificacion" class="nav-link active"><i class="fas fa-trophy"></i> Clasificación</a></li>
+                                <li><a href="#canteras" class="nav-link" aria-current="page"><i class="fas fa-users"></i> Canteras 1ª división</a></li>
+                                <li><a href="#calendario" class="nav-link"><i class="far fa-calendar-alt"></i> Calendario</a></li>
+                                <li><a href="#lesionados" class="nav-link"><i class="fas fa-user-injured"></i> Lesionados</a></li>
+                               <!--  <li><a href="#tabla-comparativa" class="nav-link"><i class="fas fa-chart-bar"></i> Tabla comparativa</a></li>            -->
+                            </ul>
+                        </div>
+                        
+                        <!-- Segunda fila: Secciones adicionales 
+                        <div class="nav-row">
+                            <span class="nav-row-title">Estadísticas</span>
+                            <ul class="nav-links" id="secondary-links">
+                                
+                                <li><a href="#penaltis" class="nav-link"><i class="fas fa-flag"></i>Top Penaltis</a></li>
+                                <li><a href="#goleadores" class="nav-link"><i class="fas fa-futbol"></i>Top Goleadores</a></li>
+                                <li><a href="#asistentes" class="nav-link"><i class="fas fa-futbol"></i>Top Asistentes</a></li>
+                                <li><a href="#porterias-cero" class="nav-link"><i class="fas fa-shield-alt"></i>Top Porterías a 0</a></li>
+                                
+                            </ul>
+                        </div>-->
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-overlay"></div>
+
+    <div class="container">
+        <!-- Sección de Clasificación -->
+        <section id="clasificacion" class="section active">
+            <header class="section-header">
+                <h1>Clasificación LaLiga 2025-26</h1>
+                <p class="subtitle" id="update-date">Actualizado al <span id="current-date"></span></p>
+            </header>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="total">General</button>
+                <button class="tab-btn" data-tab="home">Local</button>
+                <button class="tab-btn" data-tab="away">Visitante</button>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-icon">🥇</div>
+                    <h3 id="leader-team">-</h3>
+                    <p>Líder</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <h3 id="total-teams">20</h3>
+                    <p>Equipos</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <h3 id="max-points">-</h3>
+                    <p>Puntos Máximos</p>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table id="standings-table" class="standings-table">
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Equipo</th>
+                            <th>Pts</th>
+                            <th>PJ</th>
+                            <th>G</th>
+                            <th>E</th>
+                            <th>P</th>
+                            <th>GF</th>
+                            <th>GC</th>
+                            <th>+/-</th>
+                        </tr>
+                    </thead>
+                    <tbody id="standings-body">
+                        <!-- Los datos se cargarán con JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sección de Tabla comparativa -->
+        <section id="tabla-comparativa" class="section">
+            <header class="section-header">
+                <h1>📊 Tabla comparativa</h1>
+                <p class="subtitle">Goles, asistencias y penaltis convertidos</p>
+            </header>
+
+            <div class="comparison-controls">
+                <div class="control-group">
+                    <label for="player-filter">Buscar jugador</label>
+                    <div class="input-icon">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="player-filter" placeholder="Ej. Mbappé, Lewandowski">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label for="team-filter">Filtrar por equipo</label>
+                    <select id="team-filter">
+                        <option value="">Todos los equipos</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="comparison-layout">
+                <div class="table-container comparison-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><span class="has-tooltip" data-tooltip="Nombre oficial del jugador en LaLiga 25/26.">Jugador</span></th>
+                                <th><span class="has-tooltip" data-tooltip="Club actual del jugador según la última actualización disponible.">Equipo</span></th>
+                                <th><span class="has-tooltip" data-tooltip="Total de goles marcados en la temporada regular.">Goles</span></th>
+                                <th><span class="has-tooltip" data-tooltip="Total de asistencias registradas en la temporada.">Asistencias</span></th>
+                                <th><span class="has-tooltip" data-tooltip="Penaltis convertidos con éxito.">Penaltis</span></th>
+                                <th><span class="has-tooltip" data-tooltip="Puntaje ponderado: (goles × 1.5) + (asistencias × 1.2) + (penaltis × 1).">Impacto</span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="comparison-table-body">
+                            <tr>
+                                <td colspan="6">Cargando datos...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="comparison-insights">
+                    <div class="insights-card">
+                        <h3>Top rendimiento combinado</h3>
+                        <p class="insights-note">Considerando goles, asistencias y penaltis</p>
+                        <div id="performance-chart" class="performance-chart">
+                            <!-- Barras dinámicas -->
+                        </div>
+                    </div>
+                    <p class="roadmap-note">Pronto añadiremos más métricas comparativas con nuevos datos scrapeados.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Máximos Goleadores -->
+        <section id="goleadores" class="section">
+            <header class="section-header">
+                <h1>⚽ Máximos Goleadores</h1>
+                <p class="subtitle">Temporada 2025-26</p>
+            </header>
+
+            <div class="top-scorers-container">
+                <div class="top-scorer" id="top-scorer-1">
+                    <div class="trophy">🥇</div>
+                    <div class="scorer-info">
+                        <h3>Cargando...</h3>
+                        <p class="player-stats">0 goles <span class="team-badge">Equipo</span></p>
+                    </div>
+                </div>
+                <div class="scorers-list" id="scorers-list">
+                    <!-- Los goleadores se cargarán con JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Máximos Asistentes -->
+        <section id="asistentes" class="section">
+            <header class="section-header">
+                <h1>🎯 Máximos Asistentes</h1>
+                <p class="subtitle">Temporada 2025-26</p>
+            </header>
+
+            <div class="top-scorers-container">
+                <div class="top-scorer" id="top-assistant-1">
+                    <div class="trophy">🎯</div>
+                    <div class="scorer-info">
+                        <h3>Cargando...</h3>
+                        <p>0 asistencias</p>
+                    </div>
+                </div>
+                <div class="scorers-list" id="assistants-list">
+                    <!-- Los asistentes se cargarán con JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Máximos Goleadores de Penalti -->
+        <section id="penaltis" class="section">
+            <header class="section-header">
+                <h1>⚽ Máximos Goleadores de Penalti</h1>
+                <p class="subtitle">Temporada 2025-26</p>
+            </header>
+
+            <div class="top-scorers-container">
+                <div class="top-scorer" id="top-penalty-scorer-1">
+                    <div class="trophy">🥇</div>
+                    <div class="scorer-info">
+                        <h3>Cargando...</h3>
+                        <p>0 goles de penalti</p>
+                    </div>
+                </div>
+                <div class="scorers-list" id="penalty-scorers-list">
+                    <!-- Los goleadores de penalti se cargarán con JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Goles por 90 minutos -->
+        <section id="goles-90" class="section">
+            <header class="section-header">
+                <h1>📊 Goles por 90 minutos</h1>
+                <p class="subtitle">Temporada 2025-26</p>
+            </header>
+
+            <div class="top-scorers-container">
+                <div class="top-scorer" id="top-goals90-1">
+                    <div class="trophy">🥇</div>
+                    <div class="scorer-info">
+                        <h3>Cargando...</h3>
+                        <p>0.00 goles/90'</p>
+                    </div>
+                </div>
+                <div class="scorers-list" id="goals90-list">
+                    <!-- Los datos de goles por 90 se cargarán con JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Asistencias por 90 minutos -->
+        <section id="asistencias-90" class="section">
+            <header class="section-header">
+                <h1>🎯 Asistencias por 90 minutos</h1>
+                <p class="subtitle">Temporada 2025-26</p>
+            </header>
+
+            <div class="top-scorers-container">
+                <div class="top-scorer" id="top-assists90-1">
+                    <div class="trophy">🥇</div>
+                    <div class="scorer-info">
+                        <h3>Cargando...</h3>
+                        <p>0.00 asistencias/90'</p>
+                    </div>
+                </div>
+                <div class="scorers-list" id="assists90-list">
+                    <!-- Los datos de asistencias por 90 se cargarán con JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Calendario -->
+        <section id="calendario" class="section">
+            <header class="section-header">
+                <h1>Calendario de Partidos</h1>
+                <p class="subtitle">Temporada 2025-26</p>
+            </header>
+            
+            <div class="filtros-calendario">
+                <div class="filtro-grupo">
+                    <label for="jornada-select">Jornada:</label>
+                    <select id="jornada-select" class="filtro-select">
+                        <option value="">Todas las jornadas</option>
+                        <!-- Las opciones se cargarán con JavaScript -->
+                    </select>
+                </div>
+                
+                <div class="filtro-grupo">
+                    <label for="equipo-select">Equipo:</label>
+                    <select id="equipo-select" class="filtro-select">
+                        <option value="">Todos los equipos</option>
+                        <!-- Las opciones se cargarán con JavaScript -->
+                    </select>
+                </div>
+                
+                <div class="filtro-grupo">
+                    <label for="estado-select">Estado:</label>
+                    <select id="estado-select" class="filtro-select">
+                        <option value="">Todos</option>
+                        <option value="Finalizado">Finalizados</option>
+                        <option value="Pendiente">Por jugar</option>
+                    </select>
+                </div>
+                
+                <button id="aplicar-filtros" class="btn-filtrar">
+                    <i class="fas fa-filter"></i> Aplicar Filtros
+                </button>
+            </div>
+            
+            <div class="calendario-container" id="calendario-container">
+                <div class="loading">Cargando calendario...</div>
+            </div>
+        </section>
+
+        <!-- Sección de Jugadores Lesionados -->
+        <section id="lesionados" class="section">
+            <header class="section-header">
+                <h1>Jugadores Lesionados</h1>
+                <p class="subtitle">Actualizado al <span id="lesionados-update-date"></span></p>
+            </header>
+            
+            <div class="lesionados-container" id="lesionados-container">
+                <!-- Los datos de jugadores lesionados se cargarán aquí -->
+                <div class="loading">Cargando datos de jugadores lesionados...</div>
+            </div>
+        </section>
+        <!-- Sección de Porterías a Cero -->
+    <section id="porterias-cero" class="section">
+        <header class="section-header">
+            <h1>Porterías a Cero</h1>
+            <p class="subtitle">Top porteros con más partidos sin encajar goles</p>
+        </header>
+
+        <div class="top-scorers-container">
+            <div class="top-scorer" id="top-portero-cero-1">
+                <div class="trophy">🏆</div>
+                <div class="scorer-info">
+                    <h3>Cargando...</h3>
+                    <p>0 partidos sin encajar</p>
+                </div>
+            </div>
+            <div class="scorers-list" id="porteros-cero-list">
+                <div class="loading">Cargando datos de porteros...</div>
+            </div>
+        </div>
+    </section>
+    <section id="canteras" class="section">
+    <header class="section-header">
+        <h1>🏆 Canteras 1ª División</h1>
+        <p class="subtitle">Temporada 2025-26</p>
+    </header>
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="jugadores">Jugadores</button>
+        </div>
+        
+        <div class="tab-content active" id="jugadores-tab">
+            <div class="search-container">
+                <input type="text" id="buscar-jugador" placeholder="Buscar jugador..." class="search-input">
+                <select id="filtro-equipo" class="filter-select">
+                    <option value="">Todos los equipos</option>
+                    <!-- Se llenará dinámicamente con JavaScript -->
+                </select>
+                <select id="filtro-posicion" class="filter-select">
+                    <option value="">Todas las posiciones</option>
+                    <option value="Goalkeeper">Portero</option>
+                    <option value="Defence">Defensa</option>
+                    <option value="Midfield">Centrocampista</option>
+                    <option value="Offence">Delantero</option>
+                </select>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-jugadores">0</div>
+                    <div class="stat-label">Total de Jugadores</div>
+                </div>
+                <div id="estadisticas-posiciones" class="stats-grid" style="grid-template-columns: repeat(4, 1fr); width: 100%;">
+                    <!-- Se llenará dinámicamente con las estadísticas de posiciones -->
+                </div>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="data-table" id="tabla-jugadores">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Jugador</th>
+                            <th>Equipo</th>
+                            <th>Posición</th>
+                            <th>Inicio Contrato</th>
+                            <th>Fin Contrato</th>
+                            <th>Minutos</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpo-tabla-jugadores">
+                        <!-- Se llenará dinámicamente con JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; <span id="current-year"></span> Datos de Fútbol - Aplicación Web Dinámica</p>
+    </footer>
+
+    <script src="/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    
+    
+    
+    <!-- Botón flotante del Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <h3>Asistente de LaLiga</h3>
+                <button class="chatbot-close" id="chatbot-close">×</button>
+            </div>
+            <div class="chatbot-messages" id="chat-messages">
+                <div class="message bot-message">
+                    ¡Hola! Soy tu asistente de LaLiga. ¿En qué puedo ayudarte hoy?
+                </div>
+            </div>
+            <div class="typing-indicator" id="typing-indicator" style="display: none;">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="user-input" placeholder="Escribe tu mensaje..." />
+                <button id="send-message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+        <button class="chatbot-button" id="chatbot-button">
+            <i class="fas fa-robot"></i>
+        </button>
+    </div>
+
+    <script>
+        // Actualizar la fecha automáticamente
+        document.addEventListener('DOMContentLoaded', () => {
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' });
+            document.getElementById('current-date').textContent = formattedDate;
+            document.getElementById('current-year').textContent = today.getFullYear();
+            
+            // Inicializar el chatbot
+            initChatbot();
+        });
+
+        // Funcionalidad del Chatbot
+        function initChatbot() {
+            const chatWindow = document.getElementById('chatbot-window');
+            const chatButton = document.getElementById('chatbot-button');
+            const closeButton = document.getElementById('chatbot-close');
+            const sendButton = document.getElementById('send-message');
+            const userInput = document.getElementById('user-input');
+            const chatMessages = document.getElementById('chat-messages');
+            const typingIndicator = document.getElementById('typing-indicator');
+
+            // Mostrar/ocultar el chat
+            chatButton.addEventListener('click', () => {
+                chatWindow.classList.toggle('active');
+                if (chatWindow.classList.contains('active')) {
+                    userInput.focus();
+                }
+            });
+
+            closeButton.addEventListener('click', () => {
+                chatWindow.classList.remove('active');
+            });
+
+            // Enviar mensaje al presionar Enter
+            userInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+            // Enviar mensaje al hacer clic en el botón
+            sendButton.addEventListener('click', sendMessage);
+
+            // Función para enviar mensaje
+            function sendMessage() {
+                const message = userInput.value.trim();
+                if (message === '') return;
+
+                // Mostrar mensaje del usuario
+                addMessage(message, 'user');
+                userInput.value = '';
+
+                // Mostrar indicador de escritura
+                typingIndicator.style.display = 'flex';
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+
+                // Simular respuesta del bot (aquí iría la lógica real del chatbot)
+                setTimeout(() => {
+                    typingIndicator.style.display = 'none';
+                    const response = getBotResponse(message);
+                    addMessage(response, 'bot');
+                }, 1000);
+            }
+
+            // Función para agregar mensaje al chat
+            function addMessage(text, sender) {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `message ${sender}-message`;
+                messageDiv.textContent = text;
+                chatMessages.appendChild(messageDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            // Función de ejemplo para generar respuestas del bot
+            function getBotResponse(message) {
+                const lowerMessage = message.toLowerCase();
+                
+                if (lowerMessage.includes('hola') || lowerMessage.includes('buenas') || lowerMessage.includes('buenos')) {
+                    return '¡Hola! Soy tu asistente de LaLiga. ¿En qué puedo ayudarte hoy?';
+                } else if (lowerMessage.includes('clasificación') || lowerMessage.includes('tabla')) {
+                    return 'Puedes ver la clasificación actual en la sección principal de la página. ¿Quieres que te diga quién va primero?';
+                } else if (lowerMessage.includes('goleador') || lowerMessage.includes('goles')) {
+                    return 'Los máximos goleadores los puedes encontrar en la sección "Máximos Goleadores". ¿Quieres saber quién es el actual pichichi?';
+                } else if (lowerMessage.includes('próximo') || lowerMessage.includes('siguiente') || lowerMessage.includes('partido')) {
+                    return 'Puedes ver los próximos partidos en la sección de Calendario. ¿Te gustaría saber cuándo juega tu equipo?';
+                } else if (lowerMessage.includes('lesionado') || lowerMessage.includes('baja')) {
+                    return 'La información sobre jugadores lesionados está disponible en la sección "Jugadores Lesionados". ¿Neitas saber algo en particular?';
+                } else if (lowerMessage.includes('gracias') || lowerMessage.includes('gracias por la ayuda')) {
+                    return '¡De nada! ¿Hay algo más en lo que pueda ayudarte?';
+                } else if (lowerMessage.includes('adiós') || lowerMessage.includes('chao') || lowerMessage.includes('hasta luego')) {
+                    return '¡Hasta luego! Si tienes más preguntas, aquí estaré para ayudarte.';
+                } else {
+                    return 'Entiendo que quieres saber sobre: ' + message + '. Próximamente podré responder a este tipo de consultas con más detalle.';
+                }
+            }
+        }
+    </script>
+
+    <!-- <script src="src/js/canteras.js"></script> -->
+    
+    <!-- Botón de volver arriba -->
+    <button id="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- Script del chatbot -->
+    <script src="/chatbot_laliga/app.js"></script>
+    
+    <!-- Script para el botón de volver arriba -->
+    <script>
+        // Mostrar/ocultar el botón al hacer scroll
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.getElementById('back-to-top');
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'flex';
+                setTimeout(() => {
+                    backToTopButton.style.opacity = '1';
+                }, 10);
+            } else {
+                backToTopButton.style.opacity = '0';
+                setTimeout(() => {
+                    backToTopButton.style.display = 'none';
+                }, 300); // Tiempo de la transición
+            }
+        });
+
+        // Función para volver arriba con animación suave
+        document.getElementById('back-to-top').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

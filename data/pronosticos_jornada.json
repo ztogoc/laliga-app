@@ -1,0 +1,87 @@
+{
+    "jornada": 17,
+    "actualizado": "2025-12-21T13:50:00Z",
+    "partidos": [
+        {
+            "match_id": 170,
+            "pronostico": "Signo 1 (Victoria local)",
+            "pronostico_detalle": "Valencia mantiene pleno en Mestalla en el último mes",
+            "pronostico_signo": "1",
+            "pronostico_resultado": "2-1",
+            "confianza": 64
+        },
+        {
+            "match_id": 169,
+            "pronostico": "Signo X (Empate)",
+            "pronostico_detalle": "Oviedo y Celta priorizan el orden defensivo",
+            "pronostico_signo": "X",
+            "pronostico_resultado": "1-1",
+            "confianza": 58
+        },
+        {
+            "match_id": 164,
+            "pronostico": "Signo X (Empate)",
+            "pronostico_detalle": "Levante y Real Sociedad llegan igualados en rachas",
+            "pronostico_signo": "X",
+            "pronostico_resultado": "2-2",
+            "confianza": 61
+        },
+        {
+            "match_id": 166,
+            "pronostico": "Signo 1 (Victoria local)",
+            "pronostico_detalle": "Los navarros solo han perdido uno en El Sadar",
+            "pronostico_signo": "1",
+            "pronostico_resultado": "1-0",
+            "confianza": 57
+        },
+        {
+            "match_id": 165,
+            "pronostico": "Signo 1 (Victoria local)",
+            "pronostico_detalle": "El Real Madrid llega lanzado en el Bernabéu",
+            "pronostico_signo": "1",
+            "pronostico_resultado": "3-1",
+            "confianza": 70
+        },
+        {
+            "match_id": 167,
+            "estado": "en_juego",
+            "pronostico": "Signo 1 (Victoria local)",
+            "pronostico_detalle": "El Girona mantiene el invicto como local",
+            "pronostico_signo": "1",
+            "pronostico_resultado": "2-1",
+            "confianza": 68
+        },
+        {
+            "match_id": 168,
+            "pronostico": "Signo 2 (Victoria visitante)",
+            "pronostico_detalle": "El Barça llega con racha perfecta como visitante",
+            "pronostico_signo": "2",
+            "pronostico_resultado": "2-3",
+            "confianza": 63
+        },
+        {
+            "match_id": 163,
+            "pronostico": "Signo X (Empate)",
+            "pronostico_detalle": "Rayo y Cádiz suelen repartirse puntos",
+            "pronostico_signo": "X",
+            "pronostico_resultado": "1-1",
+            "confianza": 54
+        },
+        {
+            "match_id": 162,
+            "pronostico": "Signo 1 (Victoria local)",
+            "pronostico_detalle": "Getafe llega con múltiples bajas defensivas",
+            "pronostico_signo": "1",
+            "pronostico_resultado": "2-0",
+            "confianza": 66
+        },
+        {
+            "match_id": 161,
+            "pronostico": "Signo 1 (Victoria local)",
+            "pronostico_detalle": "San Mamés empuja y el Athletic arranca fuerte",
+            "pronostico_signo": "1",
+            "pronostico_resultado": "2-1",
+            "confianza": 60
+        }
+    ]
+}

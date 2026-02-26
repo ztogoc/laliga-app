@@ -1,0 +1,193 @@
+{
+  "name": "chat",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "chat",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        784,
+        240
+      ],
+      "id": "d32ffc29-be78-4966-b930-a824456da43f",
+      "name": "Webhook",
+      "webhookId": "0ddbff83-40e7-4345-b7ac-9c60fce67a46"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Configuración\nconst API_BASE_URL = 'https://uno-dos-x.vercel.app/data/';\nconst FILES = [\n  'laliga_2025_26_Goleadores.json',\n  'laliga_2025_26_asistencias_por_90.json',\n  'laliga_2025_26_asistentes.json',\n  'laliga_2025_26_calendario.json',\n  'laliga_2025_26_canteras.json',\n  'laliga_2025_26_clasificacion_away.json',\n  'laliga_2025_26_clasificacion_home.json',\n  'laliga_2025_26_clasificacion_total.json',\n  'laliga_2025_26_golesEquipos.json',\n  'laliga_2025_26_goles_concedidos.json',\n  'laliga_2025_26_goles_por_90.json',\n  'laliga_2025_26_lesionados_laliga.json',\n  'laliga_2025_26_penaltis.json',\n  'laliga_2025_26_porterias_a_cero.json',\n  'pronosticos_jornada.json'\n];\n\n// Función auxiliar para verificar si un valor es un objeto\nfunction isObject(value) {\n  return value !== null && typeof value === 'object' && !Array.isArray(value);\n}\n\n// Función para buscar en los datos\nfunction searchInData(data, query) {\n  const queryTokens = query.toLowerCase().split(/\\s+/).filter(Boolean);\n  const results = [];\n\n  function processItem(item, path) {\n    if (isObject(item)) {\n      Object.keys(item).forEach(function(key) {\n        const value = item[key];\n        const currentPath = path ? path + '.' + key : key;\n        \n        if (typeof value === 'string' || typeof value === 'number') {\n          const text = String(value).toLowerCase();\n          var score = 0;\n          \n          queryTokens.forEach(function(token) {\n            if (text.includes(token)) {\n              score += 1;\n            }\n          });\n          \n          if (score > 0) {\n            results.push({\n              score: score,\n              key: currentPath,\n              value: value,\n              context: JSON.stringify(item).substring(0, 200) + '...'\n            });\n          }\n        } else if (Array.isArray(value)) {\n          value.forEach(function(subItem, index) {\n            processItem(subItem, currentPath + '[' + index + ']');\n          });\n        } else if (isObject(value)) {\n          processItem(value, currentPath);\n        }\n      });\n    }\n  }\n\n  processItem(data, '');\n  return results.sort(function(a, b) {\n    return b.score - a.score;\n  }).slice(0, 5);\n}\n\n// Función para obtener un nombre descriptivo del archivo\nfunction getFriendlyName(filename) {\n  var name = filename.replace('laliga_2025_26_', '')\n                    .replace('.json', '')\n                    .replace(/_/g, ' ');\n  return name.charAt(0).toUpperCase() + name.slice(1);\n}\n\n// Función principal\nasync function main() {\n  const query = $json.body.message || '';\n  if (!query.trim()) {\n    return {\n      answer: \"Por favor, envía un mensaje válido.\",\n      items: [],\n      confidence: \"low\"\n    };\n  }\n\n  try {\n    // Cargar archivos secuencialmente\n    var loadedFiles = {};\n    var loadedCount = 0;\n    \n    for (var i = 0; i < FILES.length; i++) {\n      var file = FILES[i];\n      try {\n        var response = await $http.get(API_BASE_URL + file);\n        if (response && response.data) {\n          loadedFiles[file] = response.data;\n          loadedCount++;\n        }\n      } catch (error) {\n        console.error('Error cargando ' + file + ':', error.message);\n      }\n    }\n\n    if (loadedCount === 0) {\n      return {\n        answer: \"No se pudieron cargar los datos. Por favor, inténtalo más tarde.\",\n        items: [],\n        confidence: \"low\"\n      };\n    }\n\n    // Buscar en los datos\n    var allResults = [];\n    Object.keys(loadedFiles).forEach(function(file) {\n      var results = searchInData(loadedFiles[file], query);\n      results.forEach(function(result) {\n        result.file = getFriendlyName(file);\n        allResults.push(result);\n      });\n    });\n\n    // Ordenar resultados\n    var sortedResults = allResults.sort(function(a, b) {\n      return b.score - a.score;\n    }).slice(0, 5);\n\n    // Generar respuesta\n    if (sortedResults.length === 0) {\n      return {\n        answer: \"No encontré información para: \" + query,\n        items: [],\n        confidence: \"low\"\n      };\n    }\n\n    // Formatear respuesta\n    var answer = \"📊 Resultados para: \" + query;\n    var items = sortedResults.map(function(result) {\n      var title = result.key.split('.').pop() || 'Datos';\n      title = title.replace(/_/g, ' ');\n      title = title.charAt(0).toUpperCase() + title.slice(1);\n      \n      var description = typeof result.value === 'object' ? \n                      JSON.stringify(result.value) : \n                      String(result.value);\n      \n      // Acortar descripciones largas\n      if (description.length > 100) {\n        description = description.substring(0, 100) + '...';\n      }\n      \n      return {\n        title: title,\n        description: description,\n        source: result.file\n      };\n    });\n\n    return {\n      answer: answer,\n      items: items,\n      confidence: sortedResults[0].score > 1 ? \"high\" : \"medium\"\n    };\n\n  } catch (error) {\n    console.error('Error en el procesamiento:', error);\n    return {\n      answer: \"❌ Ocurrió un error al procesar tu solicitud: \" + error.message,\n      items: [],\n      confidence: \"low\"\n    };\n  }\n}\n\n// Ejecutar\nreturn main();"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1008,
+        144
+      ],
+      "id": "9fb1dced-d2fe-477e-b359-cba3b13ed48d",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{$json}}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        1232,
+        144
+      ],
+      "id": "ae7a2a02-0e8e-4028-a6b8-14e0f9c5d94f",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {},
+      "id": "3a9d1680-9125-4328-8b84-0e10c3e87540",
+      "name": "Test Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        560,
+        48
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "body",
+              "value": "={{ JSON.stringify({ \"message\": \"¿Quién es el máximo goleador?\" }) }}",
+              "type": "object"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "5e2f927a-46c6-4c1f-ad67-cb53f87c71b0",
+      "name": "Test Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        784,
+        48
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 🌐 Implementación en tu Web\n\n**URL del Webhook:**\n`https://unodox.app.n8n.cloud/webhook/chat`\n\n**Método:** POST\n\n**Body (JSON):**\n```json\n{\n  \"message\": \"tu pregunta aquí\"\n}\n```\n\n**Respuesta esperada:**\n```json\n{\n  \"answer\": \"📊 Resultados para: ...\",\n  \"items\": [\n    {\n      \"title\": \"...\",\n      \"description\": \"...\",\n      \"source\": \"...\"\n    }\n  ],\n  \"confidence\": \"high/medium/low\"\n}\n```\n\n**Ejemplo JavaScript:**\n```javascript\nasync function sendMessage(message) {\n  const response = await fetch(\n    \"https://unodox.app.n8n.cloud/webhook/chat\",\n    {\n      method: \"POST\",\n      headers: { \"Content-Type\": \"application/json\" },\n      body: JSON.stringify({ message })\n    }\n  );\n  return await response.json();\n}\n```\n\n⚠️ **Importante:** Activa el workflow antes de usar",
+        "height": 868,
+        "width": 400,
+        "color": 4
+      },
+      "id": "4eabaea9-06e0-4d4e-8aec-3f378091868a",
+      "name": "Implementation Guide",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1232,
+        304
+      ]
+    }
+  ],
+  "pinData": {
+    "Webhook": [
+      {
+        "json": {
+          "name": "First item",
+          "code": 1
+        }
+      },
+      {
+        "json": {
+          "name": "Second item",
+          "code": 2
+        }
+      }
+    ],
+    "Code in JavaScript": [
+      {
+        "json": {
+          "name": "First item",
+          "code": 1
+        }
+      },
+      {
+        "json": {
+          "name": "Second item",
+          "code": 2
+        }
+      }
+    ],
+    "Test Trigger": [
+      {
+        "json": {
+          "message": "¿Quién es el máximo goleador?"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Test Trigger": {
+      "main": [
+        [
+          {
+            "node": "Test Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Test Data": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "433a4e46-f325-4f8e-8528-eb5543e2dadd",
+  "meta": {
+    "instanceId": "05341b4c45ef63d555025be35d458128a237a2d05b1bfd1a8f100d600160bb58"
+  },
+  "id": "j9llRclYi4IPUt9j",
+  "tags": []
+}

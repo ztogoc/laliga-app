@@ -1,0 +1,37 @@
+{
+  "liga": "LaLiga 2025/26",
+  "goles_por_equipo": [
+    {
+      "equipo": "FC Barcelona",
+      "goles": 64
+    },
+    {
+      "equipo": "Real Madrid",
+      "goles": 53
+    },
+    {
+      "equipo": "Villarreal",
+      "goles": 45
+    },
+    {
+      "equipo": "Real Betis",
+      "goles": 39
+    },
+    {
+      "equipo": "Atlético Madrid",
+      "goles": 38
+    },
+    {
+      "equipo": "Real Sociedad",
+      "goles": 34
+    },
+    {
+      "equipo": "Celta de Vigo",
+      "goles": 32
+    },
+    {
+      "equipo": "Sevilla FC",
+      "goles": 31
+    }
+  ]
+}

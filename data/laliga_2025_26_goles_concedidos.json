@@ -1,0 +1,37 @@
+{
+  "liga": "LaLiga 2025/26",
+  "goles_concedidos_por_equipo": [
+    {
+      "equipo": "Levante UD",
+      "goles_concedidos": 41
+    },
+    {
+      "equipo": "Sevilla FC",
+      "goles_concedidos": 39
+    },
+    {
+      "equipo": "RCD Mallorca",
+      "goles_concedidos": 39
+    },
+    {
+      "equipo": "Girona FC",
+      "goles_concedidos": 38
+    },
+    {
+      "equipo": "Valencia CF",
+      "goles_concedidos": 37
+    },
+    {
+      "equipo": "Real Oviedo",
+      "goles_concedidos": 36
+    },
+    {
+      "equipo": "Real Sociedad",
+      "goles_concedidos": 35
+    },
+    {
+      "equipo": "Elche CF",
+      "goles_concedidos": 35
+    }
+  ]
+}

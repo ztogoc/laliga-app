@@ -1,0 +1,24 @@
+{
+  "name": "laliga-app",
+  "version": "1.0.0",
+  "description": "La Liga 2025-26 Standings and Statistics",
+  "type": "module",
+  "proxy": "https://kit.fontawesome.com",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "vercel-build": "npm run build",
+    "deploy:vercel": "vercel --prod",
+    "deploy:vercel:force": "vercel --prod --force",
+    "update:data": "node scripts/update-data.js",
+    "clean": "rm -rf node_modules package-lock.json && npm install"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "axios": "^1.6.5"
+  }
+}
