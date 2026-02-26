@@ -395,9 +395,19 @@
     },
     "news_links": [
       {
+        "url": "https://www.jornadaperfecta.com/blog/marc-bernal-parche-fantasy-barcelona/",
+        "fecha": "2026-02-26",
+        "titulo": "Marc Bernal, ¿llegó su momento en el FC Barcelona?"
+      },
+      {
         "url": "https://www.jornadaperfecta.com/blog/alineaciones-barcelona-villarreal-j26-25-26/",
         "fecha": "2026-02-25",
         "titulo": "Las claves fantasy del FC Barcelona – Villarreal CF: Onces, Lesiones y Apuestas"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/marc-bernal-parche-fantasy-barcelona/#comments",
+        "fecha": "2026-02-26",
+        "titulo": "Marc Bernal, ¿llegó su momento en el FC Barcelona?"
       }
     ]
   },
@@ -1095,11 +1105,6 @@
       "points": 7
     },
     "news_links": [
-      {
-        "url": "https://www.jornadaperfecta.com/blog/griezmann-salida-atletico/",
-        "fecha": "2026-02-26",
-        "titulo": "¡Griezmann podría marcharse a la MLS en el mes de marzo!"
-      },
       {
         "url": "https://www.jornadaperfecta.com/blog/alineaciones-real-oviedo-atletico-j26-25-26/",
         "fecha": "2026-02-25",
