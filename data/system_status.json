@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-02-26T15:03:19+00:00",
+  "apis": {
+    "football-data": "operational",
+    "footystats": "blocked"
+  },
+  "scripts": {
+    "clasificacion": "operational",
+    "calendario": "operational", 
+    "lesionados": "operational",
+    "goleadores": "operational"
+  },
+  "files": {
+    "clasificacion_total": "operational",
+    "ultimos5": "operational",
+    "calendario": "operational",
+    "lesionados": "operational"
+  },
+  "system": {
+    "github_actions": "active",
+    "deploy": "online",
+    "last_update": "2026-02-26T15:03:19+00:00"
+  }
+}
