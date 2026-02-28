@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-28T08:58:53+00:00",
+  "timestamp": "2026-02-28T09:36:39+00:00",
   "apis": {
     "football-data": "operational",
     "footystats": "blocked"
@@ -19,6 +19,6 @@
   "system": {
     "github_actions": "active",
     "deploy": "online",
-    "last_update": "2026-02-28T08:58:54+00:00"
+    "last_update": "2026-02-28T09:36:39+00:00"
   }
 }
