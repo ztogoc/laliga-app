@@ -1,1 +1,2 @@
 [2026-03-02 18:27:10] Sistema de monitoreo iniciado
+[2026-03-02 18:31:47] Sistema de monitoreo iniciado

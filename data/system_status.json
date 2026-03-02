@@ -1,5 +1,5 @@
 {
   "apis": { "football_data": "operational", "footystats": "operational" },
   "scripts": { "clasificacion": "operational", "calendario": "operational", "lesionados": "operational", "goleadores": "operational", "asistentes": "operational", "ultimos5": "operational" },
-  "system": { "github_actions": "active", "deploy": "online", "last_update": "2026-03-02T18:27:10+00:00" }
+  "system": { "github_actions": "active", "deploy": "online", "last_update": "2026-03-02T18:31:47+00:00" }
 }
