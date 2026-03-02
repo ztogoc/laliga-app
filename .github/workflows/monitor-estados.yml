@@ -43,7 +43,7 @@ jobs:
         
     - name: Verificar Sistema
       run: |
-        echo "Estado del sistema..."
+        echo "Generando logs del sistema..."
         echo "github_actions=active" >> $GITHUB_ENV
         echo "deploy=online" >> $GITHUB_ENV
         
