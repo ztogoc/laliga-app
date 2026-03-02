@@ -164,6 +164,18 @@ jobs:
         git diff --cached --quiet || git commit -m "📊 Actualización estado sistema - $(date +'%Y-%m-%d %H:%M')"
         git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main || true
         
+    - name: Deploy a Vercel (Monitoreo)
+      if: always()
+      env:
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      run: |
+        echo "🚀 Desplegando en Vercel (monitoreo)..."
+        npm install -g vercel
+        vercel --prod --token=$VERCEL_TOKEN --yes
+        echo "✅ Deploy completado desde monitoreo"
+        
     - name: Notificar si hay errores
       if: failure()
       run: |
