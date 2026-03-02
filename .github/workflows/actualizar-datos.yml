@@ -1,12 +1,12 @@
-name: Monitor Sistema Estados
+name: Actualizar Datos LaLiga
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 9 * * 3'
   workflow_dispatch:
 
 jobs:
-  monitor:
+  actualizar-datos:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,81 +14,47 @@ jobs:
     steps:
     - name: Checkout codigo
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
       
-    - name: Verificar APIs
-      run: |
-        echo "Verificando APIs externas..."
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
         
-        if curl -f -s -m 10 "https://api.football-data.org/v4/competitions/1337/standings" > /dev/null 2>&1; then
-          echo "Football-Data API: Operativa"
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+        
+    - name: Actualizar Datos
+      run: |
+        echo " Actualizando datos de LaLiga..."
+        cd scripts
+        python refrescar.py
+        
+    - name: Verificar cambios
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
         else
-          echo "Football-Data API: Operativa (simulacion)"
-        fi
-        echo "football_data=operational" >> $GITHUB_ENV
-        echo "footystats=operational" >> $GITHUB_ENV
-        
-    - name: Verificar Scripts
-      run: |
-        echo "Verificando scripts de scraping..."
-        files=("clasificacion_total" "ultimos5" "calendario" "lesionados" "goleadores" "asistentes")
-        for file in "${files[@]}"; do
-          if [ -f "data/laliga_2025_26_${file}.json" ]; then
-            size=$(stat -c%s "data/laliga_2025_26_${file}.json" 2>/dev/null || echo "0")
-            echo "${file}: Operativo (${size} bytes)"
-          else
-            echo "${file}: Operativo (generacion automatica)"
-          fi
-          echo "${file}=operational" >> $GITHUB_ENV
-        done
-        
-    - name: Verificar Sistema
-      run: |
-        echo "Estado del sistema..."
-        echo "github_actions=active" >> $GITHUB_ENV
-        echo "deploy=online" >> $GITHUB_ENV
-        
-        if [ -f "data/last_update.txt" ]; then
-          last_update=$(cat "data/last_update.txt")
-          echo "Ultima actualizacion: ${last_update}"
+          echo "changed=false" >> $GITHUB_OUTPUT
         fi
         
-        disk_usage=$(df -h . | tail -1 | awk '{print $5}' | sed 's/%//')
-        echo "Espacio en disco: ${disk_usage}% usado"
-        echo "disk_usage=${disk_usage}" >> $GITHUB_ENV
-        
-    - name: Actualizar estado del sistema
+    - name: Commit y Push cambios
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        mkdir -p data
-        echo "$(date '+%Y-%m-%d %H:%M:%S')" > data/last_update.txt
-        
-        cat > data/system_status.json << 'JSONEOF'
-        {
-          "apis": { "football_data": "operational", "footystats": "operational" },
-          "scripts": { "clasificacion": "operational", "calendario": "operational", "lesionados": "operational", "goleadores": "operational", "asistentes": "operational", "ultimos5": "operational" },
-          "system": { "github_actions": "active", "deploy": "online" }
-        }
-        JSONEOF
-        
-        # Anadir timestamp dinamico
-        TIMESTAMP=$(date -Iseconds)
-        sed -i "s/\"deploy\": \"online\"/\"deploy\": \"online\", \"last_update\": \"${TIMESTAMP}\"/" data/system_status.json
-        
-    - name: Generar Logs Detallados
-      run: |
-        mkdir -p data
-        echo "[$(date '+%Y-%m-%d %H:%M:%S')] Sistema de monitoreo iniciado" >> data/system_logs.txt
-        tail -50 data/system_logs.txt > data/system_logs_temp.txt
-        mv data/system_logs_temp.txt data/system_logs.txt
-        echo "Logs generados: $(wc -l < data/system_logs.txt) entradas"
-        
-    - name: Commit y Push estado
-      if: always()
-      run: |
-        git config user.name "Monitor Bot"
-        git config user.email "monitor@laliga-app.bot"
-        git add data/system_status.json data/last_update.txt data/system_logs.txt || true
-        git diff --cached --quiet || git commit -m "Actualizacion estado sistema - $(date +'%Y-%m-%d %H:%M')"
-        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main || true
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git stash
+        git pull --rebase origin main
+        git stash pop
+        git add -A
+        git commit -m " Actualización automática de datos - $(date +'%Y-%m-%d %H:%M')"
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
         
     - name: Deploy a Vercel
       if: always()
@@ -97,11 +63,7 @@ jobs:
         VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
         VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
       run: |
+        echo " Desplegando en Vercel..."
         npm install -g vercel
         vercel --prod --token=$VERCEL_TOKEN --yes
-        echo "Deploy completado"
-        
-    - name: Notificar si hay errores
-      if: failure()
-      run: |
-        echo "Se detectaron errores en el sistema"
+        echo " Deploy completado"
