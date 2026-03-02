@@ -2,9 +2,8 @@ name: Actualizar Datos LaLiga
 
 on:
   schedule:
-    # Todos los jueves a las 8:00 UTC
-    - cron: '35 14 * * 1'
-  workflow_dispatch:  # Permite ejecutar manualmente
+    - cron: '50 15 * * 1'
+  workflow_dispatch:
 
 jobs:
   actualizar-datos:
@@ -32,28 +31,26 @@ jobs:
       working-directory: ./scripts
       run: python refrescar.py
       
-    - name: Verificar cambios
-      id: verify-changed-files
-      run: |
-        git add -A
-        git diff --cached --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-        
     - name: Commit y Push cambios
-      if: steps.verify-changed-files.outputs.changed == 'true'
+      id: commit
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        git stash
-        git pull --rebase origin main
-        git stash pop
         git add -A
-        git commit -m "📊 Actualización automática de datos - $(date +'%Y-%m-%d %H:%M')"
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+
+        if git diff --cached --quiet; then
+          echo "No hay cambios para commitear"
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          git commit -m "📊 Actualización automática de datos - $(date +'%Y-%m-%d %H:%M')"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
         
     - name: Deploy a Vercel
-      if: steps.verify-changed-files.outputs.changed == 'true'
+      if: steps.commit.outputs.changed == 'true'
       uses: amondnet/vercel-action@v25
       with:
         vercel-token: ${{ secrets.VERCEL_TOKEN }}
