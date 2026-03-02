@@ -55,7 +55,7 @@ laliga-app/
 ## 🔄 **Workflows de Automatización**
 
 ### 1. **Actualizar Datos LaLiga** (`.github/workflows/actualizar-datos.yml`)
-**Ejecución:** Lunes a las 16:30 UTC (o manual)
+**Ejecución:** Miércoles a las 09:00 UTC (o manual)
 
 **Proceso:**
 1. **Setup** - Checkout del repositorio y configuración de Python 3.11
@@ -250,7 +250,7 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 **Aplicación en producción:** [laliga-app.vercel.app](https://laliga-app.vercel.app)
 
-**Actualización automática:** Cada lunes a las 16:30 UTC
+**Actualización automática:** Cada miércoles a las 09:00 UTC
 
 ---
 

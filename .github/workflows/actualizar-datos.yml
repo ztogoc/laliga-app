@@ -2,7 +2,7 @@ name: Actualizar Datos LaLiga
 
 on:
   schedule:
-    - cron: '30 16 * * 1'
+    - cron: '00 09 * * 3'
   workflow_dispatch:
 
 jobs:
