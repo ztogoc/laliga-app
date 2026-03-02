@@ -1,5 +1,3 @@
-# Reescribir el archivo limpio
-cat > .github/workflows/actualizar-datos.yml << 'EOF'
 name: Actualizar Datos LaLiga
 
 on:
@@ -62,8 +60,3 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         alias-domains: |
           - laliga-app.vercel.app
-EOF
-
-git add .github/workflows/actualizar-datos.yml
-git commit -m "fix: yml limpio sin exit"
-git push origin main
