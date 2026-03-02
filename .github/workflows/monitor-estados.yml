@@ -2,8 +2,8 @@ name: Monitor Sistema Estados
 
 on:
   schedule:
-    # Cada 5 minutos para monitoreo continuo
-    - cron: '*/5 * * * *'
+    # Cada 12 horas para monitoreo
+    - cron: '0 */12 * * *'
   workflow_dispatch:  # Permite ejecutar manualmente
 
 jobs:
