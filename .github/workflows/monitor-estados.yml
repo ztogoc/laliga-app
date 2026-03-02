@@ -76,18 +76,18 @@ jobs:
     - name: Generar Logs Detallados
       run: |
         mkdir -p data
-        log_entry="[$(date '+%Y-%m-%d %H:%M:%S')] Sistema de monitoreo iniciado"
-        echo "${log_entry}" >> data/system_logs.txt
+        echo "[$(date '+%Y-%m-%d %H:%M:%S')] Sistema de monitoreo iniciado" >> data/system_logs.txt
         tail -50 data/system_logs.txt > data/system_logs_temp.txt
         mv data/system_logs_temp.txt data/system_logs.txt
-        echo "Logs generados: $(wc -l < data/system_logs.txt) entradas"
+        echo "Logs: $(wc -l < data/system_logs.txt) entradas"
         
     - name: Commit y Push estado
       if: always()
       run: |
         git config user.name "Monitor Bot"
         git config user.email "monitor@laliga-app.bot"
-        git add data/system_status.json data/last_update.txt data/system_logs.txt || true
+        git add data/system_status.json data/last_update.txt || true
+        [ -f data/system_logs.txt ] && git add data/system_logs.txt || true
         git diff --cached --quiet || git commit -m "Actualizacion estado sistema - $(date +'%Y-%m-%d %H:%M')"
         git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main || true
         
