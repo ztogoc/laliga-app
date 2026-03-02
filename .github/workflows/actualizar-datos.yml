@@ -45,8 +45,11 @@ jobs:
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        git commit -m "📊 Actualización automática de datos - $(date +'%Y-%m-%d %H:%M')"
+        git stash
         git pull --rebase origin main
+        git stash pop
+        git add -A
+        git commit -m "📊 Actualización automática de datos - $(date +'%Y-%m-%d %H:%M')"
         git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
         
     - name: Deploy a Vercel
