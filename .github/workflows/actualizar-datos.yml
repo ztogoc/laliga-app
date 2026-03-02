@@ -50,13 +50,11 @@ jobs:
         
     - name: Deploy a Vercel
       if: steps.commit.outputs.changed == 'true'
-      uses: amondnet/vercel-action@v25
-      with:
-        vercel-token: ${{ secrets.VERCEL_TOKEN }}
-        vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-        vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-        vercel-args: '--prod'
-        working-directory: ./
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        alias-domains: |
-          - laliga-app.vercel.app
+      env:
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      run: |
+        npm install -g vercel
+        vercel --prod --token=$VERCEL_TOKEN --yes
+   
