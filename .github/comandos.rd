@@ -18,7 +18,7 @@ git pull --rebase origin main
 git push origin main
  
 git add .
-git commit -m "feat: mejorar monitoreo para mostrar todo operacional"
+git commit -m "feat: también desplegar en vercel"
 git push origin main
 🌿 Gestión de Branches
 bash
