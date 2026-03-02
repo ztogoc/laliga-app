@@ -74,14 +74,24 @@ laliga-app/
 - `VERCEL_PROJECT_ID` - ID del proyecto Vercel
 - `GITHUB_TOKEN` - Automático (permisos de escritura)
 
-### 2. **Monitor Estados** (`.github/workflows/monitor-estados.yml`)
-**Ejecución:** Cada 4 horas
+### 2. **Monitor Sistema Estados** (`.github/workflows/monitor-estados.yml`)
+**Ejecución:** Cada 12 horas (00:00 y 12:00 UTC) + manual
 
-**Funciones:**
-- Verificación de disponibilidad del sitio
-- Monitor de estado de APIs externas
-- Alertas automáticas de fallos
-- Generación de reportes de salud del sistema
+**Proceso:**
+1. **Verificación APIs** - Comprueba Football-Data y FootyStats
+2. **Verificación Scripts** - Valida archivos de datos JSON
+3. **Verificación Sistema** - Revisa GitHub Actions, Deploy y conectividad
+4. **Actualización Estado** - Genera JSON con estado completo
+5. **Generación Logs** - Crea historial de monitoreo
+6. **Deploy Automático** - Despliega en Vercel cada 12 horas
+7. **Commit y Push** - Sincroniza cambios con el repositorio
+
+**Características:**
+- ✅ Monitoreo completo de APIs y archivos
+- ✅ Logs detallados con timestamps
+- ✅ Deploy automático redundante
+- ✅ Verificación de espacio en disco y conectividad
+- ✅ Reportes de estado en tiempo real
 
 ## 📈 **Datos y Estadísticas**
 
@@ -226,7 +236,18 @@ npm run dev
 
 ## 📝 **Changelog**
 
-### **v2.1.0** (Actual)
+### **v2.2.0** (Actual)
+- ✨ Sistema de automatización completo
+- 🤖 Chatbot integrado
+- 📊 Nuevas estadísticas avanzadas
+- 🎨 Rediseño responsive completo
+- 🔧 Branch protection activada
+- 📋 Pull requests requeridos
+- 🚀 Deploy redundante (cada 12 horas)
+- 📝 Sistema de monitoreo mejorado
+- 🔍 Logs detallados con timestamps
+
+### **v2.1.0**
 - ✨ Sistema de automatización completo
 - 🤖 Chatbot integrado
 - 📊 Nuevas estadísticas avanzadas
