@@ -747,39 +747,39 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Cargar el resto de datos en paralelo
         const [totalData, homeData, awayData, scorersJson, asistentesJson, goles90Json, asistencias90Json, penaltisJson, lesionadosData] = await Promise.all([
-            loadJSON('../../data/laliga_2025_26_clasificacion_total.json').catch(error => {
+            loadJSON('/data/laliga_2025_26_clasificacion_total.json').catch(error => {
                 console.error('Error cargando clasificación total:', error);
                 return [];
             }),
-            loadJSON('../../data/laliga_2025_26_clasificacion_home.json').catch(error => {
+            loadJSON('/data/laliga_2025_26_clasificacion_home.json').catch(error => {
                 console.error('Error cargando clasificación como local:', error);
                 return [];
             }),
-            loadJSON('../../data/laliga_2025_26_clasificacion_away.json').catch(error => {
+            loadJSON('/data/laliga_2025_26_clasificacion_away.json').catch(error => {
                 console.error('Error cargando clasificación como visitante:', error);
                 return [];
             }),
-            loadJSON('../../data/laliga_2025_26_Goleadores.json').catch(error => {
+            loadJSON('/data/laliga_2025_26_Goleadores.json').catch(error => {
                 console.error('Error cargando goleadores:', error);
                 return { maximos_goleadores: [] };
             }),
-            loadJSON('../../data/laliga_2025_26_asistentes.json').catch(error => {
+            loadJSON('/data/laliga_2025_26_asistentes.json').catch(error => {
                 console.error('Error cargando asistentes:', error);
                 return { maximos_asistentes: [] };
             }),
-            loadJSON('../../data/laliga_2025_26_goles_por_90.json').catch(error => {
+            loadJSON('/data/laliga_2025_26_goles_por_90.json').catch(error => {
                 console.error('Error cargando goles por 90:', error);
                 return { goles_por_90: [] };
             }),
-            loadJSON('../../data/laliga_2025_26_asistencias_por_90.json').catch(error => {
+            loadJSON('/data/laliga_2025_26_asistencias_por_90.json').catch(error => {
                 console.error('Error cargando asistencias por 90:', error);
                 return { asistencias_por_90: [] };
             }),
-            loadJSON('../../data/laliga_2025_26_penaltis.json').catch(error => {
-                console.error('Error cargando goleadores de penalti:', error);
+            loadJSON('/data/laliga_2025_26_penaltis.json').catch(error => {
+                console.error('Error cargando penaltis:', error);
                 return { penaltis_marcados_por_jugador: [] };
             }),
-            loadLesionados().catch(error => {
+            loadJSON('/data/laliga_2025_26_lesionados_laliga.json').catch(error => {
                 console.error('Error cargando lesionados:', error);
                 return [];
             })
