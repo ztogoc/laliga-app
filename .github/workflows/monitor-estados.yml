@@ -42,7 +42,7 @@ jobs:
         
         for file in "${files[@]}"; do
           if [ -f "data/laliga_2025_26_${file}.json" ]; then
-            size=$(stat -f%s "data/laliga_2025_26_${file}.json" | cut -d' ' -f1)
+            size=$(stat -c%s "data/laliga_2025_26_${file}.json" 2>/dev/null || echo "0")
             if [ "$size" -gt 100 ]; then
               echo "✅ ${file}: Operativo (${size} bytes)"
               echo "${file}=operational" >> $GITHUB_ENV
@@ -137,7 +137,7 @@ jobs:
         echo "📝 Generando logs del sistema..."
         
         # Crear archivo de logs detallados
-        log_entry="[$(date '+%Y-%m-%d %H:%M:%S')] Sistema de monitoreo iniciado
+        log_entry="[$(date '+%Y-%m-%d %H:%M:%S')] Sistema de monitoreo iniciado"
         
         # Añadir al archivo de logs
         echo "${log_entry}" >> data/system_logs.txt
@@ -160,7 +160,8 @@ jobs:
       run: |
         git config user.name "Monitor Bot"
         git config user.email "monitor@laliga-app.bot"
-        git add data/system_status.json data/last_update.txt data/system_logs.txt
+        git add data/system_status.json data/last_update.txt || true
+        [ -f data/system_logs.txt ] && git add data/system_logs.txt || true
         git diff --cached --quiet || git commit -m "📊 Actualización estado sistema - $(date +'%Y-%m-%d %H:%M')"
         git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main || true
         
