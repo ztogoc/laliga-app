@@ -2,8 +2,8 @@ name: Actualizar Datos LaLiga
 
 on:
   schedule:
-    # Todos los jueves a las 14:50 UTC (15:50/16:50 España)
-    - cron: '50 14 * * 4'
+    # Todos los jueves a las 8:00 UTC
+    - cron: '35 14 * * 1'
   workflow_dispatch:  # Permite ejecutar manualmente
 
 jobs:
@@ -56,3 +56,7 @@ jobs:
         vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
         vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
         vercel-args: '--prod'
+        working-directory: ./
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        alias-domains: |
+          - laliga-app.vercel.app
