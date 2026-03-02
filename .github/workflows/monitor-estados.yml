@@ -27,23 +27,10 @@ jobs:
         echo "football_data=operational" >> $GITHUB_ENV
         echo "footystats=operational" >> $GITHUB_ENV
         
-    - name: Verificar Scripts
-      run: |
-        echo "Verificando scripts de scraping..."
-        files=("clasificacion_total" "ultimos5" "calendario" "lesionados" "goleadores" "asistentes")
-        for file in "${files[@]}"; do
-          if [ -f "data/laliga_2025_26_${file}.json" ]; then
-            size=$(stat -c%s "data/laliga_2025_26_${file}.json" 2>/dev/null || echo "0")
-            echo "${file}: Operativo (${size} bytes)"
-          else
-            echo "${file}: Operativo (generacion automatica)"
-          fi
-          echo "${file}=operational" >> $GITHUB_ENV
-        done
-        
     - name: Verificar Sistema
       run: |
-        echo "Generando logs del sistema..."
+        echo "Verificando estado del sistema..."
+        
         echo "github_actions=active" >> $GITHUB_ENV
         echo "deploy=online" >> $GITHUB_ENV
         
@@ -63,15 +50,10 @@ jobs:
         
         cat > data/system_status.json << 'JSONEOF'
         {
-          "apis": { "football_data": "operational", "footystats": "operational" },
-          "scripts": { "clasificacion": "operational", "calendario": "operational", "lesionados": "operational", "goleadores": "operational", "asistentes": "operational", "ultimos5": "operational" },
-          "system": { "github_actions": "active", "deploy": "online" }
+          "apis": { "football_data": "${{ env.football_data }}", "footystats": "${{ env.footystats }}" },
+          "system": { "github_actions": "active", "deploy": "${{ env.deploy }}", "disk_usage": "${{ env.disk_usage }}%", "last_update": "$(date -Iseconds)" }
         }
         JSONEOF
-        
-        # Anadir timestamp dinamico
-        TIMESTAMP=$(date -Iseconds)
-        sed -i "s/\"deploy\": \"online\"/\"deploy\": \"online\", \"last_update\": \"${TIMESTAMP}\"/" data/system_status.json
         
     - name: Generar Logs Detallados
       run: |
@@ -79,7 +61,7 @@ jobs:
         echo "[$(date '+%Y-%m-%d %H:%M:%S')] Sistema de monitoreo iniciado" >> data/system_logs.txt
         tail -50 data/system_logs.txt > data/system_logs_temp.txt
         mv data/system_logs_temp.txt data/system_logs.txt
-        echo "Logs: $(wc -l < data/system_logs.txt) entradas"
+        echo "Logs generados: $(wc -l < data/system_logs.txt) entradas"
         
     - name: Commit y Push estado
       if: always()
