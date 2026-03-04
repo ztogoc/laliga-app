@@ -25,12 +25,12 @@
     "posicion": 3,
     "equipo": "Real Madrid CF",
     "puntos": 33,
-    "partidos_jugados": 12,
+    "partidos_jugados": 13,
     "ganados": 11,
     "empatados": 0,
-    "perdidos": 1,
+    "perdidos": 2,
     "goles_a_favor": 29,
-    "goles_en_contra": 8
+    "goles_en_contra": 9
   },
   {
     "posicion": 4,

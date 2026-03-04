@@ -3161,14 +3161,14 @@
     {
       "home_team": "Real Madrid",
       "away_team": "Getafe CF",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 1,
       "round": 26,
       "location": "Estadio Santiago Bernabéu",
       "date": "2026-03-02",
       "time": "21:00",
       "match_id": 259,
-      "status": "Pendiente"
+      "status": "Finalizado"
     }
   ],
   "27": [

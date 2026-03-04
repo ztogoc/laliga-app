@@ -67,6 +67,17 @@
   },
   {
     "posicion": 7,
+    "equipo": "Getafe CF",
+    "puntos": 17,
+    "partidos_jugados": 13,
+    "ganados": 5,
+    "empatados": 2,
+    "perdidos": 6,
+    "goles_a_favor": 11,
+    "goles_en_contra": 18
+  },
+  {
+    "posicion": 8,
     "equipo": "RCD Espanyol de Barcelona",
     "puntos": 16,
     "partidos_jugados": 13,
@@ -77,7 +88,7 @@
     "goles_en_contra": 21
   },
   {
-    "posicion": 8,
+    "posicion": 9,
     "equipo": "Sevilla FC",
     "puntos": 15,
     "partidos_jugados": 13,
@@ -88,7 +99,7 @@
     "goles_en_contra": 22
   },
   {
-    "posicion": 9,
+    "posicion": 10,
     "equipo": "Real Sociedad de Fútbol",
     "puntos": 14,
     "partidos_jugados": 13,
@@ -99,7 +110,7 @@
     "goles_en_contra": 18
   },
   {
-    "posicion": 10,
+    "posicion": 11,
     "equipo": "Girona FC",
     "puntos": 14,
     "partidos_jugados": 13,
@@ -108,17 +119,6 @@
     "perdidos": 5,
     "goles_a_favor": 14,
     "goles_en_contra": 21
-  },
-  {
-    "posicion": 11,
-    "equipo": "Getafe CF",
-    "puntos": 14,
-    "partidos_jugados": 12,
-    "ganados": 4,
-    "empatados": 2,
-    "perdidos": 6,
-    "goles_a_favor": 10,
-    "goles_en_contra": 18
   },
   {
     "posicion": 12,
