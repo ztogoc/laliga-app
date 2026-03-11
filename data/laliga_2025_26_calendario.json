@@ -2795,14 +2795,14 @@
     {
       "home_team": "Rayo Vallecano",
       "away_team": "Real Oviedo",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 0,
       "round": 23,
       "location": "Estadio de Vallecas",
       "date": "2026-03-04",
       "time": "19:00",
       "match_id": 230,
-      "status": "Pendiente"
+      "status": "Finalizado"
     }
   ],
   "24": [
@@ -3175,122 +3175,122 @@
     {
       "home_team": "Celta",
       "away_team": "Real Madrid",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 2,
       "round": 27,
       "location": "Estadio ABANCA Balaídos",
       "date": "2026-03-06",
       "time": "21:00",
       "match_id": 263,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "CA Osasuna",
       "away_team": "RCD Mallorca",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 2,
       "round": 27,
       "location": "Estadio El Sadar",
       "date": "2026-03-07",
       "time": "14:00",
       "match_id": 269,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Levante UD",
       "away_team": "Girona FC",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 1,
       "round": 27,
       "location": "Estadio Ciutat de València",
       "date": "2026-03-07",
       "time": "16:15",
       "match_id": 268,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Atlético de Madrid",
       "away_team": "Real Sociedad",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 2,
       "round": 27,
       "location": "Riyadh Air Metropolitano",
       "date": "2026-03-07",
       "time": "18:30",
       "match_id": 262,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Athletic Club",
       "away_team": "FC Barcelona",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 1,
       "round": 27,
       "location": "Estadio San Mamés",
       "date": "2026-03-07",
       "time": "21:00",
       "match_id": 261,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Villarreal CF",
       "away_team": "Elche CF",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 1,
       "round": 27,
       "location": "Estadio de la Cerámica",
       "date": "2026-03-08",
       "time": "14:00",
       "match_id": 267,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Getafe CF",
       "away_team": "Real Betis",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 0,
       "round": 27,
       "location": "Coliseum",
       "date": "2026-03-08",
       "time": "16:15",
       "match_id": 266,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Sevilla FC",
       "away_team": "Rayo Vallecano",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 1,
       "round": 27,
       "location": "Ramón Sánchez-Pizjuán",
       "date": "2026-03-08",
       "time": "18:30",
       "match_id": 270,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Valencia CF",
       "away_team": "Deportivo Alavés",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 2,
       "round": 27,
       "location": "Camp de Mestalla",
       "date": "2026-03-08",
       "time": "21:00",
       "match_id": 265,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "RCD Espanyol de Barcelona",
       "away_team": "Real Oviedo",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 1,
       "round": 27,
       "location": "RCDE Stadium",
       "date": "2026-03-09",
       "time": "21:00",
       "match_id": 264,
-      "status": "Pendiente"
+      "status": "Finalizado"
     }
   ],
   "28": [

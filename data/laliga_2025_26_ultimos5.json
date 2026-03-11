@@ -760,21 +760,12 @@
   "Getafe CF": {
     "form": [
       "D",
-      "D",
       "W",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-01-26",
-        "opponent": "Girona FC",
-        "venue": "A",
-        "result": "D",
-        "score_for": 1,
-        "score_against": 1,
-        "round": 21
-      },
       {
         "date": "2026-02-01",
         "opponent": "Celta",
@@ -810,14 +801,23 @@
         "score_for": 0,
         "score_against": 1,
         "round": 25
+      },
+      {
+        "date": "2026-03-02",
+        "opponent": "Real Madrid",
+        "venue": "A",
+        "result": "W",
+        "score_for": 1,
+        "score_against": 0,
+        "round": 26
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
-      "draws": 2,
+      "wins": 3,
+      "draws": 1,
       "losses": 1,
-      "points": 8
+      "points": 10
     },
     "news_links": [
       {
@@ -1250,19 +1250,10 @@
       "W",
       "W",
       "W",
-      "W",
+      "L",
       "L"
     ],
     "matches": [
-      {
-        "date": "2026-01-24",
-        "opponent": "Villarreal CF",
-        "venue": "A",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 0,
-        "round": 21
-      },
       {
         "date": "2026-02-01",
         "opponent": "Rayo Vallecano",
@@ -1298,14 +1289,23 @@
         "score_for": 1,
         "score_against": 2,
         "round": 25
+      },
+      {
+        "date": "2026-03-02",
+        "opponent": "Getafe CF",
+        "venue": "H",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 1,
+        "round": 26
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 4,
+      "wins": 3,
       "draws": 0,
-      "losses": 1,
-      "points": 12
+      "losses": 2,
+      "points": 9
     },
     "news_links": [
       {
