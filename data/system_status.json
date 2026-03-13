@@ -1,4 +1,4 @@
 {
   "apis": { "football_data": "operational", "footystats": "operational" },
-  "system": { "github_actions": "active", "deploy": "online", "disk_usage": "38%", "last_update": "$(date -Iseconds)" }
+  "system": { "github_actions": "active", "deploy": "online", "disk_usage": "37%", "last_update": "$(date -Iseconds)" }
 }
