@@ -1,22 +1,13 @@
 {
   "Girona FC": {
     "form": [
-      "L",
       "D",
       "W",
       "D",
-      "L"
+      "L",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-01-31",
-        "opponent": "Real Oviedo",
-        "venue": "A",
-        "result": "L",
-        "score_for": 0,
-        "score_against": 1,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Sevilla FC",
@@ -52,43 +43,34 @@
         "score_for": 1,
         "score_against": 2,
         "round": 26
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "Levante UD",
+        "venue": "A",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
       "wins": 1,
-      "draws": 2,
-      "losses": 2,
-      "points": 5
+      "draws": 3,
+      "losses": 1,
+      "points": 6
     }
   },
   "Rayo Vallecano": {
     "form": [
-      "L",
-      "L",
       "W",
       "D",
+      "D",
+      "W",
       "D"
     ],
     "matches": [
-      {
-        "date": "2026-01-24",
-        "opponent": "CA Osasuna",
-        "venue": "H",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 3,
-        "round": 21
-      },
-      {
-        "date": "2026-02-01",
-        "opponent": "Real Madrid",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 22
-      },
       {
         "date": "2026-02-15",
         "opponent": "Atlético de Madrid",
@@ -115,34 +97,43 @@
         "score_for": 1,
         "score_against": 1,
         "round": 26
+      },
+      {
+        "date": "2026-03-04",
+        "opponent": "Real Oviedo",
+        "venue": "H",
+        "result": "W",
+        "score_for": 3,
+        "score_against": 0,
+        "round": 23
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Sevilla FC",
+        "venue": "A",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
-      "draws": 2,
-      "losses": 2,
-      "points": 5
+      "wins": 2,
+      "draws": 3,
+      "losses": 0,
+      "points": 9
     }
   },
   "Villarreal CF": {
     "form": [
-      "W",
       "L",
       "W",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-02-09",
-        "opponent": "RCD Espanyol de Barcelona",
-        "venue": "H",
-        "result": "W",
-        "score_for": 4,
-        "score_against": 1,
-        "round": 23
-      },
       {
         "date": "2026-02-14",
         "opponent": "Getafe CF",
@@ -178,6 +169,15 @@
         "score_for": 1,
         "score_against": 4,
         "round": 26
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Elche CF",
+        "venue": "H",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
@@ -191,30 +191,12 @@
   "Real Oviedo": {
     "form": [
       "L",
-      "W",
-      "L",
       "D",
-      "L"
+      "L",
+      "L",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-01-25",
-        "opponent": "FC Barcelona",
-        "venue": "A",
-        "result": "L",
-        "score_for": 0,
-        "score_against": 3,
-        "round": 21
-      },
-      {
-        "date": "2026-01-31",
-        "opponent": "Girona FC",
-        "venue": "H",
-        "result": "W",
-        "score_for": 1,
-        "score_against": 0,
-        "round": 22
-      },
       {
         "date": "2026-02-15",
         "opponent": "Athletic Club",
@@ -241,34 +223,43 @@
         "score_for": 0,
         "score_against": 1,
         "round": 26
+      },
+      {
+        "date": "2026-03-04",
+        "opponent": "Rayo Vallecano",
+        "venue": "A",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 3,
+        "round": 23
+      },
+      {
+        "date": "2026-03-09",
+        "opponent": "RCD Espanyol de Barcelona",
+        "venue": "A",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
-      "draws": 1,
+      "wins": 0,
+      "draws": 2,
       "losses": 3,
-      "points": 4
+      "points": 2
     }
   },
   "RCD Mallorca": {
     "form": [
-      "W",
       "L",
       "L",
       "L",
-      "L"
+      "L",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-02-02",
-        "opponent": "Sevilla FC",
-        "venue": "H",
-        "result": "W",
-        "score_for": 4,
-        "score_against": 1,
-        "round": 22
-      },
       {
         "date": "2026-02-07",
         "opponent": "FC Barcelona",
@@ -304,14 +295,23 @@
         "score_for": 0,
         "score_against": 1,
         "round": 26
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "CA Osasuna",
+        "venue": "A",
+        "result": "D",
+        "score_for": 2,
+        "score_against": 2,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
-      "draws": 0,
+      "wins": 0,
+      "draws": 1,
       "losses": 4,
-      "points": 3
+      "points": 1
     },
     "news_links": [
       {
@@ -334,21 +334,12 @@
   "FC Barcelona": {
     "form": [
       "W",
-      "W",
       "L",
+      "W",
       "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-01-31",
-        "opponent": "Elche CF",
-        "venue": "A",
-        "result": "W",
-        "score_for": 3,
-        "score_against": 1,
-        "round": 22
-      },
       {
         "date": "2026-02-07",
         "opponent": "RCD Mallorca",
@@ -384,6 +375,15 @@
         "score_for": 4,
         "score_against": 1,
         "round": 26
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "Athletic Club",
+        "venue": "A",
+        "result": "W",
+        "score_for": 1,
+        "score_against": 0,
+        "round": 27
       }
     ],
     "stats": {
@@ -413,22 +413,13 @@
   },
   "Deportivo Alavés": {
     "form": [
-      "W",
       "L",
       "D",
       "D",
+      "L",
       "L"
     ],
     "matches": [
-      {
-        "date": "2026-01-30",
-        "opponent": "RCD Espanyol de Barcelona",
-        "venue": "A",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Getafe CF",
@@ -464,14 +455,23 @@
         "score_for": 0,
         "score_against": 2,
         "round": 26
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Valencia CF",
+        "venue": "A",
+        "result": "L",
+        "score_for": 2,
+        "score_against": 3,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
+      "wins": 0,
       "draws": 2,
-      "losses": 2,
-      "points": 5
+      "losses": 3,
+      "points": 2
     },
     "news_links": [
       {
@@ -491,19 +491,10 @@
       "L",
       "L",
       "L",
-      "L",
-      "W"
+      "W",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-02-08",
-        "opponent": "Athletic Club",
-        "venue": "A",
-        "result": "L",
-        "score_for": 2,
-        "score_against": 4,
-        "round": 23
-      },
       {
         "date": "2026-02-15",
         "opponent": "Valencia CF",
@@ -539,34 +530,34 @@
         "score_for": 2,
         "score_against": 0,
         "round": 26
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "Girona FC",
+        "venue": "H",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
       "wins": 1,
-      "draws": 0,
-      "losses": 4,
-      "points": 3
+      "draws": 1,
+      "losses": 3,
+      "points": 4
     }
   },
   "Valencia CF": {
     "form": [
       "L",
-      "L",
       "W",
       "L",
+      "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-02-01",
-        "opponent": "Real Betis",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Real Madrid",
@@ -602,14 +593,23 @@
         "score_for": 1,
         "score_against": 0,
         "round": 26
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Deportivo Alavés",
+        "venue": "H",
+        "result": "W",
+        "score_for": 3,
+        "score_against": 2,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
+      "wins": 3,
       "draws": 0,
-      "losses": 3,
-      "points": 6
+      "losses": 2,
+      "points": 9
     },
     "news_links": [
       {
@@ -626,22 +626,13 @@
   },
   "Real Sociedad": {
     "form": [
-      "D",
       "W",
       "L",
       "D",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-02-01",
-        "opponent": "Athletic Club",
-        "venue": "A",
-        "result": "D",
-        "score_for": 1,
-        "score_against": 1,
-        "round": 22
-      },
       {
         "date": "2026-02-07",
         "opponent": "Elche CF",
@@ -677,14 +668,23 @@
         "score_for": 1,
         "score_against": 0,
         "round": 26
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "Atlético de Madrid",
+        "venue": "A",
+        "result": "L",
+        "score_for": 2,
+        "score_against": 3,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
       "wins": 2,
-      "draws": 2,
-      "losses": 1,
-      "points": 8
+      "draws": 1,
+      "losses": 2,
+      "points": 7
     },
     "news_links": [
       {
@@ -696,22 +696,13 @@
   },
   "Celta": {
     "form": [
-      "D",
       "L",
       "D",
       "W",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-02-01",
-        "opponent": "Getafe CF",
-        "venue": "A",
-        "result": "D",
-        "score_for": 0,
-        "score_against": 0,
-        "round": 22
-      },
       {
         "date": "2026-02-06",
         "opponent": "CA Osasuna",
@@ -747,34 +738,34 @@
         "score_for": 2,
         "score_against": 1,
         "round": 26
+      },
+      {
+        "date": "2026-03-06",
+        "opponent": "Real Madrid",
+        "venue": "H",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 2,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
       "wins": 2,
-      "draws": 2,
-      "losses": 1,
-      "points": 8
+      "draws": 1,
+      "losses": 2,
+      "points": 7
     }
   },
   "Getafe CF": {
     "form": [
-      "D",
       "W",
       "W",
       "L",
+      "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-02-01",
-        "opponent": "Celta",
-        "venue": "H",
-        "result": "D",
-        "score_for": 0,
-        "score_against": 0,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Deportivo Alavés",
@@ -810,14 +801,23 @@
         "score_for": 1,
         "score_against": 0,
         "round": 26
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Real Betis",
+        "venue": "H",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 0,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 3,
-      "draws": 1,
+      "wins": 4,
+      "draws": 0,
       "losses": 1,
-      "points": 10
+      "points": 12
     },
     "news_links": [
       {
@@ -834,22 +834,13 @@
   },
   "Athletic Club": {
     "form": [
+      "W",
+      "W",
+      "W",
       "D",
-      "W",
-      "W",
-      "W",
-      "D"
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-02-01",
-        "opponent": "Real Sociedad",
-        "venue": "H",
-        "result": "D",
-        "score_for": 1,
-        "score_against": 1,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Levante UD",
@@ -885,14 +876,23 @@
         "score_for": 1,
         "score_against": 1,
         "round": 26
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "FC Barcelona",
+        "venue": "H",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
       "wins": 3,
-      "draws": 2,
-      "losses": 0,
-      "points": 11
+      "draws": 1,
+      "losses": 1,
+      "points": 10
     },
     "news_links": [
       {
@@ -904,22 +904,13 @@
   },
   "Sevilla FC": {
     "form": [
-      "L",
       "D",
       "D",
       "W",
+      "D",
       "D"
     ],
     "matches": [
-      {
-        "date": "2026-02-02",
-        "opponent": "RCD Mallorca",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 4,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Girona FC",
@@ -955,14 +946,23 @@
         "score_for": 2,
         "score_against": 2,
         "round": 26
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Rayo Vallecano",
+        "venue": "H",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
       "wins": 1,
-      "draws": 3,
-      "losses": 1,
-      "points": 6
+      "draws": 4,
+      "losses": 0,
+      "points": 7
     },
     "news_links": [
       {
@@ -975,21 +975,12 @@
   "RCD Espanyol de Barcelona": {
     "form": [
       "L",
-      "L",
       "D",
       "L",
+      "D",
       "D"
     ],
     "matches": [
-      {
-        "date": "2026-01-30",
-        "opponent": "Deportivo Alavés",
-        "venue": "H",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 22
-      },
       {
         "date": "2026-02-09",
         "opponent": "Villarreal CF",
@@ -1025,14 +1016,23 @@
         "score_for": 2,
         "score_against": 2,
         "round": 26
+      },
+      {
+        "date": "2026-03-09",
+        "opponent": "Real Oviedo",
+        "venue": "H",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
       "wins": 0,
-      "draws": 2,
-      "losses": 3,
-      "points": 2
+      "draws": 3,
+      "losses": 2,
+      "points": 3
     },
     "news_links": [
       {
@@ -1044,22 +1044,13 @@
   },
   "Atlético de Madrid": {
     "form": [
-      "D",
       "L",
       "L",
+      "W",
       "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-01-31",
-        "opponent": "Levante UD",
-        "venue": "A",
-        "result": "D",
-        "score_for": 0,
-        "score_against": 0,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Real Betis",
@@ -1095,14 +1086,23 @@
         "score_for": 1,
         "score_against": 0,
         "round": 26
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "Real Sociedad",
+        "venue": "H",
+        "result": "W",
+        "score_for": 3,
+        "score_against": 2,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
-      "draws": 1,
+      "wins": 3,
+      "draws": 0,
       "losses": 2,
-      "points": 7
+      "points": 9
     },
     "news_links": [
       {
@@ -1115,21 +1115,12 @@
   "Elche CF": {
     "form": [
       "L",
-      "L",
       "D",
       "L",
-      "D"
+      "D",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-01-31",
-        "opponent": "FC Barcelona",
-        "venue": "H",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 3,
-        "round": 22
-      },
       {
         "date": "2026-02-07",
         "opponent": "Real Sociedad",
@@ -1165,6 +1156,15 @@
         "score_for": 2,
         "score_against": 2,
         "round": 26
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Villarreal CF",
+        "venue": "A",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 2,
+        "round": 27
       }
     ],
     "stats": {
@@ -1179,20 +1179,11 @@
     "form": [
       "W",
       "W",
-      "W",
       "D",
-      "D"
+      "D",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-02-01",
-        "opponent": "Valencia CF",
-        "venue": "H",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Atlético de Madrid",
@@ -1228,14 +1219,23 @@
         "score_for": 2,
         "score_against": 2,
         "round": 26
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Getafe CF",
+        "venue": "A",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 2,
+        "round": 27
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 3,
+      "wins": 2,
       "draws": 2,
-      "losses": 0,
-      "points": 11
+      "losses": 1,
+      "points": 8
     },
     "news_links": [
       {
@@ -1249,20 +1249,11 @@
     "form": [
       "W",
       "W",
-      "W",
       "L",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-02-01",
-        "opponent": "Rayo Vallecano",
-        "venue": "H",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 22
-      },
       {
         "date": "2026-02-08",
         "opponent": "Valencia CF",
@@ -1298,6 +1289,15 @@
         "score_for": 0,
         "score_against": 1,
         "round": 26
+      },
+      {
+        "date": "2026-03-06",
+        "opponent": "Celta",
+        "venue": "A",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 1,
+        "round": 27
       }
     ],
     "stats": {
@@ -1322,22 +1322,13 @@
   },
   "CA Osasuna": {
     "form": [
-      "D",
       "W",
       "D",
       "W",
-      "L"
+      "L",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-01-31",
-        "opponent": "Villarreal CF",
-        "venue": "H",
-        "result": "D",
-        "score_for": 2,
-        "score_against": 2,
-        "round": 22
-      },
       {
         "date": "2026-02-06",
         "opponent": "Celta",
@@ -1373,6 +1364,15 @@
         "score_for": 0,
         "score_against": 1,
         "round": 26
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "RCD Mallorca",
+        "venue": "H",
+        "result": "D",
+        "score_for": 2,
+        "score_against": 2,
+        "round": 27
       }
     ],
     "stats": {
