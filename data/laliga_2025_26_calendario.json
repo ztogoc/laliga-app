@@ -3541,122 +3541,122 @@
     {
       "home_team": "Rayo Vallecano",
       "away_team": "Elche CF",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "round": 30,
       "location": "Estadio de Vallecas",
       "date": "2026-04-03",
       "time": "20:00",
       "match_id": 299,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Real Sociedad",
       "away_team": "Levante UD",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 0,
       "round": 30,
       "location": "Anoeta",
       "date": "2026-04-04",
       "time": "13:00",
       "match_id": 300,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "RCD Mallorca",
       "away_team": "Real Madrid",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 1,
       "round": 30,
       "location": "Estadi Mallorca Son Moix",
       "date": "2026-04-04",
       "time": "15:15",
       "match_id": 295,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Real Betis",
       "away_team": "RCD Espanyol de Barcelona",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 0,
       "round": 30,
       "location": "Estadio Olímpico de La Cartuja",
       "date": "2026-04-04",
       "time": "17:30",
       "match_id": 293,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Atlético de Madrid",
       "away_team": "FC Barcelona",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 2,
       "round": 30,
       "location": "Riyadh Air Metropolitano",
       "date": "2026-04-04",
       "time": "20:00",
       "match_id": 292,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Getafe CF",
       "away_team": "Athletic Club",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 0,
       "round": 30,
       "location": "Coliseum",
       "date": "2026-04-05",
       "time": "13:00",
       "match_id": 297,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Valencia CF",
       "away_team": "Celta",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 3,
       "round": 30,
       "location": "Camp de Mestalla",
       "date": "2026-04-05",
       "time": "15:15",
       "match_id": 298,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Real Oviedo",
       "away_team": "Sevilla FC",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "round": 30,
       "location": "Estadio Carlos Tartiere",
       "date": "2026-04-05",
       "time": "17:30",
       "match_id": 296,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Deportivo Alavés",
       "away_team": "CA Osasuna",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 2,
       "round": 30,
       "location": "Mendizorroza",
       "date": "2026-04-05",
       "time": "20:00",
       "match_id": 291,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Girona FC",
       "away_team": "Villarreal CF",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "round": 30,
       "location": "Estadio Municipal de Montilivi",
       "date": "2026-04-06",
       "time": "20:00",
       "match_id": 294,
-      "status": "Pendiente"
+      "status": "Finalizado"
     }
   ],
   "31": [
