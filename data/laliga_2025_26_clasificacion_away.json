@@ -90,13 +90,13 @@
   {
     "posicion": 9,
     "equipo": "Girona FC",
-    "puntos": 15,
-    "partidos_jugados": 15,
+    "puntos": 16,
+    "partidos_jugados": 16,
     "ganados": 3,
-    "empatados": 6,
+    "empatados": 7,
     "perdidos": 6,
-    "goles_a_favor": 15,
-    "goles_en_contra": 23
+    "goles_a_favor": 16,
+    "goles_en_contra": 24
   },
   {
     "posicion": 10,
@@ -133,6 +133,17 @@
   },
   {
     "posicion": 13,
+    "equipo": "Deportivo Alavés",
+    "puntos": 12,
+    "partidos_jugados": 16,
+    "ganados": 3,
+    "empatados": 3,
+    "perdidos": 10,
+    "goles_a_favor": 16,
+    "goles_en_contra": 28
+  },
+  {
+    "posicion": 14,
     "equipo": "Rayo Vallecano de Madrid",
     "puntos": 12,
     "partidos_jugados": 15,
@@ -143,7 +154,7 @@
     "goles_en_contra": 24
   },
   {
-    "posicion": 14,
+    "posicion": 15,
     "equipo": "Athletic Club",
     "puntos": 12,
     "partidos_jugados": 15,
@@ -154,26 +165,15 @@
     "goles_en_contra": 26
   },
   {
-    "posicion": 15,
+    "posicion": 16,
     "equipo": "Valencia CF",
     "puntos": 12,
-    "partidos_jugados": 15,
+    "partidos_jugados": 16,
     "ganados": 3,
     "empatados": 3,
-    "perdidos": 9,
-    "goles_a_favor": 13,
-    "goles_en_contra": 27
-  },
-  {
-    "posicion": 16,
-    "equipo": "Deportivo Alavés",
-    "puntos": 11,
-    "partidos_jugados": 15,
-    "ganados": 3,
-    "empatados": 2,
     "perdidos": 10,
     "goles_a_favor": 13,
-    "goles_en_contra": 25
+    "goles_en_contra": 28
   },
   {
     "posicion": 17,

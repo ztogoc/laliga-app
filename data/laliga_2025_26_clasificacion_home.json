@@ -12,6 +12,17 @@
   },
   {
     "posicion": 2,
+    "equipo": "Real Madrid CF",
+    "puntos": 40,
+    "partidos_jugados": 16,
+    "ganados": 13,
+    "empatados": 1,
+    "perdidos": 2,
+    "goles_a_favor": 37,
+    "goles_en_contra": 13
+  },
+  {
+    "posicion": 3,
     "equipo": "Club Atlético de Madrid",
     "puntos": 40,
     "partidos_jugados": 16,
@@ -20,17 +31,6 @@
     "perdidos": 2,
     "goles_a_favor": 35,
     "goles_en_contra": 14
-  },
-  {
-    "posicion": 3,
-    "equipo": "Real Madrid CF",
-    "puntos": 39,
-    "partidos_jugados": 15,
-    "ganados": 13,
-    "empatados": 0,
-    "perdidos": 2,
-    "goles_a_favor": 36,
-    "goles_en_contra": 12
   },
   {
     "posicion": 4,
@@ -45,6 +45,17 @@
   },
   {
     "posicion": 5,
+    "equipo": "Elche CF",
+    "puntos": 28,
+    "partidos_jugados": 16,
+    "ganados": 7,
+    "empatados": 7,
+    "perdidos": 2,
+    "goles_a_favor": 25,
+    "goles_en_contra": 16
+  },
+  {
+    "posicion": 6,
     "equipo": "CA Osasuna",
     "puntos": 28,
     "partidos_jugados": 14,
@@ -55,18 +66,18 @@
     "goles_en_contra": 16
   },
   {
-    "posicion": 6,
+    "posicion": 7,
     "equipo": "Real Sociedad de Fútbol",
-    "puntos": 27,
-    "partidos_jugados": 15,
+    "puntos": 28,
+    "partidos_jugados": 16,
     "ganados": 8,
-    "empatados": 3,
+    "empatados": 4,
     "perdidos": 4,
-    "goles_a_favor": 29,
-    "goles_en_contra": 21
+    "goles_a_favor": 32,
+    "goles_en_contra": 24
   },
   {
-    "posicion": 7,
+    "posicion": 8,
     "equipo": "Real Betis Balompié",
     "puntos": 26,
     "partidos_jugados": 15,
@@ -77,7 +88,7 @@
     "goles_en_contra": 16
   },
   {
-    "posicion": 8,
+    "posicion": 9,
     "equipo": "Athletic Club",
     "puntos": 26,
     "partidos_jugados": 15,
@@ -86,17 +97,6 @@
     "perdidos": 5,
     "goles_a_favor": 19,
     "goles_en_contra": 17
-  },
-  {
-    "posicion": 9,
-    "equipo": "Elche CF",
-    "puntos": 25,
-    "partidos_jugados": 15,
-    "ganados": 6,
-    "empatados": 7,
-    "perdidos": 2,
-    "goles_a_favor": 24,
-    "goles_en_contra": 16
   },
   {
     "posicion": 10,
