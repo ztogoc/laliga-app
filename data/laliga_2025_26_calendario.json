@@ -3675,110 +3675,110 @@
     {
       "home_team": "Real Sociedad",
       "away_team": "Deportivo Alavés",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 3,
       "round": 31,
       "location": "Anoeta",
       "date": "2026-04-11",
       "time": "13:00",
       "match_id": 306,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Elche CF",
       "away_team": "Valencia CF",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "round": 31,
       "location": "Estadio Martínez Valero",
       "date": "2026-04-11",
       "time": "15:15",
       "match_id": 304,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "FC Barcelona",
       "away_team": "RCD Espanyol de Barcelona",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 4,
+      "away_score": 1,
       "round": 31,
       "location": "Spotify Camp Nou",
       "date": "2026-04-11",
       "time": "17:30",
       "match_id": 302,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Sevilla FC",
       "away_team": "Atlético de Madrid",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 1,
       "round": 31,
       "location": "Ramón Sánchez-Pizjuán",
       "date": "2026-04-11",
       "time": "20:00",
       "match_id": 307,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "CA Osasuna",
       "away_team": "Real Betis",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 1,
       "round": 31,
       "location": "Estadio El Sadar",
       "date": "2026-04-12",
       "time": "13:00",
       "match_id": 308,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "RCD Mallorca",
       "away_team": "Rayo Vallecano",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 0,
       "round": 31,
       "location": "Estadi Mallorca Son Moix",
       "date": "2026-04-12",
       "time": "15:15",
       "match_id": 305,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Celta",
       "away_team": "Real Oviedo",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 3,
       "round": 31,
       "location": "Estadio ABANCA Balaídos",
       "date": "2026-04-12",
       "time": "17:30",
       "match_id": 303,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Athletic Club",
       "away_team": "Villarreal CF",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 2,
       "round": 31,
       "location": "Estadio San Mamés",
       "date": "2026-04-12",
       "time": "20:00",
       "match_id": 301,
-      "status": "Pendiente"
+      "status": "Finalizado"
     },
     {
       "home_team": "Levante UD",
       "away_team": "Getafe CF",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "round": 31,
       "location": "Estadio Ciutat de València",
       "date": "2026-04-13",
       "time": "20:00",
       "match_id": 309,
-      "status": "Pendiente"
+      "status": "Finalizado"
     }
   ],
   "33": [

@@ -1,22 +1,13 @@
 {
   "Girona FC": {
     "form": [
-      "L",
       "D",
       "W",
       "L",
-      "W"
+      "W",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-03-01",
-        "opponent": "Celta",
-        "venue": "H",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 26
-      },
       {
         "date": "2026-03-07",
         "opponent": "Levante UD",
@@ -52,25 +43,39 @@
         "score_for": 1,
         "score_against": 0,
         "round": 30
+      },
+      {
+        "date": "2026-04-10",
+        "opponent": "Real Madrid",
+        "venue": "A",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 31
       }
     ],
     "stats": {
       "played": 5,
       "wins": 2,
-      "draws": 1,
-      "losses": 2,
-      "points": 7
+      "draws": 2,
+      "losses": 1,
+      "points": 8
     },
     "news_links": [
       {
         "url": "https://www.jornadaperfecta.com/blog/abel-ruiz-lesion-girona-fc/",
-        "fecha": "2026-04-11",
-        "titulo": "Abel Ruiz sufre una nueva lesión muscular"
+        "fecha": "2026-04-13",
+        "titulo": "Abel Ruiz: Parte médico oficial y tiempo de baja"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/once-girona-jornada-31/",
-        "fecha": "2026-04-10",
-        "titulo": "¡Once titular confirmado del Girona FC!"
+        "url": "https://www.jornadaperfecta.com/blog/lemar-recomendable-fantasy-girona/",
+        "fecha": "2026-04-13",
+        "titulo": "Lemar vuelve a la titularidad con gol en el Bernabéu: ¿fichar?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/lemar-recomendable-fantasy-girona/#comments",
+        "fecha": "2026-04-13",
+        "titulo": "Lemar vuelve a la titularidad con gol en el Bernabéu: ¿fichar?"
       }
     ]
   },
@@ -135,7 +140,14 @@
       "draws": 2,
       "losses": 1,
       "points": 8
-    }
+    },
+    "news_links": [
+      {
+        "url": "https://www.jornadaperfecta.com/blog/batalla-entrenamiento-rayo-vallecano-2/",
+        "fecha": "2026-04-15",
+        "titulo": "Batalla sigue al margen pero viaja a Atenas, ¿recuperado?"
+      }
+    ]
   },
   "Villarreal CF": {
     "form": [
@@ -201,9 +213,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/moleiro-alinear-j31-villarreal-fantasy/",
-        "fecha": "2026-04-10",
-        "titulo": "Posible suplencia de Alberto Moleiro, ¿alinear en la j31?"
+        "url": "https://www.jornadaperfecta.com/blog/thiago-fernandez-clausula-miedo-real-oviedo-villarreal/",
+        "fecha": "2026-04-14",
+        "titulo": "Thiago Fernández, sin cláusula del miedo ante el Villarreal"
       }
     ]
   },
@@ -334,14 +346,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/demichelis-previa-mallorca-rayo-j31/",
-        "fecha": "2026-04-11",
-        "titulo": "Demichelis, sobre Darder, Pablo Torre y Mascarell"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/inigo-perez-previa-mallorca-rayo-j31/",
-        "fecha": "2026-04-11",
-        "titulo": "Iñigo Pérez no descarta a Batalla y habla de Trejo"
+        "url": "https://www.jornadaperfecta.com/blog/mateo-joseph-lesion-rodilla-mallorca/",
+        "fecha": "2026-04-13",
+        "titulo": "Mateo Joseph será operado de la rodilla: adiós a la temporada"
       }
     ]
   },
@@ -409,19 +416,14 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/lamine-yamal-susto-entrenamiento-barcelona/",
-        "fecha": "2026-04-11",
-        "titulo": "Lamine Yamal dio el susto en el entrenamiento del Barça"
+        "url": "https://www.jornadaperfecta.com/blog/gavi-chollo-fantasy-fc-barcelona/",
+        "fecha": "2026-04-14",
+        "titulo": "Gavi impone su carácter en el Barça: ¿chollo fantasy?"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/pedri-alinear-j31-fantasy-barcelona/",
-        "fecha": "2026-04-10",
-        "titulo": "Pedri apunta a descansar en la jornada 31, ¿alinear?"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/manolo-gonzalez-previa-barcelona-espanyol-j31/",
-        "fecha": "2026-04-10",
-        "titulo": "Manolo González, sobre Pickel, Riedel y el Barcelona"
+        "url": "https://www.jornadaperfecta.com/blog/gavi-chollo-fantasy-fc-barcelona/#comments",
+        "fecha": "2026-04-14",
+        "titulo": "Gavi impone su carácter en el Barça: ¿chollo fantasy?"
       }
     ]
   },
@@ -920,31 +922,6 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/bigup-athletic-villarreal-pronosticos/",
-        "fecha": "2026-04-11",
-        "titulo": "BigUp: Gana dinero real con tus pronósticos del Athletic – Villarreal"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/valverde-previa-athletic-villarreal-j31-2/",
-        "fecha": "2026-04-11",
-        "titulo": "Valverde, sobre Vivian, Nico Williams y Beñat Prados"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/valverde-previa-athletic-villarreal-j31-2/#respond",
-        "fecha": "2026-04-11",
-        "titulo": "Valverde, sobre Vivian, Nico Williams y Beñat Prados"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/yeray-titular-athletic-fantasy/",
-        "fecha": "2026-04-09",
-        "titulo": "Yeray vuelve a ser titular tras la sanción: ¿recomendable?"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/yeray-titular-athletic-fantasy/#comments",
-        "fecha": "2026-04-09",
-        "titulo": "Yeray vuelve a ser titular tras la sanción: ¿recomendable?"
-      },
-      {
         "url": "https://www.jornadaperfecta.com/blog/promocion-kirolbet-athletic-vs-villarreal/",
         "fecha": "2026-04-11",
         "titulo": "Promoción Kirolbet Athletic vs Villarreal: ¡5€ por cada gol!"
@@ -1160,34 +1137,14 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-probables-del-barcelona-atletico-de-champions/",
-        "fecha": "2026-04-08",
-        "titulo": "Alineaciones probables del Barcelona – Atlético de Champions"
+        "url": "https://www.jornadaperfecta.com/blog/888sport-atletico-vs-barcelona-cuotas-champions/",
+        "fecha": "2026-04-13",
+        "titulo": "Atlético vs Barcelona: cuotas, apuestas y bono de 888Sport | Champions League"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-sevilla-atletico-j31-25-26/",
-        "fecha": "2026-04-08",
-        "titulo": "Las claves fantasy del Sevilla – Atlético: Onces, Lesiones y Apuestas"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/promocion-kirolbet-atletico-vs-barcelona/",
-        "fecha": "2026-04-03",
-        "titulo": "Promoción Kirolbet Atlético vs Barcelona: ¡5€ por cada gol!"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/promocion-kirolbet-atletico-vs-barcelona/#respond",
-        "fecha": "2026-04-03",
-        "titulo": "Promoción Kirolbet Atlético vs Barcelona: ¡5€ por cada gol!"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/888sport-atletico-vs-barcelona-cuotas/",
-        "fecha": "2026-04-01",
-        "titulo": "Atlético vs Barcelona: cuotas, apuestas y bono de 888Sport | LaLiga EA Sports"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/888sport-atletico-vs-barcelona-cuotas/#respond",
-        "fecha": "2026-04-01",
-        "titulo": "Atlético vs Barcelona: cuotas, apuestas y bono de 888Sport | LaLiga EA Sports"
+        "url": "https://www.jornadaperfecta.com/blog/888sport-atletico-vs-barcelona-cuotas-champions/#respond",
+        "fecha": "2026-04-13",
+        "titulo": "Atlético vs Barcelona: cuotas, apuestas y bono de 888Sport | Champions League"
       }
     ]
   },
@@ -1331,22 +1288,13 @@
   },
   "Real Madrid": {
     "form": [
+      "W",
+      "W",
+      "W",
       "L",
-      "W",
-      "W",
-      "W",
-      "L"
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-03-02",
-        "opponent": "Getafe CF",
-        "venue": "H",
-        "result": "L",
-        "score_for": 0,
-        "score_against": 1,
-        "round": 26
-      },
       {
         "date": "2026-03-06",
         "opponent": "Celta",
@@ -1382,20 +1330,49 @@
         "score_for": 1,
         "score_against": 2,
         "round": 30
+      },
+      {
+        "date": "2026-04-10",
+        "opponent": "Girona FC",
+        "venue": "H",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 31
       }
     ],
     "stats": {
       "played": 5,
       "wins": 3,
-      "draws": 0,
-      "losses": 2,
-      "points": 9
+      "draws": 1,
+      "losses": 1,
+      "points": 10
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/once-real-madrid-jornada-31/",
-        "fecha": "2026-04-10",
-        "titulo": "Once confirmado del Real Madrid con Militao y Bellingham"
+        "url": "https://www.jornadaperfecta.com/blog/real-madrid-alineacion-probable-bayern-vuelta-26/",
+        "fecha": "2026-04-15",
+        "titulo": "Real Madrid, alineación probable contra el Bayern Munich y dónde ver en TV"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/mbappe-dudas-fantasy-real-madrid/",
+        "fecha": "2026-04-13",
+        "titulo": "Mbappé no arranca en su vuelta, ¿vender o mantener en fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/mbappe-dudas-fantasy-real-madrid/#comments",
+        "fecha": "2026-04-13",
+        "titulo": "Mbappé no arranca en su vuelta, ¿vender o mantener en fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/888sport-bayern-vs-real-madrid-cuotas-champions/",
+        "fecha": "2026-04-15",
+        "titulo": "Bayern vs Real Madrid: cuotas, apuestas y bono de 888Sport | Champions League"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/888sport-bayern-vs-real-madrid-cuotas-champions/#respond",
+        "fecha": "2026-04-15",
+        "titulo": "Bayern vs Real Madrid: cuotas, apuestas y bono de 888Sport | Champions League"
       }
     ]
   },
