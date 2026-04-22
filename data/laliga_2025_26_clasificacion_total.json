@@ -13,13 +13,13 @@
   {
     "posicion": 2,
     "equipo": "Real Madrid CF",
-    "puntos": 70,
-    "partidos_jugados": 31,
-    "ganados": 22,
+    "puntos": 73,
+    "partidos_jugados": 32,
+    "ganados": 23,
     "empatados": 4,
     "perdidos": 5,
-    "goles_a_favor": 65,
-    "goles_en_contra": 29
+    "goles_a_favor": 67,
+    "goles_en_contra": 30
   },
   {
     "posicion": 3,
@@ -46,13 +46,13 @@
   {
     "posicion": 5,
     "equipo": "Real Betis Balompié",
-    "puntos": 46,
-    "partidos_jugados": 31,
-    "ganados": 11,
+    "puntos": 49,
+    "partidos_jugados": 32,
+    "ganados": 12,
     "empatados": 13,
     "perdidos": 7,
-    "goles_a_favor": 45,
-    "goles_en_contra": 38
+    "goles_a_favor": 48,
+    "goles_en_contra": 40
   },
   {
     "posicion": 6,
@@ -89,17 +89,28 @@
   },
   {
     "posicion": 9,
-    "equipo": "CA Osasuna",
-    "puntos": 39,
-    "partidos_jugados": 31,
-    "ganados": 10,
-    "empatados": 9,
-    "perdidos": 12,
-    "goles_a_favor": 37,
-    "goles_en_contra": 38
+    "equipo": "Athletic Club",
+    "puntos": 41,
+    "partidos_jugados": 32,
+    "ganados": 12,
+    "empatados": 5,
+    "perdidos": 15,
+    "goles_a_favor": 34,
+    "goles_en_contra": 45
   },
   {
     "posicion": 10,
+    "equipo": "CA Osasuna",
+    "puntos": 39,
+    "partidos_jugados": 32,
+    "ganados": 10,
+    "empatados": 9,
+    "perdidos": 13,
+    "goles_a_favor": 37,
+    "goles_en_contra": 39
+  },
+  {
+    "posicion": 11,
     "equipo": "RCD Espanyol de Barcelona",
     "puntos": 38,
     "partidos_jugados": 31,
@@ -110,29 +121,40 @@
     "goles_en_contra": 48
   },
   {
-    "posicion": 11,
+    "posicion": 12,
     "equipo": "Girona FC",
     "puntos": 38,
-    "partidos_jugados": 31,
+    "partidos_jugados": 32,
     "ganados": 9,
     "empatados": 11,
-    "perdidos": 11,
-    "goles_a_favor": 33,
-    "goles_en_contra": 45
-  },
-  {
-    "posicion": 12,
-    "equipo": "Athletic Club",
-    "puntos": 38,
-    "partidos_jugados": 31,
-    "ganados": 11,
-    "empatados": 5,
-    "perdidos": 15,
-    "goles_a_favor": 33,
-    "goles_en_contra": 45
+    "perdidos": 12,
+    "goles_a_favor": 35,
+    "goles_en_contra": 48
   },
   {
     "posicion": 13,
+    "equipo": "Valencia CF",
+    "puntos": 36,
+    "partidos_jugados": 32,
+    "ganados": 9,
+    "empatados": 9,
+    "perdidos": 14,
+    "goles_a_favor": 35,
+    "goles_en_contra": 47
+  },
+  {
+    "posicion": 14,
+    "equipo": "RCD Mallorca",
+    "puntos": 35,
+    "partidos_jugados": 32,
+    "ganados": 9,
+    "empatados": 8,
+    "perdidos": 15,
+    "goles_a_favor": 40,
+    "goles_en_contra": 49
+  },
+  {
+    "posicion": 15,
     "equipo": "Rayo Vallecano de Madrid",
     "puntos": 35,
     "partidos_jugados": 31,
@@ -141,28 +163,6 @@
     "perdidos": 12,
     "goles_a_favor": 29,
     "goles_en_contra": 38
-  },
-  {
-    "posicion": 14,
-    "equipo": "Valencia CF",
-    "puntos": 35,
-    "partidos_jugados": 31,
-    "ganados": 9,
-    "empatados": 8,
-    "perdidos": 14,
-    "goles_a_favor": 34,
-    "goles_en_contra": 46
-  },
-  {
-    "posicion": 15,
-    "equipo": "RCD Mallorca",
-    "puntos": 34,
-    "partidos_jugados": 31,
-    "ganados": 9,
-    "empatados": 7,
-    "perdidos": 15,
-    "goles_a_favor": 39,
-    "goles_en_contra": 48
   },
   {
     "posicion": 16,
@@ -179,12 +179,12 @@
     "posicion": 17,
     "equipo": "Deportivo Alavés",
     "puntos": 33,
-    "partidos_jugados": 31,
+    "partidos_jugados": 32,
     "ganados": 8,
     "empatados": 9,
-    "perdidos": 14,
-    "goles_a_favor": 35,
-    "goles_en_contra": 46
+    "perdidos": 15,
+    "goles_a_favor": 36,
+    "goles_en_contra": 48
   },
   {
     "posicion": 18,

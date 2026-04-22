@@ -13,13 +13,13 @@
   {
     "posicion": 2,
     "equipo": "Real Madrid CF",
-    "puntos": 40,
-    "partidos_jugados": 16,
-    "ganados": 13,
+    "puntos": 43,
+    "partidos_jugados": 17,
+    "ganados": 14,
     "empatados": 1,
     "perdidos": 2,
-    "goles_a_favor": 37,
-    "goles_en_contra": 13
+    "goles_a_favor": 39,
+    "goles_en_contra": 14
   },
   {
     "posicion": 3,
@@ -56,6 +56,28 @@
   },
   {
     "posicion": 6,
+    "equipo": "RCD Mallorca",
+    "puntos": 29,
+    "partidos_jugados": 17,
+    "ganados": 8,
+    "empatados": 5,
+    "perdidos": 4,
+    "goles_a_favor": 27,
+    "goles_en_contra": 20
+  },
+  {
+    "posicion": 7,
+    "equipo": "Athletic Club",
+    "puntos": 29,
+    "partidos_jugados": 17,
+    "ganados": 9,
+    "empatados": 2,
+    "perdidos": 6,
+    "goles_a_favor": 21,
+    "goles_en_contra": 19
+  },
+  {
+    "posicion": 8,
     "equipo": "Elche CF",
     "puntos": 28,
     "partidos_jugados": 16,
@@ -66,7 +88,7 @@
     "goles_en_contra": 16
   },
   {
-    "posicion": 7,
+    "posicion": 9,
     "equipo": "Real Sociedad de Fútbol",
     "puntos": 28,
     "partidos_jugados": 16,
@@ -77,18 +99,7 @@
     "goles_en_contra": 24
   },
   {
-    "posicion": 8,
-    "equipo": "RCD Mallorca",
-    "puntos": 28,
-    "partidos_jugados": 16,
-    "ganados": 8,
-    "empatados": 4,
-    "perdidos": 4,
-    "goles_a_favor": 26,
-    "goles_en_contra": 19
-  },
-  {
-    "posicion": 9,
+    "posicion": 10,
     "equipo": "Real Betis Balompié",
     "puntos": 26,
     "partidos_jugados": 15,
@@ -97,17 +108,6 @@
     "perdidos": 3,
     "goles_a_favor": 26,
     "goles_en_contra": 16
-  },
-  {
-    "posicion": 10,
-    "equipo": "Athletic Club",
-    "puntos": 26,
-    "partidos_jugados": 16,
-    "ganados": 8,
-    "empatados": 2,
-    "perdidos": 6,
-    "goles_a_favor": 20,
-    "goles_en_contra": 19
   },
   {
     "posicion": 11,
@@ -135,12 +135,12 @@
     "posicion": 13,
     "equipo": "Girona FC",
     "puntos": 22,
-    "partidos_jugados": 15,
+    "partidos_jugados": 16,
     "ganados": 6,
     "empatados": 4,
-    "perdidos": 5,
-    "goles_a_favor": 17,
-    "goles_en_contra": 21
+    "perdidos": 6,
+    "goles_a_favor": 19,
+    "goles_en_contra": 24
   },
   {
     "posicion": 14,
