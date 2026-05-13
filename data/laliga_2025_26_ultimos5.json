@@ -1,22 +1,13 @@
 {
   "Girona FC": {
     "form": [
-      "L",
       "W",
       "D",
+      "L",
       "L",
       "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "CA Osasuna",
-        "venue": "A",
-        "result": "L",
-        "score_for": 0,
-        "score_against": 1,
-        "round": 29
-      },
       {
         "date": "2026-04-06",
         "opponent": "Villarreal CF",
@@ -52,6 +43,15 @@
         "score_for": 1,
         "score_against": 2,
         "round": 32
+      },
+      {
+        "date": "2026-05-01",
+        "opponent": "RCD Mallorca",
+        "venue": "H",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 1,
+        "round": 34
       }
     ],
     "stats": {
@@ -76,22 +76,13 @@
   },
   "Rayo Vallecano": {
     "form": [
-      "L",
       "W",
       "L",
       "W",
-      "D"
+      "D",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-22",
-        "opponent": "FC Barcelona",
-        "venue": "A",
-        "result": "L",
-        "score_for": 0,
-        "score_against": 1,
-        "round": 29
-      },
       {
         "date": "2026-04-03",
         "opponent": "Elche CF",
@@ -127,14 +118,23 @@
         "score_for": 3,
         "score_against": 3,
         "round": 32
+      },
+      {
+        "date": "2026-05-03",
+        "opponent": "Getafe CF",
+        "venue": "A",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 0,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
+      "wins": 3,
       "draws": 1,
-      "losses": 2,
-      "points": 7
+      "losses": 1,
+      "points": 10
     },
     "news_links": [
       {
@@ -151,22 +151,13 @@
   },
   "Villarreal CF": {
     "form": [
-      "W",
       "L",
       "W",
       "D",
+      "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-20",
-        "opponent": "Real Sociedad",
-        "venue": "H",
-        "result": "W",
-        "score_for": 3,
-        "score_against": 1,
-        "round": 29
-      },
       {
         "date": "2026-04-06",
         "opponent": "Girona FC",
@@ -202,6 +193,15 @@
         "score_for": 2,
         "score_against": 1,
         "round": 32
+      },
+      {
+        "date": "2026-05-02",
+        "opponent": "Levante UD",
+        "venue": "H",
+        "result": "W",
+        "score_for": 5,
+        "score_against": 1,
+        "round": 34
       }
     ],
     "stats": {
@@ -221,22 +221,13 @@
   },
   "Real Oviedo": {
     "form": [
-      "L",
       "W",
       "W",
       "D",
+      "L",
       "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "Levante UD",
-        "venue": "A",
-        "result": "L",
-        "score_for": 2,
-        "score_against": 4,
-        "round": 29
-      },
       {
         "date": "2026-04-05",
         "opponent": "Sevilla FC",
@@ -272,6 +263,15 @@
         "score_for": 1,
         "score_against": 2,
         "round": 32
+      },
+      {
+        "date": "2026-05-03",
+        "opponent": "Real Betis",
+        "venue": "A",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 3,
+        "round": 34
       }
     ],
     "stats": {
@@ -284,22 +284,13 @@
   },
   "RCD Mallorca": {
     "form": [
-      "L",
       "W",
       "W",
       "D",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "Elche CF",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 29
-      },
       {
         "date": "2026-04-04",
         "opponent": "Real Madrid",
@@ -335,14 +326,23 @@
         "score_for": 1,
         "score_against": 2,
         "round": 32
+      },
+      {
+        "date": "2026-05-01",
+        "opponent": "Girona FC",
+        "venue": "A",
+        "result": "W",
+        "score_for": 1,
+        "score_against": 0,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
+      "wins": 3,
       "draws": 1,
-      "losses": 2,
-      "points": 7
+      "losses": 1,
+      "points": 10
     },
     "news_links": [
       {
@@ -371,15 +371,6 @@
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-22",
-        "opponent": "Rayo Vallecano",
-        "venue": "H",
-        "result": "W",
-        "score_for": 1,
-        "score_against": 0,
-        "round": 29
-      },
       {
         "date": "2026-04-04",
         "opponent": "Atlético de Madrid",
@@ -415,6 +406,15 @@
         "score_for": 2,
         "score_against": 0,
         "round": 32
+      },
+      {
+        "date": "2026-05-02",
+        "opponent": "CA Osasuna",
+        "venue": "A",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 1,
+        "round": 34
       }
     ],
     "stats": {
@@ -426,30 +426,46 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-barcelona-real-madrid-j35-25-26/",
+        "url": "https://www.jornadaperfecta.com/blog/lewandowski-recomendacion-fantasy-barcelona/",
         "fecha": "2026-05-06",
-        "titulo": "Las claves fantasy del FC Barcelona – Real Madrid: Onces, Lesiones y Apuestas"
+        "titulo": "Lewandowski golea con su futuro en el aire, ¿fichable en fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/lewandowski-recomendacion-fantasy-barcelona/#comments",
+        "fecha": "2026-05-06",
+        "titulo": "Lewandowski golea con su futuro en el aire, ¿fichable en fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/marcaapuestas-barcelona-vs-real-madrid/",
+        "fecha": "2026-05-10",
+        "titulo": "Promoción MARCAapuestas Barcelona vs Real Madrid: ¡Apuesta 20€ y te dan 5€ tanto si aciertas como si fallas!"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/marcaapuestas-barcelona-vs-real-madrid/#comments",
+        "fecha": "2026-05-10",
+        "titulo": "Promoción MARCAapuestas Barcelona vs Real Madrid: ¡Apuesta 20€ y te dan 5€ tanto si aciertas como si fallas!"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/dazn-bet-barcelona-vs-real-madrid/",
+        "fecha": "2026-05-09",
+        "titulo": "Promoción DAZN Bet Barcelona vs Real Madrid: ¡gana 5€ por cada gol!"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/dazn-bet-barcelona-vs-real-madrid/#respond",
+        "fecha": "2026-05-09",
+        "titulo": "Promoción DAZN Bet Barcelona vs Real Madrid: ¡gana 5€ por cada gol!"
       }
     ]
   },
   "Deportivo Alavés": {
     "form": [
-      "W",
       "D",
       "D",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-22",
-        "opponent": "Celta",
-        "venue": "A",
-        "result": "W",
-        "score_for": 4,
-        "score_against": 3,
-        "round": 29
-      },
       {
         "date": "2026-04-05",
         "opponent": "CA Osasuna",
@@ -485,41 +501,46 @@
         "score_for": 2,
         "score_against": 1,
         "round": 32
+      },
+      {
+        "date": "2026-05-02",
+        "opponent": "Athletic Club",
+        "venue": "H",
+        "result": "L",
+        "score_for": 2,
+        "score_against": 4,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
+      "wins": 1,
       "draws": 2,
-      "losses": 1,
-      "points": 8
+      "losses": 2,
+      "points": 5
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-elche-alaves-j35-25-26/",
-        "fecha": "2026-05-06",
-        "titulo": "Las claves fantasy del Elche CF – Deportivo Alavés: Onces, Lesiones y Apuestas"
+        "url": "https://www.jornadaperfecta.com/blog/quique-previa-alaves-barcelona-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "Quique cuenta con Toni Martínez y descarta a Boyé"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/flick-previa-alaves-barcelona-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "Flick, sobre Lewandowski, Rashford y las suplencias de Kounde y Balde"
       }
     ]
   },
   "Levante UD": {
     "form": [
-      "W",
       "L",
       "W",
       "W",
-      "D"
+      "D",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "Real Oviedo",
-        "venue": "H",
-        "result": "W",
-        "score_for": 4,
-        "score_against": 2,
-        "round": 29
-      },
       {
         "date": "2026-04-04",
         "opponent": "Real Sociedad",
@@ -555,34 +576,34 @@
         "score_for": 0,
         "score_against": 0,
         "round": 32
+      },
+      {
+        "date": "2026-05-02",
+        "opponent": "Villarreal CF",
+        "venue": "A",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 5,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 3,
+      "wins": 2,
       "draws": 1,
-      "losses": 1,
-      "points": 10
+      "losses": 2,
+      "points": 7
     }
   },
   "Valencia CF": {
     "form": [
-      "W",
       "L",
       "L",
       "D",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "Sevilla FC",
-        "venue": "A",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 0,
-        "round": 29
-      },
       {
         "date": "2026-04-05",
         "opponent": "Celta",
@@ -618,46 +639,41 @@
         "score_for": 2,
         "score_against": 1,
         "round": 32
+      },
+      {
+        "date": "2026-05-02",
+        "opponent": "Atlético de Madrid",
+        "venue": "H",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 2,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
+      "wins": 1,
       "draws": 1,
-      "losses": 2,
-      "points": 7
+      "losses": 3,
+      "points": 4
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/thierry-correia-lesion-valencia-cf/",
-        "fecha": "2026-04-21",
-        "titulo": "Thierry Correia sufre una lesión muscular en el aductor"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/once-valencia-jornada-33/",
-        "fecha": "2026-04-21",
-        "titulo": "Once confirmado del Valencia con Pepelu, Diego López y Beltrán"
+        "url": "https://www.jornadaperfecta.com/blog/lucas-beltran-estado-valencia-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "Lucas Beltrán sigue con el grupo y podría ir convocado"
       }
     ]
   },
   "Real Sociedad": {
     "form": [
-      "L",
       "W",
       "D",
       "L",
-      "D"
+      "D",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-20",
-        "opponent": "Villarreal CF",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 3,
-        "round": 29
-      },
       {
         "date": "2026-04-04",
         "opponent": "Levante UD",
@@ -693,6 +709,15 @@
         "score_for": 3,
         "score_against": 3,
         "round": 32
+      },
+      {
+        "date": "2026-05-04",
+        "opponent": "Sevilla FC",
+        "venue": "A",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 1,
+        "round": 34
       }
     ],
     "stats": {
@@ -717,22 +742,13 @@
   },
   "Celta": {
     "form": [
-      "L",
       "W",
       "L",
       "L",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-22",
-        "opponent": "Deportivo Alavés",
-        "venue": "H",
-        "result": "L",
-        "score_for": 3,
-        "score_against": 4,
-        "round": 29
-      },
       {
         "date": "2026-04-05",
         "opponent": "Valencia CF",
@@ -768,34 +784,34 @@
         "score_for": 1,
         "score_against": 2,
         "round": 32
+      },
+      {
+        "date": "2026-05-03",
+        "opponent": "Elche CF",
+        "venue": "H",
+        "result": "W",
+        "score_for": 3,
+        "score_against": 1,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
-      "losses": 4,
-      "points": 3
+      "losses": 3,
+      "points": 6
     }
   },
   "Getafe CF": {
     "form": [
       "W",
-      "W",
       "L",
       "W",
+      "L",
       "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "RCD Espanyol de Barcelona",
-        "venue": "A",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 29
-      },
       {
         "date": "2026-04-05",
         "opponent": "Athletic Club",
@@ -831,41 +847,46 @@
         "score_for": 0,
         "score_against": 2,
         "round": 32
+      },
+      {
+        "date": "2026-05-03",
+        "opponent": "Rayo Vallecano",
+        "venue": "H",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 2,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 3,
+      "wins": 2,
       "draws": 0,
-      "losses": 2,
-      "points": 9
+      "losses": 3,
+      "points": 6
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-real-oviedo-getafe-j35-25-26/",
-        "fecha": "2026-05-06",
-        "titulo": "Las claves fantasy del Real Oviedo – Getafe CF: Onces, Lesiones y Apuestas"
+        "url": "https://www.jornadaperfecta.com/blog/bordalas-previa-getafe-mallorca-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "Bordalás anuncia dos tocados y descarta rotaciones"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/demichelis-previa-getafe-mallorca-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "Demichelis no sabe con quién puede contar mañana"
       }
     ]
   },
   "Athletic Club": {
     "form": [
-      "W",
       "L",
       "L",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-22",
-        "opponent": "Real Betis",
-        "venue": "H",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 29
-      },
       {
         "date": "2026-04-05",
         "opponent": "Getafe CF",
@@ -901,6 +922,15 @@
         "score_for": 2,
         "score_against": 3,
         "round": 32
+      },
+      {
+        "date": "2026-05-02",
+        "opponent": "Deportivo Alavés",
+        "venue": "A",
+        "result": "W",
+        "score_for": 4,
+        "score_against": 2,
+        "round": 34
       }
     ],
     "stats": {
@@ -912,45 +942,31 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-athletic-valencia-j35-25-26/",
-        "fecha": "2026-05-06",
-        "titulo": "Las claves fantasy del Athletic – Valencia: Onces, Lesiones y Apuestas"
+        "url": "https://www.jornadaperfecta.com/blog/yuri-parte-medico-athletic/",
+        "fecha": "2026-05-12",
+        "titulo": "Yuri Berchiche: Parte médico oficial del Athletic Club"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/edin-terzic-entrenador-athletic-club/",
-        "fecha": "2026-05-05",
-        "titulo": "Oficial: Edin Terzic será el nuevo entrenador del Athletic"
+        "url": "https://www.jornadaperfecta.com/blog/valverde-previa-espanyol-athletic-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "Valverde, sobre la fecha de vuelta de Nico Williams"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/nico-williams-chollo-fantasy-athletic/",
-        "fecha": "2026-05-04",
-        "titulo": "Nico Williams vuelve a ofrecer su mejor versión, ¿chollo fantasy?"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/nico-williams-chollo-fantasy-athletic/#comments",
-        "fecha": "2026-05-04",
-        "titulo": "Nico Williams vuelve a ofrecer su mejor versión, ¿chollo fantasy?"
+        "url": "https://www.jornadaperfecta.com/blog/manolo-gonzalez-previa-espanyol-athletic-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "Manolo González aclara el estado de Carlos Romero"
       }
     ]
   },
   "Sevilla FC": {
     "form": [
       "L",
-      "L",
       "W",
       "L",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "Valencia CF",
-        "venue": "H",
-        "result": "L",
-        "score_for": 0,
-        "score_against": 2,
-        "round": 29
-      },
       {
         "date": "2026-04-05",
         "opponent": "Real Oviedo",
@@ -986,41 +1002,46 @@
         "score_for": 1,
         "score_against": 2,
         "round": 32
+      },
+      {
+        "date": "2026-05-04",
+        "opponent": "Real Sociedad",
+        "venue": "H",
+        "result": "W",
+        "score_for": 1,
+        "score_against": 0,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
-      "losses": 4,
-      "points": 3
+      "losses": 3,
+      "points": 6
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/azpilicueta-rotura-muscular-sevilla/",
-        "fecha": "2026-04-10",
-        "titulo": "Azpilicueta sufre una pequeña rotura muscular, ¿tiempo de baja?"
+        "url": "https://www.jornadaperfecta.com/blog/marcelino-previa-villarreal-sevilla-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "Marcelino explica las ausencias de Pape Gueye"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/garcia-plaza-previa-villarreal-sevilla-j36/",
+        "fecha": "2026-05-12",
+        "titulo": "García Plaza anuncia la baja de Isaac y hasta 5 rotaciones"
       }
     ]
   },
   "RCD Espanyol de Barcelona": {
     "form": [
-      "L",
       "D",
       "L",
       "L",
-      "D"
+      "D",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "Getafe CF",
-        "venue": "H",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 29
-      },
       {
         "date": "2026-04-04",
         "opponent": "Real Betis",
@@ -1056,6 +1077,15 @@
         "score_for": 0,
         "score_against": 0,
         "round": 32
+      },
+      {
+        "date": "2026-05-03",
+        "opponent": "Real Madrid",
+        "venue": "H",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 2,
+        "round": 34
       }
     ],
     "stats": {
@@ -1088,19 +1118,10 @@
       "L",
       "L",
       "L",
-      "L",
+      "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-22",
-        "opponent": "Real Madrid",
-        "venue": "A",
-        "result": "L",
-        "score_for": 2,
-        "score_against": 3,
-        "round": 29
-      },
       {
         "date": "2026-04-04",
         "opponent": "FC Barcelona",
@@ -1136,14 +1157,23 @@
         "score_for": 3,
         "score_against": 2,
         "round": 32
+      },
+      {
+        "date": "2026-05-02",
+        "opponent": "Valencia CF",
+        "venue": "A",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 0,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
+      "wins": 2,
       "draws": 0,
-      "losses": 4,
-      "points": 3
+      "losses": 3,
+      "points": 6
     },
     "news_links": [
       {
@@ -1175,22 +1205,13 @@
   },
   "Elche CF": {
     "form": [
-      "W",
       "L",
       "W",
       "W",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "RCD Mallorca",
-        "venue": "H",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 29
-      },
       {
         "date": "2026-04-03",
         "opponent": "Rayo Vallecano",
@@ -1226,34 +1247,34 @@
         "score_for": 2,
         "score_against": 1,
         "round": 32
+      },
+      {
+        "date": "2026-05-03",
+        "opponent": "Celta",
+        "venue": "A",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 3,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 4,
+      "wins": 3,
       "draws": 0,
-      "losses": 1,
-      "points": 12
+      "losses": 2,
+      "points": 9
     }
   },
   "Real Betis": {
     "form": [
-      "L",
       "D",
       "D",
       "W",
-      "D"
+      "D",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-22",
-        "opponent": "Athletic Club",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 29
-      },
       {
         "date": "2026-04-04",
         "opponent": "RCD Espanyol de Barcelona",
@@ -1289,14 +1310,23 @@
         "score_for": 1,
         "score_against": 1,
         "round": 32
+      },
+      {
+        "date": "2026-05-03",
+        "opponent": "Real Oviedo",
+        "venue": "H",
+        "result": "W",
+        "score_for": 3,
+        "score_against": 0,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
+      "wins": 2,
       "draws": 3,
-      "losses": 1,
-      "points": 6
+      "losses": 0,
+      "points": 9
     },
     "news_links": [
       {
@@ -1323,22 +1353,13 @@
   },
   "Real Madrid": {
     "form": [
-      "W",
       "L",
       "D",
       "W",
-      "D"
+      "D",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-03-22",
-        "opponent": "Atlético de Madrid",
-        "venue": "H",
-        "result": "W",
-        "score_for": 3,
-        "score_against": 2,
-        "round": 29
-      },
       {
         "date": "2026-04-04",
         "opponent": "RCD Mallorca",
@@ -1374,6 +1395,15 @@
         "score_for": 1,
         "score_against": 1,
         "round": 32
+      },
+      {
+        "date": "2026-05-03",
+        "opponent": "RCD Espanyol de Barcelona",
+        "venue": "A",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 0,
+        "round": 34
       }
     ],
     "stats": {
@@ -1385,40 +1415,26 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/mbappe-estado-real-madrid-j35/",
-        "fecha": "2026-05-05",
-        "titulo": "Mbappé se ejercita en el día libre, ¿llegará al Clásico?"
+        "url": "https://www.jornadaperfecta.com/blog/arbeloa-previa-real-madrid-oviedo-j36/",
+        "fecha": "2026-05-13",
+        "titulo": "Arbeloa, sobre el posible regreso de Mbappé y Carvajal ante el Oviedo"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/vinicius-jr-chollo-fantasy-real-madrid/",
-        "fecha": "2026-05-05",
-        "titulo": "Vinícius Jr da un paso adelante y brilla sin Mbappé, ¿chollo fantasy?"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/vinicius-jr-chollo-fantasy-real-madrid/#comments",
-        "fecha": "2026-05-05",
-        "titulo": "Vinícius Jr da un paso adelante y brilla sin Mbappé, ¿chollo fantasy?"
+        "url": "https://www.jornadaperfecta.com/blog/arbeloa-previa-real-madrid-oviedo-j36/#respond",
+        "fecha": "2026-05-13",
+        "titulo": "Arbeloa, sobre el posible regreso de Mbappé y Carvajal ante el Oviedo"
       }
     ]
   },
   "CA Osasuna": {
     "form": [
-      "W",
       "D",
       "D",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-03-21",
-        "opponent": "Girona FC",
-        "venue": "H",
-        "result": "W",
-        "score_for": 1,
-        "score_against": 0,
-        "round": 29
-      },
       {
         "date": "2026-04-05",
         "opponent": "Deportivo Alavés",
@@ -1454,30 +1470,29 @@
         "score_for": 2,
         "score_against": 1,
         "round": 32
+      },
+      {
+        "date": "2026-05-02",
+        "opponent": "FC Barcelona",
+        "venue": "H",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 2,
+        "round": 34
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
+      "wins": 1,
       "draws": 2,
-      "losses": 1,
-      "points": 8
+      "losses": 2,
+      "points": 5
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/aimar-oroz-estado-j35/",
-        "fecha": "2026-05-06",
-        "titulo": "Aimar Oroz, se une a la ausencia de Víctor Muñoz en Osasuna"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-levante-osasuna-j35-25-26/",
-        "fecha": "2026-05-06",
-        "titulo": "Las claves fantasy del Levante UD – CA Osasuna: Onces, Lesiones y Apuestas"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/victor-munoz-estado-j35-25-26/",
-        "fecha": "2026-05-05",
-        "titulo": "Víctor Muñoz sigue ausente en los entrenamientos de Osasuna"
+        "url": "https://www.jornadaperfecta.com/blog/raul-moro-lesion-osasuna/",
+        "fecha": "2026-05-13",
+        "titulo": "Raúl Moro pide el cambio por molestias musculares"
       }
     ]
   }
