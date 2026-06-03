@@ -1,17 +1,6 @@
 [
   {
     "posicion": 1,
-    "equipo": "FC Barcelona",
-    "puntos": 37,
-    "partidos_jugados": 18,
-    "ganados": 12,
-    "empatados": 1,
-    "perdidos": 5,
-    "goles_a_favor": 37,
-    "goles_en_contra": 23
-  },
-  {
-    "posicion": 2,
     "equipo": "Real Madrid CF",
     "puntos": 37,
     "partidos_jugados": 19,
@@ -20,6 +9,17 @@
     "perdidos": 4,
     "goles_a_favor": 32,
     "goles_en_contra": 19
+  },
+  {
+    "posicion": 2,
+    "equipo": "FC Barcelona",
+    "puntos": 37,
+    "partidos_jugados": 19,
+    "ganados": 12,
+    "empatados": 1,
+    "perdidos": 6,
+    "goles_a_favor": 38,
+    "goles_en_contra": 26
   },
   {
     "posicion": 3,
@@ -69,12 +69,12 @@
     "posicion": 7,
     "equipo": "Club Atlético de Madrid",
     "puntos": 23,
-    "partidos_jugados": 18,
+    "partidos_jugados": 19,
     "ganados": 6,
     "empatados": 5,
-    "perdidos": 7,
-    "goles_a_favor": 22,
-    "goles_en_contra": 22
+    "perdidos": 8,
+    "goles_a_favor": 23,
+    "goles_en_contra": 27
   },
   {
     "posicion": 8,
@@ -89,6 +89,17 @@
   },
   {
     "posicion": 9,
+    "equipo": "Rayo Vallecano de Madrid",
+    "puntos": 19,
+    "partidos_jugados": 19,
+    "ganados": 5,
+    "empatados": 4,
+    "perdidos": 10,
+    "goles_a_favor": 17,
+    "goles_en_contra": 29
+  },
+  {
+    "posicion": 10,
     "equipo": "Valencia CF",
     "puntos": 19,
     "partidos_jugados": 19,
@@ -99,18 +110,29 @@
     "goles_en_contra": 32
   },
   {
-    "posicion": 10,
+    "posicion": 11,
     "equipo": "Sevilla FC",
     "puntos": 18,
-    "partidos_jugados": 18,
+    "partidos_jugados": 19,
     "ganados": 5,
     "empatados": 3,
-    "perdidos": 10,
+    "perdidos": 11,
     "goles_a_favor": 22,
-    "goles_en_contra": 34
+    "goles_en_contra": 35
   },
   {
-    "posicion": 11,
+    "posicion": 12,
+    "equipo": "Real Sociedad de Fútbol",
+    "puntos": 17,
+    "partidos_jugados": 19,
+    "ganados": 3,
+    "empatados": 8,
+    "perdidos": 8,
+    "goles_a_favor": 22,
+    "goles_en_contra": 30
+  },
+  {
+    "posicion": 13,
     "equipo": "Girona FC",
     "puntos": 17,
     "partidos_jugados": 19,
@@ -121,29 +143,18 @@
     "goles_en_contra": 28
   },
   {
-    "posicion": 12,
-    "equipo": "Real Sociedad de Fútbol",
-    "puntos": 16,
-    "partidos_jugados": 18,
-    "ganados": 3,
-    "empatados": 7,
-    "perdidos": 8,
-    "goles_a_favor": 21,
-    "goles_en_contra": 29
-  },
-  {
-    "posicion": 13,
+    "posicion": 14,
     "equipo": "Levante UD",
     "puntos": 16,
-    "partidos_jugados": 18,
+    "partidos_jugados": 19,
     "ganados": 4,
     "empatados": 4,
-    "perdidos": 10,
-    "goles_a_favor": 20,
-    "goles_en_contra": 31
+    "perdidos": 11,
+    "goles_a_favor": 21,
+    "goles_en_contra": 33
   },
   {
-    "posicion": 14,
+    "posicion": 15,
     "equipo": "Deportivo Alavés",
     "puntos": 16,
     "partidos_jugados": 19,
@@ -154,48 +165,37 @@
     "goles_en_contra": 31
   },
   {
-    "posicion": 15,
-    "equipo": "Rayo Vallecano de Madrid",
-    "puntos": 16,
-    "partidos_jugados": 18,
-    "ganados": 4,
-    "empatados": 4,
-    "perdidos": 10,
-    "goles_a_favor": 15,
-    "goles_en_contra": 28
-  },
-  {
     "posicion": 16,
     "equipo": "Athletic Club",
     "puntos": 15,
-    "partidos_jugados": 18,
+    "partidos_jugados": 19,
     "ganados": 4,
     "empatados": 3,
-    "perdidos": 11,
-    "goles_a_favor": 19,
-    "goles_en_contra": 33
+    "perdidos": 12,
+    "goles_a_favor": 21,
+    "goles_en_contra": 37
   },
   {
     "posicion": 17,
     "equipo": "CA Osasuna",
     "puntos": 10,
-    "partidos_jugados": 18,
+    "partidos_jugados": 19,
     "ganados": 2,
     "empatados": 4,
-    "perdidos": 12,
+    "perdidos": 13,
     "goles_a_favor": 13,
-    "goles_en_contra": 25
+    "goles_en_contra": 26
   },
   {
     "posicion": 18,
     "equipo": "Real Oviedo",
     "puntos": 10,
-    "partidos_jugados": 18,
+    "partidos_jugados": 19,
     "ganados": 2,
     "empatados": 4,
-    "perdidos": 12,
+    "perdidos": 13,
     "goles_a_favor": 17,
-    "goles_en_contra": 39
+    "goles_en_contra": 42
   },
   {
     "posicion": 19,
@@ -211,12 +211,12 @@
   {
     "posicion": 20,
     "equipo": "Elche CF",
-    "puntos": 7,
-    "partidos_jugados": 18,
+    "puntos": 8,
+    "partidos_jugados": 19,
     "ganados": 1,
-    "empatados": 4,
+    "empatados": 5,
     "perdidos": 13,
-    "goles_a_favor": 18,
-    "goles_en_contra": 37
+    "goles_a_favor": 19,
+    "goles_en_contra": 38
   }
 ]
