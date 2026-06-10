@@ -2,21 +2,12 @@
   "Girona FC": {
     "form": [
       "L",
+      "D",
+      "D",
       "L",
-      "D",
-      "D",
-      "L"
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-04-25",
-        "opponent": "Valencia CF",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 32
-      },
       {
         "date": "2026-05-01",
         "opponent": "RCD Mallorca",
@@ -52,14 +43,23 @@
         "score_for": 0,
         "score_against": 1,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Elche CF",
+        "venue": "H",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
       "wins": 0,
-      "draws": 2,
-      "losses": 3,
-      "points": 2
+      "draws": 3,
+      "losses": 2,
+      "points": 3
     },
     "news_links": [
       {
@@ -71,22 +71,13 @@
   },
   "Rayo Vallecano": {
     "form": [
-      "D",
       "W",
       "D",
       "D",
+      "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-04-26",
-        "opponent": "Real Sociedad",
-        "venue": "H",
-        "result": "D",
-        "score_for": 3,
-        "score_against": 3,
-        "round": 32
-      },
       {
         "date": "2026-05-03",
         "opponent": "Getafe CF",
@@ -122,14 +113,23 @@
         "score_for": 2,
         "score_against": 0,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Deportivo Alavés",
+        "venue": "A",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
-      "draws": 3,
+      "wins": 3,
+      "draws": 2,
       "losses": 0,
-      "points": 9
+      "points": 11
     },
     "news_links": [
       {
@@ -147,21 +147,12 @@
   "Villarreal CF": {
     "form": [
       "W",
-      "W",
       "D",
       "L",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-04-26",
-        "opponent": "Celta",
-        "venue": "H",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 32
-      },
       {
         "date": "2026-05-02",
         "opponent": "Levante UD",
@@ -197,6 +188,15 @@
         "score_for": 0,
         "score_against": 2,
         "round": 37
+      },
+      {
+        "date": "2026-05-24",
+        "opponent": "Atlético de Madrid",
+        "venue": "H",
+        "result": "W",
+        "score_for": 5,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
@@ -222,21 +222,12 @@
   "Real Oviedo": {
     "form": [
       "L",
-      "L",
       "D",
+      "L",
       "L",
       "L"
     ],
     "matches": [
-      {
-        "date": "2026-04-26",
-        "opponent": "Elche CF",
-        "venue": "H",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 32
-      },
       {
         "date": "2026-05-03",
         "opponent": "Real Betis",
@@ -272,6 +263,15 @@
         "score_for": 0,
         "score_against": 1,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "RCD Mallorca",
+        "venue": "A",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 3,
+        "round": 38
       }
     ],
     "stats": {
@@ -284,22 +284,13 @@
   },
   "RCD Mallorca": {
     "form": [
-      "L",
       "W",
       "D",
       "L",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-04-25",
-        "opponent": "Deportivo Alavés",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 32
-      },
       {
         "date": "2026-05-01",
         "opponent": "Girona FC",
@@ -335,14 +326,23 @@
         "score_for": 0,
         "score_against": 2,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Real Oviedo",
+        "venue": "H",
+        "result": "W",
+        "score_for": 3,
+        "score_against": 0,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
+      "wins": 2,
       "draws": 1,
-      "losses": 3,
-      "points": 4
+      "losses": 2,
+      "points": 7
     },
     "news_links": [
       {
@@ -371,20 +371,11 @@
     "form": [
       "W",
       "W",
-      "W",
       "L",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-04-25",
-        "opponent": "Getafe CF",
-        "venue": "A",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 0,
-        "round": 32
-      },
       {
         "date": "2026-05-02",
         "opponent": "CA Osasuna",
@@ -420,14 +411,23 @@
         "score_for": 3,
         "score_against": 1,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Valencia CF",
+        "venue": "A",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 3,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 4,
+      "wins": 3,
       "draws": 0,
-      "losses": 1,
-      "points": 12
+      "losses": 2,
+      "points": 9
     },
     "news_links": [
       {
@@ -454,22 +454,13 @@
   },
   "Deportivo Alavés": {
     "form": [
-      "W",
       "L",
       "D",
       "W",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-04-25",
-        "opponent": "RCD Mallorca",
-        "venue": "H",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 32
-      },
       {
         "date": "2026-05-02",
         "opponent": "Athletic Club",
@@ -505,14 +496,23 @@
         "score_for": 1,
         "score_against": 0,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Rayo Vallecano",
+        "venue": "H",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 2,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 3,
+      "wins": 2,
       "draws": 1,
-      "losses": 1,
-      "points": 10
+      "losses": 2,
+      "points": 7
     },
     "news_links": [
       {
@@ -529,22 +529,13 @@
   },
   "Levante UD": {
     "form": [
-      "D",
       "L",
       "W",
       "W",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-04-27",
-        "opponent": "RCD Espanyol de Barcelona",
-        "venue": "A",
-        "result": "D",
-        "score_for": 0,
-        "score_against": 0,
-        "round": 32
-      },
       {
         "date": "2026-05-02",
         "opponent": "Villarreal CF",
@@ -580,34 +571,34 @@
         "score_for": 2,
         "score_against": 0,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Real Betis",
+        "venue": "A",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 2,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
       "wins": 3,
-      "draws": 1,
-      "losses": 1,
-      "points": 10
+      "draws": 0,
+      "losses": 2,
+      "points": 9
     }
   },
   "Valencia CF": {
     "form": [
-      "W",
       "L",
       "W",
       "D",
+      "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-04-25",
-        "opponent": "Girona FC",
-        "venue": "H",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 32
-      },
       {
         "date": "2026-05-02",
         "opponent": "Atlético de Madrid",
@@ -643,6 +634,15 @@
         "score_for": 4,
         "score_against": 3,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "FC Barcelona",
+        "venue": "H",
+        "result": "W",
+        "score_for": 3,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
@@ -662,22 +662,13 @@
   },
   "Real Sociedad": {
     "form": [
-      "D",
       "L",
       "D",
       "D",
-      "L"
+      "L",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-04-26",
-        "opponent": "Rayo Vallecano",
-        "venue": "A",
-        "result": "D",
-        "score_for": 3,
-        "score_against": 3,
-        "round": 32
-      },
       {
         "date": "2026-05-04",
         "opponent": "Sevilla FC",
@@ -713,6 +704,15 @@
         "score_for": 3,
         "score_against": 4,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "RCD Espanyol de Barcelona",
+        "venue": "A",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
@@ -737,22 +737,13 @@
   },
   "Celta": {
     "form": [
-      "L",
       "W",
       "W",
       "L",
-      "D"
+      "D",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-04-26",
-        "opponent": "Villarreal CF",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 32
-      },
       {
         "date": "2026-05-03",
         "opponent": "Elche CF",
@@ -788,34 +779,34 @@
         "score_for": 1,
         "score_against": 1,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Sevilla FC",
+        "venue": "H",
+        "result": "W",
+        "score_for": 1,
+        "score_against": 0,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
+      "wins": 3,
       "draws": 1,
-      "losses": 2,
-      "points": 7
+      "losses": 1,
+      "points": 10
     }
   },
   "Getafe CF": {
     "form": [
       "L",
-      "L",
       "D",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-04-25",
-        "opponent": "FC Barcelona",
-        "venue": "H",
-        "result": "L",
-        "score_for": 0,
-        "score_against": 2,
-        "round": 32
-      },
       {
         "date": "2026-05-03",
         "opponent": "Rayo Vallecano",
@@ -851,14 +842,23 @@
         "score_for": 0,
         "score_against": 1,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "CA Osasuna",
+        "venue": "H",
+        "result": "W",
+        "score_for": 1,
+        "score_against": 0,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
+      "wins": 2,
       "draws": 1,
-      "losses": 3,
-      "points": 4
+      "losses": 2,
+      "points": 7
     },
     "news_links": [
       {
@@ -875,22 +875,13 @@
   },
   "Athletic Club": {
     "form": [
-      "L",
       "W",
       "L",
       "L",
-      "D"
+      "D",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-04-25",
-        "opponent": "Atlético de Madrid",
-        "venue": "A",
-        "result": "L",
-        "score_for": 2,
-        "score_against": 3,
-        "round": 32
-      },
       {
         "date": "2026-05-02",
         "opponent": "Deportivo Alavés",
@@ -926,6 +917,15 @@
         "score_for": 1,
         "score_against": 1,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Real Madrid",
+        "venue": "A",
+        "result": "L",
+        "score_for": 2,
+        "score_against": 4,
+        "round": 38
       }
     ],
     "stats": {
@@ -950,22 +950,13 @@
   },
   "Sevilla FC": {
     "form": [
+      "W",
+      "W",
+      "W",
       "L",
-      "W",
-      "W",
-      "W",
       "L"
     ],
     "matches": [
-      {
-        "date": "2026-04-26",
-        "opponent": "CA Osasuna",
-        "venue": "A",
-        "result": "L",
-        "score_for": 1,
-        "score_against": 2,
-        "round": 32
-      },
       {
         "date": "2026-05-04",
         "opponent": "Real Sociedad",
@@ -1001,6 +992,15 @@
         "score_for": 0,
         "score_against": 1,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Celta",
+        "venue": "A",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
@@ -1025,22 +1025,13 @@
   },
   "RCD Espanyol de Barcelona": {
     "form": [
-      "D",
       "L",
       "L",
       "W",
-      "W"
+      "W",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-04-27",
-        "opponent": "Levante UD",
-        "venue": "H",
-        "result": "D",
-        "score_for": 0,
-        "score_against": 0,
-        "round": 32
-      },
       {
         "date": "2026-05-03",
         "opponent": "Real Madrid",
@@ -1076,6 +1067,15 @@
         "score_for": 2,
         "score_against": 1,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Real Sociedad",
+        "venue": "H",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
@@ -1106,21 +1106,12 @@
   "Atlético de Madrid": {
     "form": [
       "W",
-      "W",
       "L",
       "W",
-      "W"
+      "W",
+      "L"
     ],
     "matches": [
-      {
-        "date": "2026-04-25",
-        "opponent": "Athletic Club",
-        "venue": "H",
-        "result": "W",
-        "score_for": 3,
-        "score_against": 2,
-        "round": 32
-      },
       {
         "date": "2026-05-02",
         "opponent": "Valencia CF",
@@ -1156,14 +1147,23 @@
         "score_for": 1,
         "score_against": 0,
         "round": 37
+      },
+      {
+        "date": "2026-05-24",
+        "opponent": "Villarreal CF",
+        "venue": "A",
+        "result": "L",
+        "score_for": 1,
+        "score_against": 5,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 4,
+      "wins": 3,
       "draws": 0,
-      "losses": 1,
-      "points": 12
+      "losses": 2,
+      "points": 9
     },
     "news_links": [
       {
@@ -1195,22 +1195,13 @@
   },
   "Elche CF": {
     "form": [
-      "W",
       "L",
       "D",
       "L",
-      "W"
+      "W",
+      "D"
     ],
     "matches": [
-      {
-        "date": "2026-04-26",
-        "opponent": "Real Oviedo",
-        "venue": "A",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 32
-      },
       {
         "date": "2026-05-03",
         "opponent": "Celta",
@@ -1246,34 +1237,34 @@
         "score_for": 1,
         "score_against": 0,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Girona FC",
+        "venue": "A",
+        "result": "D",
+        "score_for": 1,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
-      "draws": 1,
+      "wins": 1,
+      "draws": 2,
       "losses": 2,
-      "points": 7
+      "points": 5
     }
   },
   "Real Betis": {
     "form": [
-      "D",
       "W",
       "D",
       "W",
-      "L"
+      "L",
+      "W"
     ],
     "matches": [
-      {
-        "date": "2026-04-24",
-        "opponent": "Real Madrid",
-        "venue": "H",
-        "result": "D",
-        "score_for": 1,
-        "score_against": 1,
-        "round": 32
-      },
       {
         "date": "2026-05-03",
         "opponent": "Real Oviedo",
@@ -1309,14 +1300,23 @@
         "score_for": 1,
         "score_against": 3,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Levante UD",
+        "venue": "H",
+        "result": "W",
+        "score_for": 2,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 2,
-      "draws": 2,
+      "wins": 3,
+      "draws": 1,
       "losses": 1,
-      "points": 8
+      "points": 10
     },
     "news_links": [
       {
@@ -1343,22 +1343,13 @@
   },
   "Real Madrid": {
     "form": [
-      "D",
       "W",
       "L",
+      "W",
       "W",
       "W"
     ],
     "matches": [
-      {
-        "date": "2026-04-24",
-        "opponent": "Real Betis",
-        "venue": "A",
-        "result": "D",
-        "score_for": 1,
-        "score_against": 1,
-        "round": 32
-      },
       {
         "date": "2026-05-03",
         "opponent": "RCD Espanyol de Barcelona",
@@ -1394,56 +1385,66 @@
         "score_for": 1,
         "score_against": 0,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Athletic Club",
+        "venue": "H",
+        "result": "W",
+        "score_for": 4,
+        "score_against": 2,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 3,
-      "draws": 1,
+      "wins": 4,
+      "draws": 0,
       "losses": 1,
-      "points": 10
+      "points": 12
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/dumfries-acuerdo-real-madrid/",
-        "fecha": "2026-06-03",
-        "titulo": "Denzel Dumfries se convertirá en nuevo jugador del Real Madrid"
+        "url": "https://www.jornadaperfecta.com/blog/julian-alvarez-oferta-real-madrid/",
+        "fecha": "2026-06-09",
+        "titulo": "Comunicado oficial del Real Madrid: Julián Alvarez"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/dumfries-acuerdo-real-madrid/#respond",
-        "fecha": "2026-06-03",
-        "titulo": "Denzel Dumfries se convertirá en nuevo jugador del Real Madrid"
+        "url": "https://www.jornadaperfecta.com/blog/julian-alvarez-oferta-real-madrid/#respond",
+        "fecha": "2026-06-09",
+        "titulo": "Comunicado oficial del Real Madrid: Julián Alvarez"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/konate-fichaje-real-madrid/",
-        "fecha": "2026-06-02",
-        "titulo": "Konaté fichará por el Real Madrid como agente libre"
+        "url": "https://www.jornadaperfecta.com/blog/michael-olise-fichaje-real-madrid/",
+        "fecha": "2026-06-06",
+        "titulo": "La oferta de 150 millones del Real Madrid será por Michael Olise"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/konate-fichaje-real-madrid/#respond",
-        "fecha": "2026-06-02",
-        "titulo": "Konaté fichará por el Real Madrid como agente libre"
+        "url": "https://www.jornadaperfecta.com/blog/michael-olise-fichaje-real-madrid/#respond",
+        "fecha": "2026-06-06",
+        "titulo": "La oferta de 150 millones del Real Madrid será por Michael Olise"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/klopp-entrenador-real-madrid-riquelme/",
+        "fecha": "2026-06-06",
+        "titulo": "Klopp, el entrenador elegido por Riquelme si gana las elecciones del Real Madrid"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/klopp-entrenador-real-madrid-riquelme/#respond",
+        "fecha": "2026-06-06",
+        "titulo": "Klopp, el entrenador elegido por Riquelme si gana las elecciones del Real Madrid"
       }
     ]
   },
   "CA Osasuna": {
     "form": [
-      "W",
+      "L",
       "L",
       "L",
       "L",
       "L"
     ],
     "matches": [
-      {
-        "date": "2026-04-26",
-        "opponent": "Sevilla FC",
-        "venue": "H",
-        "result": "W",
-        "score_for": 2,
-        "score_against": 1,
-        "round": 32
-      },
       {
         "date": "2026-05-02",
         "opponent": "FC Barcelona",
@@ -1479,20 +1480,34 @@
         "score_for": 1,
         "score_against": 2,
         "round": 37
+      },
+      {
+        "date": "2026-05-23",
+        "opponent": "Getafe CF",
+        "venue": "A",
+        "result": "L",
+        "score_for": 0,
+        "score_against": 1,
+        "round": 38
       }
     ],
     "stats": {
       "played": 5,
-      "wins": 1,
+      "wins": 0,
       "draws": 0,
-      "losses": 4,
-      "points": 3
+      "losses": 5,
+      "points": 0
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/raul-moro-lesion-osasuna/",
-        "fecha": "2026-05-13",
-        "titulo": "Raúl Moro pide el cambio por molestias musculares"
+        "url": "https://www.jornadaperfecta.com/blog/ramis-nuevo-entrenador-osasuna/",
+        "fecha": "2026-06-10",
+        "titulo": "Ramis se convierte en el nuevo entrenador de CA Osasuna"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/ramis-nuevo-entrenador-osasuna/#respond",
+        "fecha": "2026-06-10",
+        "titulo": "Ramis se convierte en el nuevo entrenador de CA Osasuna"
       }
     ]
   }
