@@ -1012,14 +1012,14 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/marcelino-previa-villarreal-sevilla-j36/",
-        "fecha": "2026-05-12",
-        "titulo": "Marcelino explica las ausencias de Pape Gueye"
+        "url": "https://www.jornadaperfecta.com/blog/sangante-fichaje-sevilla/",
+        "fecha": "2026-06-16",
+        "titulo": "Oficial: Arouna Sangante, nuevo fichaje del Sevilla FC"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/garcia-plaza-previa-villarreal-sevilla-j36/",
-        "fecha": "2026-05-12",
-        "titulo": "García Plaza anuncia la baja de Isaac y hasta 5 rotaciones"
+        "url": "https://www.jornadaperfecta.com/blog/sangante-fichaje-sevilla/#respond",
+        "fecha": "2026-06-16",
+        "titulo": "Oficial: Arouna Sangante, nuevo fichaje del Sevilla FC"
       }
     ]
   },
@@ -1405,34 +1405,44 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/julian-alvarez-oferta-real-madrid/",
-        "fecha": "2026-06-09",
-        "titulo": "Comunicado oficial del Real Madrid: Julián Alvarez"
+        "url": "https://www.jornadaperfecta.com/blog/oficial-bernardo-silva-real-madrid/",
+        "fecha": "2026-06-17",
+        "titulo": "Oficial: Bernardo Silva nuevo futbolista del Real Madrid"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/julian-alvarez-oferta-real-madrid/#respond",
-        "fecha": "2026-06-09",
-        "titulo": "Comunicado oficial del Real Madrid: Julián Alvarez"
+        "url": "https://www.jornadaperfecta.com/blog/oficial-bernardo-silva-real-madrid/#respond",
+        "fecha": "2026-06-17",
+        "titulo": "Oficial: Bernardo Silva nuevo futbolista del Real Madrid"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/michael-olise-fichaje-real-madrid/",
-        "fecha": "2026-06-06",
-        "titulo": "La oferta de 150 millones del Real Madrid será por Michael Olise"
+        "url": "https://www.jornadaperfecta.com/blog/cucurella-real-madrid-anuncio/",
+        "fecha": "2026-06-15",
+        "titulo": "Oficial: Marc Cucurella, nuevo jugador del Real Madrid"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/michael-olise-fichaje-real-madrid/#respond",
-        "fecha": "2026-06-06",
-        "titulo": "La oferta de 150 millones del Real Madrid será por Michael Olise"
+        "url": "https://www.jornadaperfecta.com/blog/cucurella-real-madrid-anuncio/#respond",
+        "fecha": "2026-06-15",
+        "titulo": "Oficial: Marc Cucurella, nuevo jugador del Real Madrid"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/klopp-entrenador-real-madrid-riquelme/",
-        "fecha": "2026-06-06",
-        "titulo": "Klopp, el entrenador elegido por Riquelme si gana las elecciones del Real Madrid"
+        "url": "https://www.jornadaperfecta.com/blog/cucurella-fichaje-real-madrid/",
+        "fecha": "2026-06-14",
+        "titulo": "Bombazo: El Real Madrid cierra el fichaje de Cucurella"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/klopp-entrenador-real-madrid-riquelme/#respond",
-        "fecha": "2026-06-06",
-        "titulo": "Klopp, el entrenador elegido por Riquelme si gana las elecciones del Real Madrid"
+        "url": "https://www.jornadaperfecta.com/blog/cucurella-fichaje-real-madrid/#respond",
+        "fecha": "2026-06-14",
+        "titulo": "Bombazo: El Real Madrid cierra el fichaje de Cucurella"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/bernardo-silva-fichaje-real-madrid/",
+        "fecha": "2026-06-12",
+        "titulo": "Bernardo Silva al Real Madrid: HERE WE GO!"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/bernardo-silva-fichaje-real-madrid/#respond",
+        "fecha": "2026-06-12",
+        "titulo": "Bernardo Silva al Real Madrid: HERE WE GO!"
       }
     ]
   },

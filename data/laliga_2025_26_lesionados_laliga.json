@@ -158,6 +158,14 @@
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/bartra"
       },
       {
+        "nombre": "Ez Abde",
+        "url": "https://www.jornadaperfecta.com/jugador/ez-abde",
+        "motivo_lesion": "Esguince de rodilla",
+        "vuelta_estimada": "Finales de julio",
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/ez-abde"
+      },
+      {
         "nombre": "Ruibal",
         "url": "https://www.jornadaperfecta.com/jugador/ruibal",
         "motivo_lesion": "Operación en el menisco externo de su rodilla derecha",
@@ -198,6 +206,13 @@
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/pablo-duran"
       }
     ]
+  },
+  {
+    "equipo_nombre": "Deportivo",
+    "equipo_url": "https://www.jornadaperfecta.com/equipo/deportivo",
+    "escudo_url": "https://cdn.biwenger.com/i/t/6.png",
+    "escudo_title": "Deportivo",
+    "jugadores": []
   },
   {
     "equipo_nombre": "Elche",
@@ -284,6 +299,13 @@
     "equipo_url": "https://www.jornadaperfecta.com/equipo/osasuna",
     "escudo_url": "https://cdn.biwenger.com/i/t/93.png",
     "escudo_title": "Osasuna",
+    "jugadores": []
+  },
+  {
+    "equipo_nombre": "Racing",
+    "equipo_url": "https://www.jornadaperfecta.com/equipo/racing",
+    "escudo_url": "https://cdn.biwenger.com/i/t/812.png",
+    "escudo_title": "Racing",
     "jugadores": []
   },
   {
