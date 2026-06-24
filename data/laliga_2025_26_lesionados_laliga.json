@@ -277,14 +277,6 @@
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/elgezabal"
       },
       {
-        "nombre": "Álex Primo",
-        "url": "https://www.jornadaperfecta.com/jugador/alex-primo",
-        "motivo_lesion": "Luxación del hombro derecho con lesión de labrum",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "PT",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/alex-primo"
-      },
-      {
         "nombre": "Carlos Álvarez",
         "url": "https://www.jornadaperfecta.com/jugador/carlos-alvarez",
         "motivo_lesion": "Lesión de grado 2 de la sindesmosis anterior del tobillo izquierdo",
@@ -293,6 +285,13 @@
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/carlos-alvarez"
       }
     ]
+  },
+  {
+    "equipo_nombre": "Málaga",
+    "equipo_url": "https://www.jornadaperfecta.com/equipo/malaga",
+    "escudo_url": "https://cdn.biwenger.com/i/t/65.png",
+    "escudo_title": "Málaga",
+    "jugadores": []
   },
   {
     "equipo_nombre": "Osasuna",
