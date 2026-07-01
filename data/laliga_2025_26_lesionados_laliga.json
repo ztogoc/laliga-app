@@ -12,14 +12,6 @@
         "vuelta_estimada": "Vuelta indefinida",
         "posicion": "DF",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/victor-parada"
-      },
-      {
-        "nombre": "Jon Pacheco",
-        "url": "https://www.jornadaperfecta.com/jugador/jon-pacheco",
-        "motivo_lesion": "Artroscopia en el tobillo derecho",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/jon-pacheco"
       }
     ]
   },
@@ -116,14 +108,6 @@
         "vuelta_estimada": "Vuelta indefinida",
         "posicion": "DF",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/gimenez"
-      },
-      {
-        "nombre": "Nico González",
-        "url": "https://www.jornadaperfecta.com/jugador/nico-gonzalez",
-        "motivo_lesion": "Lesión muscular",
-        "vuelta_estimada": "Mediados de junio",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/nico-gonzalez"
       }
     ]
   },
@@ -133,6 +117,14 @@
     "escudo_url": "https://cdn.biwenger.com/i/t/3.png",
     "escudo_title": "Barcelona",
     "jugadores": [
+      {
+        "nombre": "Ter Stegen",
+        "url": "https://www.jornadaperfecta.com/jugador/ter-stegen",
+        "motivo_lesion": "Rotura parcial en los isquiotibiales con posible afectación al tendón",
+        "vuelta_estimada": "Principios de junio",
+        "posicion": "PT",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/ter-stegen"
+      },
       {
         "nombre": "Fermín",
         "url": "https://www.jornadaperfecta.com/jugador/fermin",
@@ -212,7 +204,16 @@
     "equipo_url": "https://www.jornadaperfecta.com/equipo/deportivo",
     "escudo_url": "https://cdn.biwenger.com/i/t/6.png",
     "escudo_title": "Deportivo",
-    "jugadores": []
+    "jugadores": [
+      {
+        "nombre": "David Mella",
+        "url": "https://www.jornadaperfecta.com/jugador/david-mella",
+        "motivo_lesion": "Lesión en la rodila izquierda",
+        "vuelta_estimada": "Principios de agosto",
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/david-mella"
+      }
+    ]
   },
   {
     "equipo_nombre": "Elche",
@@ -291,7 +292,32 @@
     "equipo_url": "https://www.jornadaperfecta.com/equipo/malaga",
     "escudo_url": "https://cdn.biwenger.com/i/t/65.png",
     "escudo_title": "Málaga",
-    "jugadores": []
+    "jugadores": [
+      {
+        "nombre": "Álex Pastor",
+        "url": "https://www.jornadaperfecta.com/jugador/alex-pastor",
+        "motivo_lesion": "Rotura de ligamento cruzado anterior de su rodilla derecha",
+        "vuelta_estimada": "Principios de agosto",
+        "posicion": "DF",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/alex-pastor"
+      },
+      {
+        "nombre": "Diego Murillo",
+        "url": "https://www.jornadaperfecta.com/jugador/diego-murillo",
+        "motivo_lesion": "Lesión en el ligamento lateral interno y del menisco interno",
+        "vuelta_estimada": "Finales de octubre",
+        "posicion": "DF",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/diego-murillo"
+      },
+      {
+        "nombre": "Luismi",
+        "url": "https://www.jornadaperfecta.com/jugador/luismi",
+        "motivo_lesion": "Operación de varias fracturas maxilofaciales",
+        "vuelta_estimada": "Vuelta indefinida",
+        "posicion": "MC",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/luismi"
+      }
+    ]
   },
   {
     "equipo_nombre": "Osasuna",
@@ -368,6 +394,14 @@
         "vuelta_estimada": "Mediados de junio",
         "posicion": "MC",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/barrenetxea"
+      },
+      {
+        "nombre": "Jon Pacheco",
+        "url": "https://www.jornadaperfecta.com/jugador/jon-pacheco",
+        "motivo_lesion": "Artroscopia en el tobillo derecho",
+        "vuelta_estimada": "Vuelta indefinida",
+        "posicion": "DF",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/jon-pacheco"
       },
       {
         "nombre": "Odriozola",
