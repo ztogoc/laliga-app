@@ -308,14 +308,6 @@
         "vuelta_estimada": "Finales de octubre",
         "posicion": "DF",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/diego-murillo"
-      },
-      {
-        "nombre": "Luismi",
-        "url": "https://www.jornadaperfecta.com/jugador/luismi",
-        "motivo_lesion": "Operación de varias fracturas maxilofaciales",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/luismi"
       }
     ]
   },
@@ -338,16 +330,7 @@
     "equipo_url": "https://www.jornadaperfecta.com/equipo/rayo-vallecano",
     "escudo_url": "https://cdn.biwenger.com/i/t/70.png",
     "escudo_title": "Rayo Vallecano",
-    "jugadores": [
-      {
-        "nombre": "Luiz Felipe",
-        "url": "https://www.jornadaperfecta.com/jugador/luiz-felipe",
-        "motivo_lesion": "Lesión en los isquiotibiales",
-        "vuelta_estimada": "Finales de agosto",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/luiz-felipe"
-      }
-    ]
+    "jugadores": []
   },
   {
     "equipo_nombre": "Real Madrid",
@@ -434,6 +417,14 @@
         "vuelta_estimada": "Vuelta indefinida",
         "posicion": "MC",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/manu-bueno"
+      },
+      {
+        "nombre": "Alfon González",
+        "url": "https://www.jornadaperfecta.com/jugador/alfon-gonzalez",
+        "motivo_lesion": "Rotura fibrilar en el cuádriceps derecho",
+        "vuelta_estimada": "Principios de septiembre",
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/alfon-gonzalez"
       }
     ]
   },
