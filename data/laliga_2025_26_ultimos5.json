@@ -729,14 +729,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/guedes-estado-real-sociedad-j35/",
-        "fecha": "2026-05-05",
-        "titulo": "Guedes, ausente en la vuelta de Zubeldia y Karrikaburu"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/turrientes-estado-real-sociedad-j35/",
-        "fecha": "2026-05-05",
-        "titulo": "Turrientes y Pablo Marín acabaron tocados, ¿llegan a la jornada 35?"
+        "url": "https://www.jornadaperfecta.com/blog/gorrotxategi-estado-real-sociedad-j1-2/",
+        "fecha": "2026-07-21",
+        "titulo": "Gorrotxategi sigue ausente y aumenta la incertidumbre"
       }
     ]
   },
@@ -1017,14 +1012,19 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/juanlu-molestias-pretemporada-sevilla/",
-        "fecha": "2026-07-14",
-        "titulo": "Juanlu sufre una pequeña lesión en mitad de rumores"
+        "url": "https://www.jornadaperfecta.com/blog/akor-adams-salida-sevilla-26/",
+        "fecha": "2026-07-20",
+        "titulo": "Acuerdo cerrado para la salida de Akor Adams"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/juanlu-molestias-pretemporada-sevilla/#respond",
-        "fecha": "2026-07-14",
-        "titulo": "Juanlu sufre una pequeña lesión en mitad de rumores"
+        "url": "https://www.jornadaperfecta.com/blog/juan-iglesias-analisis-fantasy-fichaje-sevilla/",
+        "fecha": "2026-07-21",
+        "titulo": "Juan Iglesias cambia Getafe por Sevilla. ¿Será una pieza clave?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/juan-iglesias-analisis-fantasy-fichaje-sevilla/#comments",
+        "fecha": "2026-07-21",
+        "titulo": "Juan Iglesias cambia Getafe por Sevilla. ¿Será una pieza clave?"
       }
     ]
   },
@@ -1305,24 +1305,14 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-real-sociedad-betis-j35-25-26/",
-        "fecha": "2026-05-06",
-        "titulo": "Las claves fantasy del Real Sociedad – Real Betis: Onces, Lesiones y Apuestas"
+        "url": "https://www.jornadaperfecta.com/blog/facundo-bernal-analisis-betis/",
+        "fecha": "2026-07-22",
+        "titulo": "Facundo Bernal, refuerzo de lujo del Betis. ¿El nuevo Johnny Cardoso?"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/ricardo-rodriguez-estado-betis-j35/",
-        "fecha": "2026-05-06",
-        "titulo": "Ricardo Rodríguez vuelve a entrenar, tras ausentarse ayer"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/cucho-recomendacion-fantasy-betis/",
-        "fecha": "2026-05-05",
-        "titulo": "Primer doblete de Cucho en el Real Betis, ¿lo fichamos?"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/cucho-recomendacion-fantasy-betis/#comments",
-        "fecha": "2026-05-05",
-        "titulo": "Primer doblete de Cucho en el Real Betis, ¿lo fichamos?"
+        "url": "https://www.jornadaperfecta.com/blog/facundo-bernal-analisis-betis/#respond",
+        "fecha": "2026-07-22",
+        "titulo": "Facundo Bernal, refuerzo de lujo del Betis. ¿El nuevo Johnny Cardoso?"
       }
     ]
   },
@@ -1390,14 +1380,19 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/konate-real-madrid-anuncio/",
-        "fecha": "2026-06-18",
-        "titulo": "Oficial: Ibrahima Konaté, nuevo jugador del Real Madrid"
+        "url": "https://www.jornadaperfecta.com/blog/bernardo-silva-analisis-fantasy-real-madrid/",
+        "fecha": "2026-07-22",
+        "titulo": "El rol de Bernardo Silva en el Real Madrid: ¿será un TOP fantasy?"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/konate-real-madrid-anuncio/#respond",
-        "fecha": "2026-06-18",
-        "titulo": "Oficial: Ibrahima Konaté, nuevo jugador del Real Madrid"
+        "url": "https://www.jornadaperfecta.com/blog/rodri-real-madrid-posible-fichaje-26/",
+        "fecha": "2026-07-22",
+        "titulo": "El Real Madrid se decide: ¡irá a por Rodri Hernández!"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/bernardo-silva-analisis-fantasy-real-madrid/#respond",
+        "fecha": "2026-07-22",
+        "titulo": "El rol de Bernardo Silva en el Real Madrid: ¿será un TOP fantasy?"
       }
     ]
   },
@@ -1465,14 +1460,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/ramis-nuevo-entrenador-osasuna/",
-        "fecha": "2026-06-10",
-        "titulo": "Ramis se convierte en el nuevo entrenador de CA Osasuna"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/ramis-nuevo-entrenador-osasuna/#respond",
-        "fecha": "2026-06-10",
-        "titulo": "Ramis se convierte en el nuevo entrenador de CA Osasuna"
+        "url": "https://www.jornadaperfecta.com/blog/dubasin-osasuna-posible-fichaje-26/",
+        "fecha": "2026-07-21",
+        "titulo": "Osasuna se mueve por Dubasin, que aprieta para llegar a El Sadar"
       }
     ]
   }
