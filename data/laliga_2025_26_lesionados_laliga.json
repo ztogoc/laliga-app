@@ -6,20 +6,20 @@
     "escudo_title": "Alavés",
     "jugadores": [
       {
-        "nombre": "Ville Koski",
-        "url": "https://www.jornadaperfecta.com/jugador/ville-koski",
-        "motivo_lesion": "Golpe en la cabeza",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/ville-koski"
-      },
-      {
         "nombre": "Benavidez",
         "url": "https://www.jornadaperfecta.com/jugador/benavidez",
         "motivo_lesion": "Lesión en la rodilla",
-        "vuelta_estimada": "Vuelta indefinida",
+        "vuelta_estimada": "Mediados de agosto",
         "posicion": "MC",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/benavidez"
+      },
+      {
+        "nombre": "Boyé",
+        "url": "https://www.jornadaperfecta.com/jugador/boye",
+        "motivo_lesion": "Molestias sin determinar",
+        "vuelta_estimada": "Mediados de agosto",
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/boye"
       }
     ]
   },
@@ -29,38 +29,6 @@
     "escudo_url": "https://cdn.biwenger.com/i/t/1.png",
     "escudo_title": "Athletic",
     "jugadores": [
-      {
-        "nombre": "Djaló",
-        "url": "https://www.jornadaperfecta.com/jugador/djalo",
-        "motivo_lesion": "Entrenamiento al margen",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DL",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/djalo"
-      },
-      {
-        "nombre": "Gorosabel",
-        "url": "https://www.jornadaperfecta.com/jugador/gorosabel",
-        "motivo_lesion": "Lesión en su aductor mediano del lado derecho",
-        "vuelta_estimada": "Finales de julio",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/gorosabel"
-      },
-      {
-        "nombre": "Beñat Prados",
-        "url": "https://www.jornadaperfecta.com/jugador/benat-prados",
-        "motivo_lesion": "Molestias en la rodilla",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/benat-prados"
-      },
-      {
-        "nombre": "Gerenabarrena",
-        "url": "https://www.jornadaperfecta.com/jugador/gerenabarrena",
-        "motivo_lesion": "Molestias sin determinar",
-        "vuelta_estimada": "Principios de agosto",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/gerenabarrena"
-      },
       {
         "nombre": "Vivian",
         "url": "https://www.jornadaperfecta.com/jugador/vivian",
@@ -86,12 +54,12 @@
     "escudo_title": "Atlético",
     "jugadores": [
       {
-        "nombre": "Barrios",
-        "url": "https://www.jornadaperfecta.com/jugador/barrios",
-        "motivo_lesion": "Sobrecarga muscular",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/barrios"
+        "nombre": "Sørloth",
+        "url": "https://www.jornadaperfecta.com/jugador/sorloth",
+        "motivo_lesion": "Lesión muscular",
+        "vuelta_estimada": "Principios de septiembre",
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/sorloth"
       }
     ]
   },
@@ -102,28 +70,20 @@
     "escudo_title": "Barcelona",
     "jugadores": [
       {
-        "nombre": "Balde",
-        "url": "https://www.jornadaperfecta.com/jugador/balde",
-        "motivo_lesion": "Molestias en la espalda",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/balde"
-      },
-      {
-        "nombre": "Fermín",
-        "url": "https://www.jornadaperfecta.com/jugador/fermin",
-        "motivo_lesion": "Fractura en el quinto metatarsiano del pie derecho",
-        "vuelta_estimada": "Principios de agosto",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/fermin"
-      },
-      {
         "nombre": "De Jong",
         "url": "https://www.jornadaperfecta.com/jugador/de-jong",
         "motivo_lesion": "Rotura del ligamento lateral interno de la rodilla derecha",
         "vuelta_estimada": "Finales de diciembre",
         "posicion": "MC",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/de-jong"
+      },
+      {
+        "nombre": "Roony",
+        "url": "https://www.jornadaperfecta.com/jugador/roony",
+        "motivo_lesion": "Rotura del ligamento cruzado anterior de la rodilla derecha",
+        "vuelta_estimada": "Mediados de junio",
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/roony"
       }
     ]
   },
@@ -140,6 +100,22 @@
         "vuelta_estimada": "Mediados de agosto",
         "posicion": "DL",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/ez-abde"
+      },
+      {
+        "nombre": "Gonzalo Petit",
+        "url": "https://www.jornadaperfecta.com/jugador/gonzalo-petit",
+        "motivo_lesion": "Lesión muscular",
+        "vuelta_estimada": "Finales de agosto",
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/gonzalo-petit"
+      },
+      {
+        "nombre": "Firpo",
+        "url": "https://www.jornadaperfecta.com/jugador/firpo",
+        "motivo_lesion": "Molestias musculares",
+        "vuelta_estimada": "Vuelta indefinida",
+        "posicion": "DF",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/firpo"
       },
       {
         "nombre": "Ruibal",
@@ -166,6 +142,14 @@
     "escudo_title": "Celta",
     "jugadores": [
       {
+        "nombre": "Matías Vecino",
+        "url": "https://www.jornadaperfecta.com/jugador/matias-vecino",
+        "motivo_lesion": "Molestias en la rodilla",
+        "vuelta_estimada": "Vuelta inminente",
+        "posicion": "MC",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/matias-vecino"
+      },
+      {
         "nombre": "Galán",
         "url": "https://www.jornadaperfecta.com/jugador/galan",
         "motivo_lesion": "Rotura fibrilar de bajo grado recto femoral izquierdo",
@@ -190,20 +174,12 @@
     "escudo_title": "Deportivo",
     "jugadores": [
       {
-        "nombre": "Jensen",
-        "url": "https://www.jornadaperfecta.com/jugador/jensen",
-        "motivo_lesion": "Trabajo al margen",
+        "nombre": "Yeremay Hernández",
+        "url": "https://www.jornadaperfecta.com/jugador/yeremay-hernandez",
+        "motivo_lesion": "Pubalgia",
         "vuelta_estimada": "Vuelta inminente",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/jensen"
-      },
-      {
-        "nombre": "Adrià Altimira",
-        "url": "https://www.jornadaperfecta.com/jugador/adria-altimira",
-        "motivo_lesion": "Contusión en la rodilla",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/adria-altimira"
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/yeremay-hernandez"
       }
     ]
   },
@@ -214,26 +190,10 @@
     "escudo_title": "Elche",
     "jugadores": [
       {
-        "nombre": "Neto",
-        "url": "https://www.jornadaperfecta.com/jugador/neto",
-        "motivo_lesion": "Molestias en el muslo",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/neto"
-      },
-      {
-        "nombre": "Dituro",
-        "url": "https://www.jornadaperfecta.com/jugador/dituro",
-        "motivo_lesion": "Golpe en el hombro",
-        "vuelta_estimada": "Principios de agosto",
-        "posicion": "PT",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/dituro"
-      },
-      {
         "nombre": "Bigas",
         "url": "https://www.jornadaperfecta.com/jugador/bigas",
-        "motivo_lesion": "Sobrecarga muscular",
-        "vuelta_estimada": "Vuelta inminente",
+        "motivo_lesion": "Molestias sin determinar",
+        "vuelta_estimada": "Mediados de agosto",
         "posicion": "DF",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/bigas"
       },
@@ -278,44 +238,12 @@
     "escudo_title": "Getafe",
     "jugadores": [
       {
-        "nombre": "Mayoral",
-        "url": "https://www.jornadaperfecta.com/jugador/mayoral",
-        "motivo_lesion": "Entrenamiento al margen",
-        "vuelta_estimada": "Vuelta inminente",
+        "nombre": "Uche",
+        "url": "https://www.jornadaperfecta.com/jugador/uche",
+        "motivo_lesion": "Grave lesión en la rodilla derecha",
+        "vuelta_estimada": "Mediados de junio",
         "posicion": "DL",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/mayoral"
-      },
-      {
-        "nombre": "Andrés García",
-        "url": "https://www.jornadaperfecta.com/jugador/andres-garcia",
-        "motivo_lesion": "Molestias musculares",
-        "vuelta_estimada": null,
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/andres-garcia"
-      },
-      {
-        "nombre": "Djené",
-        "url": "https://www.jornadaperfecta.com/jugador/djene",
-        "motivo_lesion": "Molestias musculares",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/djene"
-      },
-      {
-        "nombre": "Kiko Femenía",
-        "url": "https://www.jornadaperfecta.com/jugador/kiko-femenia",
-        "motivo_lesion": "Molestias musculares",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/kiko-femenia"
-      },
-      {
-        "nombre": "Abqar",
-        "url": "https://www.jornadaperfecta.com/jugador/abqar",
-        "motivo_lesion": "Lesión muscular en el cuádriceps de la pierna izquierda",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/abqar"
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/uche"
       },
       {
         "nombre": "Juanmi",
@@ -340,14 +268,6 @@
         "vuelta_estimada": "Vuelta indefinida",
         "posicion": "PT",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/alex-primo"
-      },
-      {
-        "nombre": "Carlos Álvarez",
-        "url": "https://www.jornadaperfecta.com/jugador/carlos-alvarez",
-        "motivo_lesion": "Lesión de grado 2 de la sindesmosis anterior del tobillo izquierdo",
-        "vuelta_estimada": "Mediados de junio",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/carlos-alvarez"
       }
     ]
   },
@@ -358,28 +278,12 @@
     "escudo_title": "Málaga",
     "jugadores": [
       {
-        "nombre": "Juan Cruz Díaz",
-        "url": "https://www.jornadaperfecta.com/jugador/juan-cruz-diaz",
-        "motivo_lesion": "Sobrecarga muscular",
-        "vuelta_estimada": "Principios de agosto",
-        "posicion": "DL",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/juan-cruz-diaz"
-      },
-      {
-        "nombre": "Alfonso Herrero",
-        "url": "https://www.jornadaperfecta.com/jugador/alfonso-herrero",
-        "motivo_lesion": "Molestias en el tobillo",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "PT",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/alfonso-herrero"
-      },
-      {
-        "nombre": "Álex Pastor",
-        "url": "https://www.jornadaperfecta.com/jugador/alex-pastor",
-        "motivo_lesion": "Rotura de ligamento cruzado anterior de su rodilla derecha",
-        "vuelta_estimada": "Mediados de julio",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/alex-pastor"
+        "nombre": "Juanpe Melero",
+        "url": "https://www.jornadaperfecta.com/jugador/juanpe-melero",
+        "motivo_lesion": "Lesión muscular",
+        "vuelta_estimada": "Mediados de agosto",
+        "posicion": "MC",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/juanpe-melero"
       },
       {
         "nombre": "Moussa Diarra",
@@ -396,6 +300,22 @@
         "vuelta_estimada": "Finales de octubre",
         "posicion": "DF",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/diego-murillo"
+      },
+      {
+        "nombre": "Dotor",
+        "url": "https://www.jornadaperfecta.com/jugador/dotor",
+        "motivo_lesion": "Lesión de grado I en el ligamento colateral interno de su rodilla derecha",
+        "vuelta_estimada": "Principios de septiembre",
+        "posicion": "MC",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/dotor"
+      },
+      {
+        "nombre": "Calero",
+        "url": "https://www.jornadaperfecta.com/jugador/calero",
+        "motivo_lesion": "Fracturas costales en las costillas 9, 10 y 11 izquierdas",
+        "vuelta_estimada": "Principios de septiembre",
+        "posicion": "DF",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/calero"
       }
     ]
   },
@@ -420,14 +340,6 @@
         "vuelta_estimada": "Vuelta inminente",
         "posicion": "DF",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/boyomo"
-      },
-      {
-        "nombre": "Raúl Moro",
-        "url": "https://www.jornadaperfecta.com/jugador/raul-moro",
-        "motivo_lesion": "Leves molestias",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DL",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/raul-moro"
       },
       {
         "nombre": "Rosier",
@@ -462,6 +374,14 @@
     "escudo_title": "Rayo Vallecano",
     "jugadores": [
       {
+        "nombre": "Kumbulla",
+        "url": "https://www.jornadaperfecta.com/jugador/kumbulla",
+        "motivo_lesion": "Lesión en el aductor",
+        "vuelta_estimada": "Vuelta indefinida",
+        "posicion": "DF",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/kumbulla"
+      },
+      {
         "nombre": "Luiz Felipe",
         "url": "https://www.jornadaperfecta.com/jugador/luiz-felipe",
         "motivo_lesion": "Lesión en los isquiotibiales",
@@ -478,20 +398,12 @@
     "escudo_title": "Real Madrid",
     "jugadores": [
       {
-        "nombre": "Courtois",
-        "url": "https://www.jornadaperfecta.com/jugador/courtois",
-        "motivo_lesion": "Lesión en el cuádriceps",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "PT",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/courtois"
-      },
-      {
-        "nombre": "Huijsen",
-        "url": "https://www.jornadaperfecta.com/jugador/huijsen",
-        "motivo_lesion": "Pequeñas molestias musculares",
+        "nombre": "Tchouameni",
+        "url": "https://www.jornadaperfecta.com/jugador/tchouameni",
+        "motivo_lesion": "Leves molestias",
         "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/huijsen"
+        "posicion": "MC",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/tchouameni"
       },
       {
         "nombre": "Mendy",
@@ -542,20 +454,12 @@
     "escudo_title": "Real Sociedad",
     "jugadores": [
       {
-        "nombre": "Pablo Marín",
-        "url": "https://www.jornadaperfecta.com/jugador/pablo-marin",
-        "motivo_lesion": "Lesión en la musculatura isquiotibial de su pierna derecha",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/pablo-marin"
-      },
-      {
-        "nombre": "Kubo",
-        "url": "https://www.jornadaperfecta.com/jugador/kubo",
-        "motivo_lesion": "Lesión de rodilla",
+        "nombre": "Guedes",
+        "url": "https://www.jornadaperfecta.com/jugador/guedes",
+        "motivo_lesion": "Operación quirúrgica",
         "vuelta_estimada": "Mediados de agosto",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/kubo"
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/guedes"
       },
       {
         "nombre": "Gorrotxategi",
@@ -585,33 +489,9 @@
         "nombre": "Marcão",
         "url": "https://www.jornadaperfecta.com/jugador/marcao",
         "motivo_lesion": "Edema muscular en su cuádriceps derecho",
-        "vuelta_estimada": "Finales de julio",
+        "vuelta_estimada": "Mediados de agosto",
         "posicion": "DF",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/marcao"
-      },
-      {
-        "nombre": "Oso",
-        "url": "https://www.jornadaperfecta.com/jugador/oso",
-        "motivo_lesion": "Contusión en el cuádriceps",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/oso"
-      },
-      {
-        "nombre": "Sangante",
-        "url": "https://www.jornadaperfecta.com/jugador/sangante",
-        "motivo_lesion": "Molestia en el tobillo",
-        "vuelta_estimada": "Vuelta inminente",
-        "posicion": "DF",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/sangante"
-      },
-      {
-        "nombre": "Juanlu",
-        "url": "https://www.jornadaperfecta.com/jugador/juanlu",
-        "motivo_lesion": "Rotura fibrilar en el cuádriceps izquierdo",
-        "vuelta_estimada": "Principios de agosto",
-        "posicion": "MC",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/juanlu"
       },
       {
         "nombre": "Alfon González",
@@ -646,6 +526,14 @@
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/foulquier"
       },
       {
+        "nombre": "Rioja",
+        "url": "https://www.jornadaperfecta.com/jugador/rioja",
+        "motivo_lesion": "Lesión en el cuádriceps",
+        "vuelta_estimada": "Finales de agosto",
+        "posicion": "DL",
+        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/rioja"
+      },
+      {
         "nombre": "Alberto Marí",
         "url": "https://www.jornadaperfecta.com/jugador/alberto-mari",
         "motivo_lesion": "Bíceps femoral de la pierna izquierda",
@@ -660,14 +548,6 @@
         "vuelta_estimada": "Vuelta indefinida",
         "posicion": "DL",
         "url_noticia": "https://www.jornadaperfecta.com/blog/tag/sergi-canos"
-      },
-      {
-        "nombre": "Rioja",
-        "url": "https://www.jornadaperfecta.com/jugador/rioja",
-        "motivo_lesion": "Lesión en el cuádriceps de 4 a 6 semanas",
-        "vuelta_estimada": "Mediados de septiembre",
-        "posicion": "DL",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/rioja"
       },
       {
         "nombre": "Diego López",
@@ -692,15 +572,6 @@
     "equipo_url": "https://www.jornadaperfecta.com/equipo/villarreal",
     "escudo_url": "https://cdn.biwenger.com/i/t/19.png",
     "escudo_title": "Villarreal",
-    "jugadores": [
-      {
-        "nombre": "Gerard Moreno",
-        "url": "https://www.jornadaperfecta.com/jugador/gerard-moreno",
-        "motivo_lesion": "Posible lesión muscular",
-        "vuelta_estimada": "Vuelta indefinida",
-        "posicion": "DL",
-        "url_noticia": "https://www.jornadaperfecta.com/blog/tag/gerard-moreno"
-      }
-    ]
+    "jugadores": []
   }
 ]
