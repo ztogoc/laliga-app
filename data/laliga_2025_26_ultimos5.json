@@ -203,9 +203,14 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/foyth-estado-j7/",
-        "fecha": "2026-09-16",
-        "titulo": "Foyth sigue sin entrenar con el Villarreal, ¿llega a la jornada 7?"
+        "url": "https://www.jornadaperfecta.com/blog/ilias-akhomach-chollo-fantasy-villarreal-cf/",
+        "fecha": "2026-09-23",
+        "titulo": "Ilias Akhomach pide paso en el Villarreal, ¿chollo fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/ilias-akhomach-chollo-fantasy-villarreal-cf/#comments",
+        "fecha": "2026-09-23",
+        "titulo": "Ilias Akhomach pide paso en el Villarreal, ¿chollo fantasy?"
       }
     ]
   },
@@ -629,14 +634,24 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/rioja-lesion-valencia-cf/",
-        "fecha": "2026-09-16",
-        "titulo": "Luis Rioja explica su dolorosa lesión en la planta del pie"
+        "url": "https://www.jornadaperfecta.com/blog/javier-aguirre-analisis-fantasy-valencia/",
+        "fecha": "2026-09-23",
+        "titulo": "Javier Aguirre: Beneficiados y perjudicados fantasy en el Valencia"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/hugo-duro-titular-valencia-j6/",
-        "fecha": "2026-09-15",
-        "titulo": "Confirmado el once titular del Valencia CF para la jornada 6"
+        "url": "https://www.jornadaperfecta.com/blog/javier-aguirre-entrenador-valencia/",
+        "fecha": "2026-09-23",
+        "titulo": "Oficial: Javier Aguirre, nuevo entrenador del Valencia CF"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/aimar-blazquez-debut-valencia-cf/",
+        "fecha": "2026-09-21",
+        "titulo": "Debut interesante de Aimar Blázquez con el Valencia CF"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/javier-aguirre-analisis-fantasy-valencia/#comments",
+        "fecha": "2026-09-23",
+        "titulo": "Javier Aguirre: Beneficiados y perjudicados fantasy en el Valencia"
       }
     ]
   },
@@ -917,9 +932,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/terzic-previa-levante-athletic-j6-26-27/",
-        "fecha": "2026-09-15",
-        "titulo": "Terzic confirma a Iñaki Williams y deja a dos jugadores en duda"
+        "url": "https://www.jornadaperfecta.com/blog/yuri-y-guruzeta-estado-paron/",
+        "fecha": "2026-09-22",
+        "titulo": "Yuri y Guruzeta siguen sin entrenar con el Athletic en este parón"
       }
     ]
   },
@@ -1127,19 +1142,24 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/simeone-previa-atletico-osasuna-j6-26-27/",
-        "fecha": "2026-09-15",
-        "titulo": "Simeone no cuenta con Julián Alvarez y habla de Jonathan David"
+        "url": "https://www.jornadaperfecta.com/blog/marcaapuestas-atletico-vs-real-madrid-seguro/",
+        "fecha": "2026-09-20",
+        "titulo": "Hasta 10€ de devolución en Freebet con MARCAapuestas para el Atlético vs Real Madrid"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/kirolbet-real-sociedad-vs-atletico/",
-        "fecha": "2026-09-13",
-        "titulo": "Kirolbet: 10€ en Freebets por el Real Sociedad – Atlético"
+        "url": "https://www.jornadaperfecta.com/blog/marcaapuestas-atletico-vs-real-madrid-seguro/#respond",
+        "fecha": "2026-09-20",
+        "titulo": "Hasta 10€ de devolución en Freebet con MARCAapuestas para el Atlético vs Real Madrid"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/kirolbet-real-sociedad-vs-atletico/#respond",
-        "fecha": "2026-09-13",
-        "titulo": "Kirolbet: 10€ en Freebets por el Real Sociedad – Atlético"
+        "url": "https://www.jornadaperfecta.com/blog/boost-x10-winamax-atletico-real-madrid/",
+        "fecha": "2026-09-19",
+        "titulo": "¡Winamax te paga x10 veces más tu apuesta al Derbi: Atlético vs Real Madrid!"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/boost-x10-winamax-atletico-real-madrid/#respond",
+        "fecha": "2026-09-19",
+        "titulo": "¡Winamax te paga x10 veces más tu apuesta al Derbi: Atlético vs Real Madrid!"
       }
     ]
   },
@@ -1270,14 +1290,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/bordalas-previa-betis-getafe-j6-26-27/",
-        "fecha": "2026-09-16",
-        "titulo": "Bordalás confirma una baja y varios jugadores tocados"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/pellegrini-previa-betis-getafe-j6-26-27/",
-        "fecha": "2026-09-16",
-        "titulo": "Pellegrini, sobre el rol de Ceballos y Lo Celso"
+        "url": "https://www.jornadaperfecta.com/blog/bartra-lesion-betis/",
+        "fecha": "2026-09-22",
+        "titulo": "Marc Bartra no sufre rotura y queda en duda para la jornada 8"
       }
     ]
   },
