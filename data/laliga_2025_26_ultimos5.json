@@ -133,9 +133,14 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/once-rayo-vallecano-j6-26-27/",
-        "fecha": "2026-09-15",
-        "titulo": "¡Once confirmado del Rayo Vallecano con novedades!"
+        "url": "https://www.jornadaperfecta.com/blog/analisis-fantasy-rayo-vallecano-26-27/",
+        "fecha": "2026-09-28",
+        "titulo": "Análisis fantasy Rayo Vallecano: once ideal, estrella, revelación y recomendables"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/analisis-fantasy-rayo-vallecano-26-27/#comments",
+        "fecha": "2026-09-28",
+        "titulo": "Análisis fantasy Rayo Vallecano: once ideal, estrella, revelación y recomendables"
       }
     ]
   },
@@ -426,9 +431,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/gerard-martin-golpe-nariz-barcelona/",
-        "fecha": "2026-09-16",
-        "titulo": "Gerard Martín entra en la convocatoria, ¿alineamos en fantasy?"
+        "url": "https://www.jornadaperfecta.com/blog/raphinha-lesion-muslo-brasil/",
+        "fecha": "2026-09-30",
+        "titulo": "Raphinha regresa a Barcelona por un edema muscular, ¿llega a la jornada 8?"
       }
     ]
   },
@@ -634,24 +639,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/javier-aguirre-analisis-fantasy-valencia/",
-        "fecha": "2026-09-23",
-        "titulo": "Javier Aguirre: Beneficiados y perjudicados fantasy en el Valencia"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/javier-aguirre-entrenador-valencia/",
-        "fecha": "2026-09-23",
-        "titulo": "Oficial: Javier Aguirre, nuevo entrenador del Valencia CF"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/aimar-blazquez-debut-valencia-cf/",
-        "fecha": "2026-09-21",
-        "titulo": "Debut interesante de Aimar Blázquez con el Valencia CF"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/javier-aguirre-analisis-fantasy-valencia/#comments",
-        "fecha": "2026-09-23",
-        "titulo": "Javier Aguirre: Beneficiados y perjudicados fantasy en el Valencia"
+        "url": "https://www.jornadaperfecta.com/blog/luis-rioja-recuperacion-estado-paron-valencia/",
+        "fecha": "2026-09-30",
+        "titulo": "Luis Rioja empezará un nuevo tratamiento, ¿llega a la Jornada 8?"
       }
     ]
   },
@@ -1002,9 +992,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/sangante-esguince-parte-medico-sevilla/",
-        "fecha": "2026-09-08",
-        "titulo": "Sangante, ausente del entrenamiento por un esguince"
+        "url": "https://www.jornadaperfecta.com/blog/ruben-vargas-enero-sevilla/",
+        "fecha": "2026-09-30",
+        "titulo": "Luis García Plaza no garantiza que Rubén Vargas siga en enero"
       }
     ]
   },
@@ -1360,14 +1350,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/yan-diomande-analisis-venta-fantasy-real-madrid/",
-        "fecha": "2026-09-13",
-        "titulo": "Yan Diomande, el galáctico que no arranca: ¿venta fantasy?"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/yan-diomande-analisis-venta-fantasy-real-madrid/#comments",
-        "fecha": "2026-09-13",
-        "titulo": "Yan Diomande, el galáctico que no arranca: ¿venta fantasy?"
+        "url": "https://www.jornadaperfecta.com/blog/asencio-parte-medico-tiempo-de-baja-real-madrid/",
+        "fecha": "2026-09-30",
+        "titulo": "Asencio vuelve a caer: Parte médico oficial"
       }
     ]
   },
@@ -1435,14 +1420,19 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/kambwala-cesion-ca-osasuna/",
-        "fecha": "2026-08-26",
-        "titulo": "Kambwala finalmente se marcha cedido al Como y no a Osasuna"
+        "url": "https://www.jornadaperfecta.com/blog/rosier-aimar-moi-gomez-recuperacion-osasuna/",
+        "fecha": "2026-09-30",
+        "titulo": "Rosier completa el entrenamiento grupal, junto a Aimar y Moi"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/kambwala-cesion-ca-osasuna/#respond",
-        "fecha": "2026-08-26",
-        "titulo": "Kambwala finalmente se marcha cedido al Como y no a Osasuna"
+        "url": "https://www.jornadaperfecta.com/blog/analisis-fantasy-osasuna-26-27/",
+        "fecha": "2026-09-28",
+        "titulo": "Análisis fantasy Osasuna: once ideal, estrella, revelación y recomendables"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/analisis-fantasy-osasuna-26-27/#comments",
+        "fecha": "2026-09-28",
+        "titulo": "Análisis fantasy Osasuna: once ideal, estrella, revelación y recomendables"
       }
     ]
   }
