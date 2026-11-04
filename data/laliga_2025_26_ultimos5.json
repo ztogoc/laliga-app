@@ -203,14 +203,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/pape-gueye-expulsion-villarreal-fantasy/",
-        "fecha": "2026-10-27",
-        "titulo": "Pape Gueye, ¿vender o mantener en fantasy tras su expulsión?"
-      },
-      {
-        "url": "https://www.jornadaperfecta.com/blog/pape-gueye-expulsion-villarreal-fantasy/#comments",
-        "fecha": "2026-10-27",
-        "titulo": "Pape Gueye, ¿vender o mantener en fantasy tras su expulsión?"
+        "url": "https://www.jornadaperfecta.com/blog/zaid-romero-estado-j12/",
+        "fecha": "2026-11-04",
+        "titulo": "Zaid Romero vuelve al grupo y apunta al Villarreal tras su recaída"
       }
     ]
   },
@@ -426,14 +421,19 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/betsson-barcelona-vs-real-madrid-el-clasico/",
-        "fecha": "2026-10-25",
-        "titulo": "Promoción Betsson: multiplica tus ganancias en el Clásico"
+        "url": "https://www.jornadaperfecta.com/blog/rodri-parte-medico-fc-barcelona/",
+        "fecha": "2026-11-04",
+        "titulo": "Lesión de Rodri: Parte médico oficial y tiempo de baja"
       },
       {
-        "url": "https://www.jornadaperfecta.com/blog/betsson-barcelona-vs-real-madrid-el-clasico/#comments",
-        "fecha": "2026-10-25",
-        "titulo": "Promoción Betsson: multiplica tus ganancias en el Clásico"
+        "url": "https://www.jornadaperfecta.com/blog/marcaapuestas-barcelona-vs-aston-villa-champions/",
+        "fecha": "2026-11-03",
+        "titulo": "Barcelona vs Aston Villa: consigue hasta 10€ gratis con MARCAapuestas"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/marcaapuestas-barcelona-vs-aston-villa-champions/#respond",
+        "fecha": "2026-11-03",
+        "titulo": "Barcelona vs Aston Villa: consigue hasta 10€ gratis con MARCAapuestas"
       }
     ]
   },
@@ -501,9 +501,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-barcelona-alaves-j11-26-27/",
-        "fecha": "2026-10-28",
-        "titulo": "Alineaciones probables y previa fantasy del Barcelona – Alavés (J11)"
+        "url": "https://www.jornadaperfecta.com/blog/alineaciones-sevilla-alaves-j12-26-27/",
+        "fecha": "2026-11-04",
+        "titulo": "Alineaciones probables y previa fantasy del Sevilla – Alavés (J12)"
       }
     ]
   },
@@ -709,9 +709,9 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-real-sociedad-levante-j10-26-27/",
-        "fecha": "2026-10-21",
-        "titulo": "Alineaciones probables y previa fantasy del Real Sociedad – Levante (J10)"
+        "url": "https://www.jornadaperfecta.com/blog/alineaciones-real-sociedad-rayo-j12-26-27/",
+        "fecha": "2026-11-04",
+        "titulo": "Alineaciones probables y previa fantasy del Real Sociedad – Rayo (J12)"
       }
     ]
   },
@@ -842,9 +842,19 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-getafe-sevilla-j11-26-27/",
-        "fecha": "2026-10-28",
-        "titulo": "Alineaciones probables y previa fantasy del Getafe – Sevilla (J11)"
+        "url": "https://www.jornadaperfecta.com/blog/getafe-alineacion-probable-brighton-j3-conference/",
+        "fecha": "2026-11-04",
+        "titulo": "Getafe, alineación probable contra el Brighton y dónde ver en TV"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/bordalas-previa-getafe-brighton-conference-j4/",
+        "fecha": "2026-11-04",
+        "titulo": "Bordalás, sobre el estado de Zaid Romero y su posible vuelta"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/alineaciones-villarreal-getafe-j12-26-27/",
+        "fecha": "2026-11-04",
+        "titulo": "Alineaciones probables y previa fantasy del Villarreal – Getafe (J12)"
       }
     ]
   },
@@ -912,9 +922,39 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-athletic-real-sociedad-j11-26-27/",
-        "fecha": "2026-10-28",
-        "titulo": "Alineaciones probables y previa fantasy del Athletic – Real Sociedad (J11)"
+        "url": "https://www.jornadaperfecta.com/blog/alineaciones-osasuna-athletic-j12-26-27/",
+        "fecha": "2026-11-04",
+        "titulo": "Alineaciones probables y previa fantasy del Osasuna – Athletic (J12)"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/berenguer-recomendacion-fantasy-athletic-club/",
+        "fecha": "2026-11-04",
+        "titulo": "Berenguer da un paso adelante: ¿recomendable en fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/berenguer-recomendacion-fantasy-athletic-club/#comments",
+        "fecha": "2026-11-04",
+        "titulo": "Berenguer da un paso adelante: ¿recomendable en fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/dani-vivian-chollo-fantasy-athletic/",
+        "fecha": "2026-11-03",
+        "titulo": "Dani Vivian recupera la titularidad tras su lesión, ¿chollo fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/dani-vivian-chollo-fantasy-athletic/#comments",
+        "fecha": "2026-11-03",
+        "titulo": "Dani Vivian recupera la titularidad tras su lesión, ¿chollo fantasy?"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/betway-mega-cuota-athletic-vs-real-sociedad/",
+        "fecha": "2026-11-01",
+        "titulo": "70€ con la Mega Cuota de Betway para el Athletic vs Real Sociedad"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/betway-mega-cuota-athletic-vs-real-sociedad/#respond",
+        "fecha": "2026-11-01",
+        "titulo": "70€ con la Mega Cuota de Betway para el Athletic vs Real Sociedad"
       }
     ]
   },
@@ -1127,9 +1167,24 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-levante-atletico-j11-26-27/",
-        "fecha": "2026-10-28",
-        "titulo": "Alineaciones probables y previa fantasy del Levante – Atleti (J11)"
+        "url": "https://www.jornadaperfecta.com/blog/alineaciones-atletico-barcelona-j12-26-27/",
+        "fecha": "2026-11-04",
+        "titulo": "Alineaciones probables y previa fantasy del Atlético – Barcelona (J12)"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/alineaciones-atletico-barcelona-j12-26-27/#comments",
+        "fecha": "2026-11-04",
+        "titulo": "Alineaciones probables y previa fantasy del Atlético – Barcelona (J12)"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/bwin-atletico-vs-bayern-especiales-cuotas/",
+        "fecha": "2026-11-02",
+        "titulo": "Atlético de Madrid vs Bayern Munich: cuotas mejoradas de bwin para la Champions League"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/bwin-atletico-vs-bayern-especiales-cuotas/#respond",
+        "fecha": "2026-11-02",
+        "titulo": "Atlético de Madrid vs Bayern Munich: cuotas mejoradas de bwin para la Champions League"
       }
     ]
   },
@@ -1260,9 +1315,14 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-betis-malaga-j11-26-27/",
-        "fecha": "2026-10-28",
-        "titulo": "Alineaciones probables y previa fantasy del Betis – Málaga (J11)"
+        "url": "https://www.jornadaperfecta.com/blog/alineaciones-elche-betis-j12-26-27/",
+        "fecha": "2026-11-04",
+        "titulo": "Alineaciones probables y previa fantasy del Elche – Betis (J12)"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/real-betis-alineacion-probable-dortmund-champions-j4/",
+        "fecha": "2026-11-04",
+        "titulo": "Real Betis, alineación probable contra el Dortmund y dónde ver en TV"
       }
     ]
   },
@@ -1330,9 +1390,24 @@
     },
     "news_links": [
       {
-        "url": "https://www.jornadaperfecta.com/blog/alineaciones-racing-real-madrid-j11-26-27/",
-        "fecha": "2026-10-28",
-        "titulo": "Alineaciones probables y previa fantasy del Racing – Real Madrid (J11)"
+        "url": "https://www.jornadaperfecta.com/blog/alineaciones-valencia-real-madrid-j12-26-27/",
+        "fecha": "2026-11-04",
+        "titulo": "Alineaciones probables y previa fantasy del Valencia – Real Madrid (J12)"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/real-madrid-alineacion-probable-aek-j4-champions/",
+        "fecha": "2026-11-04",
+        "titulo": "Real Madrid, alineación probable contra el AEK y dónde ver en TV"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/apuestas-aumentadas-aek-atenas-real-madrid-bet365/",
+        "fecha": "2026-11-03",
+        "titulo": "Apuestas Aumentadas en bet365 para el AEK Atenas vs Real Madrid de Champions"
+      },
+      {
+        "url": "https://www.jornadaperfecta.com/blog/apuestas-aumentadas-aek-atenas-real-madrid-bet365/#respond",
+        "fecha": "2026-11-03",
+        "titulo": "Apuestas Aumentadas en bet365 para el AEK Atenas vs Real Madrid de Champions"
       }
     ]
   },
